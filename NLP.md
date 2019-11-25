@@ -2,6 +2,9 @@
 
 [toc]
 
+## Word Segment
+- [Long Short-Term Memory Neural Networks for Chinese Word Segmentation](https://www.aclweb.org/anthology/D15-1141/)
+
 ## Dependency Parser
 Dependency paths identify semantic
 relations – e.g., for protein interaction
@@ -46,9 +49,14 @@ GloVe: Global Vectors for Word Representation
 
 
 ## Keyphrase Extraction
-### REVIEW 201905 A review of keyphrase extraction
-- https://arxiv.org/pdf/1905.05044.pdf
-### EmbedRank++ [2018 ACL Simple Unsupervised Keyphrase Extraction using Sentence Embeddings](resources/notes/d0001/keyphrase_2018_simple_unsupervisd_keyphrase_embedding.md)    
+### [REVIEW 201905 A review of keyphrase extraction](resources/notes/d0001/keyphrase_2019_A_Review_of_Keyphrase_Extraction.md)
+
+### [EmbedRank++ 2018 ACL Simple Unsupervised Keyphrase Extraction using Sentence Embeddings](resources/notes/d0001/keyphrase_2018_simple_unsupervisd_keyphrase_embedding.md)    
 ![](resources/images/d0001/071945141708511.png)
 使用sent2vec将正文以及被选短语进行编码，然后采用MMR依次对被选短语进行筛选
-- 
+
+## Summarization
+### [2019 ACL A Simple Theoretical Model of Importance for Summarization]()
+- https://www.aclweb.org/anthology/P19-1101.pdf
+
+
