@@ -39,6 +39,10 @@ A Neural graph-based dependency parser
 - [Mikolov et al., 2013] Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013). Efficient estimation of word representations in vector space. CoRR, abs/1301.3781.
 - [Rong, 2014] Rong, X. (2014). word2vec parameter learning explained. CoRR, abs/1411.2738.
 
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and
+Kristina Toutanova. 2018. Bert: Pre-training of deep
+bidirectional transformers for language understanding.
+
 ### GLOVe
 - Jeffrey Pennington, Richard Socher,
 and Christopher D. Manning. 2014.
@@ -55,8 +59,15 @@ GloVe: Global Vectors for Word Representation
 ![](resources/images/d0001/071945141708511.png)
 使用sent2vec将正文以及被选短语进行编码，然后采用MMR依次对被选短语进行筛选
 
-## Summarization
-### [2019 ACL A Simple Theoretical Model of Importance for Summarization]()
-- https://www.aclweb.org/anthology/P19-1101.pdf
+
+
+## MT
+Guillaume Klein, Yoon Kim, Yuntian Deng, Jean
+Senellart, and Alexander M Rush. 2017. Opennmt:
+Open-source toolkit for neural machine translation.
+In arXiv preprint arXiv:1701.02810.
+
+
+
 
 
