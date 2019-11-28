@@ -6,9 +6,19 @@
 https://arxiv.org/abs/1903.10318
 ![](resources/images/d0001/411948541126211.png)
 
+### [201908 Text Summarization with Pretrained Encoders](resources/notes/d0001/summarization_2019_Text_Summarization_with_Pretrained_Encoders.md)
+https://arxiv.org/abs/1908.08345
+
+### [201603 Neural summarization by extracting sentences and words](resources/notes/d0001/summarization_201603_Neural_summarization_by_extracting_sentences_and_words.md)
+Jianpeng Cheng and Mirella Lapata. 2016. Neural summarization by extracting sentences and words. In Proceedings of the ACL Conference
+https://arxiv.org/pdf/1603.07252.pdf
+
+
 ### TODO
 [2019 ACL A Simple Theoretical Model of Importance for Summarization]()
 - https://www.aclweb.org/anthology/P19-1101.pdf
+
+Cheng J, Lapata M. "Neural summarization by extracting sentences and words". ACL 2016.
 
 Asli Celikyilmaz, Antoine Bosselut, Xiaodong He, and
 Yejin Choi. 2018. Deep communicating agents for
