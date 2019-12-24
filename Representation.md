@@ -9,7 +9,7 @@
 引入CBOW和skip-gram的词向量预训练方法，以及词类比等词语相似度评估方法
 
 ## 句向量
-###  [2014 Distributed Representations of Sentences and Documents](resources/notes/d0001/d2v_2014_distributed_representations_of_sentences_and_documents.md)
+###  [2014 Doc2Vec Distributed Representations of Sentences and Documents](resources/notes/d0001/d2v_2014_distributed_representations_of_sentences_and_documents.md)
 - https://arxiv.org/abs/1405.4053
 
 Distributed Memory Model of Paragraph Vectors (PV-DM)
@@ -17,5 +17,15 @@ Distributed Memory Model of Paragraph Vectors (PV-DM)
 
 Distributed Bag of Words version of Paragraph Vector (PV-DBOW)
 ![](resources/images/d0001/091952082023112.png)
+
+### [2016 An Empirical Evaluation of doc2vec with Practical Insights into Document Embedding Generation Jey Han Lau, Timothy Baldwin](resources/notes/d0001/d2v_2016_an_empirical_evaluation_of_doc2vec_with_practical_insights_into_document_embedding_generation_jey_han_lau_timothy_baldwin.md)
+- https://arxiv.org/abs/1607.05368
+
+### [2017 Sent2vec Pagliardini et al Unsupervised Learning of Sentence Embeddings using  Compositional n-Gram Features]()
+- https://arxiv.org/abs/1703.02507
+- 采用词向量的CBOW的方式进行训练，源除了词语外添加n-gram，窗口变为整个句子。预测的时候直接对句子进行词语以及n-gram分解，取词向量求平均
+- 在很多任务上优于其他非监督学习模型，次于skip-thought，而在句子相似性上优于skip-thought。
+
+
 
 Doc2Vec (Lau and Baldwin, 2016) or Sent2vec (Pagliardini et al., 2018)
