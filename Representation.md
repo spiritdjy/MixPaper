@@ -8,6 +8,9 @@
 ![](resources/images/d0001/291952431723112.png)
 引入CBOW和skip-gram的词向量预训练方法，以及词类比等词语相似度评估方法
 
+### [201411 Word2vec Parameter Learning Explained]()
+- https://arxiv.org/pdf/1411.2738.pdf
+
 ## 句向量
 ###  [2014 Distributed Representations of Sentences and Documents](resources/notes/d0001/d2v_2014_distributed_representations_of_sentences_and_documents.md)
 - https://arxiv.org/abs/1405.4053
