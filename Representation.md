@@ -15,6 +15,9 @@
 ![](https://img-blog.csdnimg.cn/20190331153001669.png)
 - 提出了一种在文本中查找短语的简单方法，并表明学习数百万个短语的良好向量表示是可能的
 
+### [201411 Word2vec Parameter Learning Explained]()
+- https://arxiv.org/pdf/1411.2738.pdf
+
 ## 句向量
 ###  [2014 Doc2Vec Distributed Representations of Sentences and Documents](resources/notes/d0001/d2v_2014_distributed_representations_of_sentences_and_documents.md)
 - https://arxiv.org/abs/1405.4053
