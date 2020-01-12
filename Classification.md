@@ -17,6 +17,12 @@
 - ![](resources/images/d0001/401951571320512.png)
 基于双向GRU, 双层注意力机制来进行文本分类
 
+### [2016 Recurrent Neural Network for Text Classification with Multi-Task Learning](resources/notes/d0001/classification_2016_Recurrent_Neural_Network_for_Text_Classification_with_MultiTask_Learning.md)
+LSTM中进行多任务学习的几种方式
+![](resources/images/d0001/01001340223205193402.png)
+
+### [201607 Bag of Tricks for Efficient Text Classification](resources/notes/d0001/classification_201607_bag_of_tricks_for_efficient_text_classification.md)
+
 ### [2017ACL Deep Pyramid Convolutional Neural Networks for Text Categorization](resources/notes/d0001/classification_2017_Deep_Pyramid_Convolutional_Neural_Networks_for_Text_Categorization.md)
 ![](resources/images/d0001/361951361616112.png)
 URL: https://ai.tencent.com/ailab/media/publications/ACL3-Brady.pdf
