@@ -2,9 +2,16 @@
 [toc]
 
 ## 模型
+#### [201511 Semi-supervised Sequence Learning](resources/notes/d0001/pretrainml_201511_Semi-supervised_Sequence_Learning.md)
+- https://arxiv.org/abs/1511.01432
+利用预训练方法来提高模型的性能
+- 利用AutoEncoder, 编码解码参数一样
+![](resources/images/d0001/512003251813101.png)
+- 利用语言模型,  生成句子中的后一个词语
 
 #### [2017 attention is all you need]()
 - https://arxiv.org/pdf/1706.03762.pdf
+
 #### [201801 Universal Language Model Fine-tuning for Text Classification](resources/notes/d0001/pretrainlm_201801_Universal_Language_Model_Fine_tuning_for_Text_Classification.md)
 https://arxiv.org/pdf/1801.06146.pdf
 ![](resources/images/d0001/522002251607201.png)
@@ -33,7 +40,13 @@ https://arxiv.org/pdf/1801.06146.pdf
 ![](resources/images/d0001/01301510300201445103.png)
 ![](resources/images/d0001/01301160300201511603.png)
 
-#### [ERNIE: Enhanced Language Representation with Informative Entities（THU/ACL2019）]
+#### [201906 ERNIE: Enhanced Language Representation with Informative Entities（THU/ACL2019）](resources/notes/d0001/pretrainml_201907_ERNIE__Enhanced_Language_Representation_with_Informative_Entities.md)
+https://www.aclweb.org/anthology/P19-1139.pdf
+![](resources/images/d0001/292003451213101.png)
+![](resources/images/d0001/492003461613101.png)
+- 引入Trans-E等实体编码到模型中
+- 对任务添加一项dEA, 主要是对实体进行预测
+- 在实体分类以及实体关系的预测上效果不错
 
 #### [Cross-lingual Language Model Pretraining（Facebook/2019）]
 

@@ -30,7 +30,15 @@
 根据几何分布，先随机选择一段（span）的长度，之后再根据均匀分布随机选择这一段的起始位置，最后按照长度遮盖。作者设定几何分布取 p=0.2，并裁剪最大长度只能是 10（不应当是长度 10 以上修剪，而应当为丢弃），利用此方案获得平均采样长度分布。因此分词的平均长度为 3.8 。作者还测量了词语（word）中的分词程度，使得添加掩膜的分词更长。图2展示了分词掩膜长度的分布情况。
 
  ### 3.2 Span Boundary Objective (SBO)
+ 在很多任务中，会用到利用span的边界作为span本身的表示（比如coreference resolution），作者受此启发，增加了一个利用边界token预测span的任务
+ ![](../../images/d0001/xx21.png)
+ ![](../../images/d0001/xx22.png)
 
  ### 3.3 Single-Sequence Training
+SpanBERT 还有一个和原始 BERT 训练很不同的地方，它没用 Next Sentence Prediction (NSP) 任务，而是直接用 Single-Sequence Training，也就是根本不加入 NSP 任务来判断是否两句是上下句，直接用一句来训练
+- 更长的语境对模型更有利，模型可以获得更长上下文（类似 XLNet 的一部分效果）
+- 加入另一个文本的语境信息会给MLM 语言模型带来噪音
+
+这里最多采集512个词语进行训练与BERT一致
 
  ## 4 Experimental Setup
