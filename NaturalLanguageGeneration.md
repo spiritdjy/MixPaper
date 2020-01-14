@@ -15,3 +15,7 @@ https://arxiv.org/pdf/1805.03668.pdf
 
 #### [201906 Coherent Comment Generation for Chinese Articles with a Graph-to-Sequence Model](resources/notes/d0001/comment_201906_Coherent_Comment_Generation_for_Chinese_Articles_with_a_Graph_to_Sequence_Model.md)
 https://arxiv.org/pdf/1906.01231.pdf
+![](resources/images/d0001/01401160322202191603.png)
+
+#### [201809 Unsupervised Machine Commenting with Neural Variational Topic Model](resources/notes/d0001/comment_201809_Unsupervised_Machine_Commenting_with_Neural_Variational_Topic_Model.md)
+https://arxiv.org/pdf/1809.04960.pdf
