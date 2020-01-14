@@ -7,7 +7,10 @@
 https://arxiv.org/abs/1903.10318
 ![](resources/images/d0001/411948541126211.png)
 
-<<<<<<< HEAD
+#### [2019ACL Single Document Summarization as Tree Induction](resources/notes/d0001/summarization_2019ACL_Single_Document_Summarization_as_Tree_Induction.md)
+https://www.aclweb.org/anthology/N19-1173.pdf
+
+
 ## Abstractive
 ### Sequence to Sequence
 #### [201704 Get to the point: Summarization with pointergenerator networks. In Proceedings of the ACL Conference.  Abigail See, Peter J. Liu, and Christopher D. Manning](resources/notes/d0001/summarization_201704_get_the_point.md)
@@ -15,7 +18,6 @@ https://arxiv.org/abs/1704.04368
 
 
 ## TODO
-=======
 ### [201908 Text Summarization with Pretrained Encoders](resources/notes/d0001/summarization_2019_Text_Summarization_with_Pretrained_Encoders.md)
 https://arxiv.org/abs/1908.08345
 
@@ -25,7 +27,6 @@ https://arxiv.org/pdf/1603.07252.pdf
 
 
 ### TODO
->>>>>>> e8ab24ee2710baf8129333748f54168354f614df
 [2019 ACL A Simple Theoretical Model of Importance for Summarization]()
 - https://www.aclweb.org/anthology/P19-1101.pdf
 
