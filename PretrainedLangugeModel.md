@@ -63,6 +63,9 @@ https://www.aclweb.org/anthology/P19-1139.pdf
 ![](resources/images/d0001/01201210223207082102.png)
 ![](resources/images/d0001/01201230223207172302.png)
 
+#### [201910 T5 Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](resources/notes/d0001/pretrainlm_201910_T5_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Text_to_Text_Transformer.md)
+https://arxiv.org/abs/1910.10683
+
 
 ####  [2020 ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](resources/notes/d0001/pretrainlm_2020_ELECTRA__Pre-training_Text_Encoders_as_Discriminators_Rather_Than_Generators.md)
 - https://openreview.net/pdf?id=r1xMH1BtvB
