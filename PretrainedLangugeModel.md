@@ -22,6 +22,10 @@ https://arxiv.org/pdf/1801.06146.pdf
 #### [2018 ACL Deep contextualized word representations: ELMO](resources/notes/d0001/pretrainlm_2018_deep_contextualized_word_representations.md)
 - https://arxiv.org/pdf/1802.05365.pdf
 
+#### [2018 GPT Improving Language Understanding by Generative Pre-Training](resources/notes/d0001/pretrainlm_2018_gpt_Improving_Language_Understanding_by_Generative_Pre_Training.md)
+https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf
+
+
 #### [Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond（Facebook/2018）]
 
 #### [MASS: Masked Sequence to Sequence Pre-training for Language Generation（Microsoft/2019）]
@@ -63,13 +67,22 @@ https://www.aclweb.org/anthology/P19-1139.pdf
 ![](resources/images/d0001/01201210223207082102.png)
 ![](resources/images/d0001/01201230223207172302.png)
 
+#### [201909 NEZHA: NEURAL CONTEXTUALIZED REPRESENTATION FOR CHINESE LANGUAGE UNDERSTANDING](resources/notes/d0001/pretrainlm_201909_nezha__neural_contextualized_representation_for_chinese_language_understanding.md)
+https://arxiv.org/abs/1909.00204
+- 函数式相对位置编码
+![](resources/images/d0001/172003281117501.png)
+- 全词覆盖
+- 混合精度训练
+- 训练过程中使用 LAMB 优化器
+
 #### [201910 T5 Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](resources/notes/d0001/pretrainlm_201910_T5_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Text_to_Text_Transformer.md)
 https://arxiv.org/abs/1910.10683
 
 
 ####  [2020 ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](resources/notes/d0001/pretrainlm_2020_ELECTRA__Pre-training_Text_Encoders_as_Discriminators_Rather_Than_Generators.md)
 - https://openreview.net/pdf?id=r1xMH1BtvB
-
+![](resources/images/d0001/xx4.png)
+![](resources/images/d0001/xx5.png)
 
 
 ## 应用
