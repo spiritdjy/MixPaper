@@ -36,6 +36,12 @@ https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupe
 
 
 #### [Unified Language Model Pre-training for Natural Language Understanding and Generation（Microsoft/2019）]
+- https://blog.csdn.net/ljp1919/article/details/100125630
+
+
+#### [201901 XLM Cross-lingual Language Model Pretraining Facebook/2019](resources/notes/d0001/pretrainml_201901_Cross_lingual_Language_Model_Pretraining.md)
+https://arxiv.org/pdf/1901.07291.pdf
+
 
 #### [201904 ERNIE: Enhanced Representation through Knowledge Integration](resources/notes/d0001/pretrainml_201904_ERNIE__Enhanced_Representation_through_Knowledge_Integration.md)
 - https://arxiv.org/pdf/1904.09223v1.pdf
@@ -51,8 +57,6 @@ https://www.aclweb.org/anthology/P19-1139.pdf
 - 引入Trans-E等实体编码到模型中
 - 对任务添加一项dEA, 主要是对实体进行预测
 - 在实体分类以及实体关系的预测上效果不错
-
-#### [Cross-lingual Language Model Pretraining（Facebook/2019）]
 
 #### [201906 RoBERTa: A Robustly Optimized BERT Pretraining Approach](resources/notes/d0001/pretrainlm_201907_RoBERTa__A_Robustly_Optimized_BERT_Pretraining_Approach.md)
 - https://arxiv.org/abs/1907.11692
