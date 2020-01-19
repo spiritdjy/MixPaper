@@ -1,12 +1,12 @@
 # 文本匹配
 [toc]
 
-#### [2013 DSSM Learning Deep Structured Semantic Models for Web Search using Clickthrough Data](resources/notes/d0001/match_2013_Learning_Deep_Structured_Semantic_Models_for_Web_Search_using_Clickthrough_Data.md)
+##### [2013 DSSM Learning Deep Structured Semantic Models for Web Search using Clickthrough Data](resources/notes/d0001/match_2013_Learning_Deep_Structured_Semantic_Models_for_Web_Search_using_Clickthrough_Data.md)
 
-#### [201503 Convolutional Neural Network Architectures for Matching Natural Language Sentences]()
+##### [201503 Convolutional Neural Network Architectures for Matching Natural Language Sentences]()
 - https://arxiv.org/abs/1503.03244
 
-#### [2016 ESIM Enhanced LSTM for Natural Language Inference](resources/notes/d0001/match_2016_Enhanced_LSTM_for_Natural_Language_Inference.md)
+##### [201609 ESIM Enhanced LSTM for Natural Language Inference](resources/notes/d0001/match_2016_Enhanced_LSTM_for_Natural_Language_Inference.md)
 - https://arxiv.org/abs/1609.06038
 ![](resources/images/d0001/01201300217207503002.png)
 - input encoding:
@@ -20,4 +20,8 @@
   - 为了控制复杂性，可以使用一个单层RELU的前馈神经网络对输入进行降维
   - 使用平均与最大pooling将变长的序列输入变成固定长度向
   - 分类器进行分类
+
+##### [201702 Bilateral Multi-Perspective Matching for Natural Language Sentences](resources/notes/d0001/match_201702_Bilateral_Multi_Perspective_Matching_for_Natural_Language_Sentences.md)
+- https://arxiv.org/abs/1702.03814
+
 

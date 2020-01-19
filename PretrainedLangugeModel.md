@@ -32,7 +32,11 @@ https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupe
 
 #### 【Multi-Task Deep Neural Networks for Natural Language Understanding（Microsoft/2019）
 
-#### 
+#### Improving Multi-Task Deep Neural Networks via Knowledge Distillation for Natural Language Understanding（Microsoft/2019）
+
+#### Language Models are Unsupervised Multitask Learners（OpenAI/2019）
+
+#### VideoBERT: A Joint Model for Video and Language Representation Learning
 
 
 #### [Unified Language Model Pre-training for Natural Language Understanding and Generation（Microsoft/2019）]
@@ -66,6 +70,16 @@ https://www.aclweb.org/anthology/P19-1139.pdf
 - https://arxiv.org/pdf/1907.12412
 ![](resources/images/d0001/01201210223207082102.png)
 ![](resources/images/d0001/01201230223207172302.png)
+
+#### [201909 ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](resources/notes/d0001/pretrainlm_201909_ALBERT__A_Lite_BERT_for_Self_supervised_Learning_of_Language_Representations.md)
+https://arxiv.org/abs/1909.11942?context=cs
+提出如下改进
+- Factorized embedding parameterization
+将embedding matrix分解为两个矩阵，也就是说先将单词投影到一个低维的embedding空间，再将其投影到高维的隐藏空间
+- Cross-layer parameter sharing
+参数共享有三种方式：只共享feed-forward network的参数、只共享attention的参数、共享全部参数。ALBERT默认是共享全部参数的
+- Inter-sentence coherence loss
+Sentence-order prediction (SOP)来取代NSP。正例与NSP相同，但负例是通过选择一篇文档中的两个连续的句子并将它们的顺序交换构造的
 
 #### [201909 NEZHA: NEURAL CONTEXTUALIZED REPRESENTATION FOR CHINESE LANGUAGE UNDERSTANDING](resources/notes/d0001/pretrainlm_201909_nezha__neural_contextualized_representation_for_chinese_language_understanding.md)
 https://arxiv.org/abs/1909.00204
