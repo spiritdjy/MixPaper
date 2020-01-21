@@ -42,3 +42,9 @@ July 30 - August 4, Volume 1: Long Papers, pages
 - http://staff.ustc.edu.cn/~tongxu/Papers/Yanan_ICDM18.pdf
 
 ### 【Topical PageRank】
+
+##### [Event-Oriented Keyphrase Extraction Based on Bi-clustering Model]
+
+
+##### [A dataset for open event extraction in English]
+

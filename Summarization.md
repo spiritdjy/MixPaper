@@ -25,6 +25,10 @@ https://arxiv.org/abs/1908.08345
 Jianpeng Cheng and Mirella Lapata. 2016. Neural summarization by extracting sentences and words. In Proceedings of the ACL Conference
 https://arxiv.org/pdf/1603.07252.pdf
 
+##### [201808 Summary++: Summarizing Chinese News Articles with Attention]
+http://tcci.ccf.org.cn/conference/2018/papers/EV40.pdf
+
+
 
 ### TODO
 [2019 ACL A Simple Theoretical Model of Importance for Summarization]()
