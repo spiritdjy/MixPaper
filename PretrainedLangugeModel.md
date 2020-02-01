@@ -102,6 +102,9 @@ https://arxiv.org/abs/1910.10683
 ![](resources/images/d0001/xx4.png)
 ![](resources/images/d0001/xx5.png)
 
+#### [202001 AdaBERT: Task-Adaptive BERT Compression with Differentiable Neural Architecture Search]
+- https://arxiv.org/abs/2001.04246
+- [推理速度提升29倍，参数少1/10，阿里提出AdaBERT压缩方法](https://zhuanlan.zhihu.com/p/103865578)
 
 ## 应用
 

@@ -7,7 +7,15 @@ https://arxiv.org/abs/1905.08487
 
 
 ### 推荐系统
+##### [201606  Wide & Deep Learning for Recommender Systems](resources/notes/d0001/rec_201606_Wide__Deep_Learning_for_Recommender_Systems.md)
+- https://arxiv.org/abs/1606.07792
+![](resources/images/d0001/03202340518206523405.png)
+![](resources/images/d0001/03202150519206161505.png)
+![](resources/images/d0001/03202030519206210305.png)
 
+##### [2010 Factorization Machines](resources/notes/d0001/rec_2010_Factorization_Machines.md)
+- https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf
+![](resources/images/d0001/03202570520206385705.png)
 
 ### 新闻推荐
 
