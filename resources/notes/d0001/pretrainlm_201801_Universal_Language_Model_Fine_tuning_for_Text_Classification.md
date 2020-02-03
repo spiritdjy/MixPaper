@@ -3,6 +3,7 @@
 
 - PAPER: https://arxiv.org/pdf/1801.06146.pdf
 - CODE: http://nlp.fast.ai/ulmfit
+- [ULMFiT-用于文本分类的通用语言模型微调 - 论文翻译](https://www.jianshu.com/p/0fb6c9886542)
 
 ## Abstract
 - 提出通用语言模型微调（ULMFiT），一种可以应用NLP中任何任务的迁移学习方法
