@@ -9,8 +9,10 @@
 ![](resources/images/d0001/512003251813101.png)
 - 利用语言模型,  生成句子中的后一个词语
 
-#### [2017 attention is all you need]()
+#### [201706 attention is all you need](resources/notes/d0001/attention_2017_attention_is_all_you_need.md)
 - https://arxiv.org/pdf/1706.03762.pdf
+![](resources/images/d0001/03802460616205414606.png)
+![](resources/images/d0001/03802140616205481406.png)
 
 #### [201801 Universal Language Model Fine-tuning for Text Classification](resources/notes/d0001/pretrainlm_201801_Universal_Language_Model_Fine_tuning_for_Text_Classification.md)
 https://arxiv.org/pdf/1801.06146.pdf

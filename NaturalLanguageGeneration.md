@@ -1,6 +1,13 @@
 # 自然语言生成
 [toc]
 
+### Seq2Seq
+##### [201409 Sequence to Sequence Learning with Neural Networks](resources/notes/d0001/seq2seq_201409_Sequence_to_Sequence_Learning_with_Neural_Networks.md)
+- https://arxiv.org/abs/1409.3215
+![](resources/images/d0001/03802390621205543906.png)
+- 多层LSTM
+- 源语句进行倒排列
+
 ### 诗歌
 ##### [Chinese Poetry Generation with Recurrent Neural Networks]
 ##### [2019 基于神经网络的集句诗自动生成]()
@@ -59,4 +66,6 @@ https://arxiv.org/abs/1705.00652
 ##### [201912 Plug and Play Language Models: a Simple Approach to Controlled Text Generation]
 - https://zhuanlan.zhihu.com/p/96092209
 
-##### [CTRL]
+##### [201909 A Conditional Transformer Language Model for Controllable Generation](resources/notes/d0001/nlg_201909_A_Conditional_Transformer_Language_Model_for_Controllable_Generation.md)
+- https://arxiv.org/pdf/1909.05858.pdf
+- https://github.com/salesforce/ctrl
