@@ -6,6 +6,12 @@
 - https://www.ijcai.org/Proceedings/16/Papers/425.pdf
 
 ### Dialogue
+#####  [202001 Towards a Human-like Open-Domain Chatbot]()
+- https://arxiv.org/abs/2001.09977
+
+##### [201911 DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation](resources/notes/d0001/chatbot_201911_DialoGPT__Large_Scale_Generative_Pre_training_for_Conversational_Response.md)
+- https://arxiv.org/abs/1911.00536?context=cs.LG
+
 ##### [2019 ACLOne Time of Interaction May Not Be Enough: Go Deep with an  Interaction-over-Interaction Network for Response Selection in Dialogues]
 - https://www.aclweb.org/anthology/P19-1001
 - https://github.com/chongyangtao/IOI
@@ -90,16 +96,6 @@ https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P19-1538
 ##### Towards Empathetic Open-domain Conversation Models: a New Benchmark and Dataset
 https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P19-1534
 有意思的task配合上质量有保证的新数据集都是值得关注的，这篇文章就属于这个类型。带有情感的对话一直是大家蛮关注的一个场景，文章对数据做了足够的分析和介绍，试验了检索式和生成式不同的结果
-
-
-
-
-
-
-
-
-
-
 
 
 Constructing Interpretive STM for Responses Selection
