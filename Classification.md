@@ -3,6 +3,10 @@
 [toc]
 
 ### 通用
+##### [2018 A NEW METHOD OF REGION EMBEDDING FOR TEXT CLASSIFICATION](resources/notes/d0001/classification_2018_REGION_EMBEDDING_FOR_TEXT_CLASSIFICATION.md)
+- http://research.baidu.com/Public/uploads/5acc1e230d179.pdf
+
+
 #####  [2014 Convolutional Neural Networks for Sentence Classification](resources/notes/d0001/Classification_2014_TextCNN__Convolutional_Neural_Networks_for_Sentence_Classification.md)
 ![](resources/images/d0001/491949111606512.png)
 - https://arxiv.org/pdf/1408.5882.pdf

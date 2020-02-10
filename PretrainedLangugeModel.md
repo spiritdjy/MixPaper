@@ -95,6 +95,9 @@ https://arxiv.org/abs/1909.00204
 - 混合精度训练
 - 训练过程中使用 LAMB 优化器
 
+#### [201909 Language Models as Knowledge Bases?](resources/notes/d0001/pretrain_201909_Language_Models_as_Knowledge_Bases.md)
+  - https://arxiv.org/abs/1909.01066
+
 #### [201910 T5 Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](resources/notes/d0001/pretrainlm_201910_T5_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Text_to_Text_Transformer.md)
 https://arxiv.org/abs/1910.10683
 
