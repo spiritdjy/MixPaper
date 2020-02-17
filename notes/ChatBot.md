@@ -9,7 +9,7 @@
 #####  [202001 Towards a Human-like Open-Domain Chatbot]()
 - https://arxiv.org/abs/2001.09977
 
-##### [201911 DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation](resources/notes/d0001/chatbot_201911_DialoGPT__Large_Scale_Generative_Pre_training_for_Conversational_Response.md)
+##### [201911 DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation](../resources/notes/d0001/chatbot_201911_DialoGPT__Large_Scale_Generative_Pre_training_for_Conversational_Response.md)
 - https://arxiv.org/abs/1911.00536?context=cs.LG
 
 ##### [2019 ACLOne Time of Interaction May Not Be Enough: Go Deep with an  Interaction-over-Interaction Network for Response Selection in Dialogues]

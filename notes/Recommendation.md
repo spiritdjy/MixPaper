@@ -2,20 +2,20 @@
 [toc]
 
 ### 概念挖掘
-##### [201905 A User-Centered Concept Mining System for Query and Document Understanding at tencent](resources/notes/d0001/rec_201905_A_User_Centered_Concept_Mining_System_for_Query_and_Document_Understanding_at_tencent.md)
+##### [201905 A User-Centered Concept Mining System for Query and Document Understanding at tencent](../resources/notes/d0001/rec_201905_A_User_Centered_Concept_Mining_System_for_Query_and_Document_Understanding_at_tencent.md)
 https://arxiv.org/abs/1905.08487
 
 
 ### 推荐系统
-##### [201606  Wide & Deep Learning for Recommender Systems](resources/notes/d0001/rec_201606_Wide__Deep_Learning_for_Recommender_Systems.md)
+##### [201606  Wide & Deep Learning for Recommender Systems](../resources/notes/d0001/rec_201606_Wide__Deep_Learning_for_Recommender_Systems.md)
 - https://arxiv.org/abs/1606.07792
-![](resources/images/d0001/03202340518206523405.png)
-![](resources/images/d0001/03202150519206161505.png)
-![](resources/images/d0001/03202030519206210305.png)
+![](../resources/images/d0001/03202340518206523405.png)
+![](../resources/images/d0001/03202150519206161505.png)
+![](../resources/images/d0001/03202030519206210305.png)
 
-##### [2010 Factorization Machines](resources/notes/d0001/rec_2010_Factorization_Machines.md)
+##### [2010 Factorization Machines](../resources/notes/d0001/rec_2010_Factorization_Machines.md)
 - https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf
-![](resources/images/d0001/03202570520206385705.png)
+![](../resources/images/d0001/03202570520206385705.png)
 
 ### 新闻推荐
 
