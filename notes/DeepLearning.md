@@ -1,11 +1,13 @@
 # DeepLearning
 [toc]
 
-## 
-Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. 2016. Layer normalization. arXiv preprint
-arXiv:1607.06450.
+### 正则化
+##### [2016 Layer normalization]
+- Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. 2016. . arXiv preprint
+- arXiv:1607.06450.
 
-Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob
-Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz
-Kaiser, and Illia Polosukhin. 2017. Attention is all
-you need. In Advances in Neural Information Processing Systems, pages 5998–6008.
+### 损失函数
+##### [AMSoftmax: Additive Margin Softmax for Face Verification](../resources/notes/d0001/loss_201801_AMSoftmax.md)
+- https://arxiv.org/abs/1801.05599
+![](../resources/images/d0001/04902050801202320508.png)
+![](../resources/images/d0001/04902090801202350908.png)
