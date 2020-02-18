@@ -8,6 +8,6 @@
 
 ### 损失函数
 ##### [AMSoftmax: Additive Margin Softmax for Face Verification](../resources/notes/d0001/loss_201801_AMSoftmax.md)
-- https://arxiv.org/abs/1801.05599
+https://arxiv.org/abs/1801.05599
 ![](../resources/images/d0001/04902050801202320508.png)
 ![](../resources/images/d0001/04902090801202350908.png)
