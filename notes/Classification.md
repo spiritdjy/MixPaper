@@ -47,11 +47,9 @@ LSTM中进行多任务学习的几种方式
 URL: https://ai.tencent.com/ailab/media/publications/ACL3-Brady.pdf
 特点：Region Embedding，固定CNN特征数目，POOLING特征减半，RESNET直连
 
-### 特殊领域
+##### [2013 Recursive Regularization for Large-scale Classification with Hierarchical and Graphical Dependencies](../resources/notes/d0001/classification_2013_Recursive_Regularization_for_Large_scale_Classification_with_Hierarchical_and_Graphical_Dependencies.md)
+- http://www.cs.cmu.edu/~sgopal1/papers/KDD13.pdf
 
-情感分类论文、代码汇总  https://blog.csdn.net/ymmccc/article/details/88651527
+##### [2018 Large-Scale Hierarchical Text Classification with Recursively Regularized Deep Graph-CNN](../resources/notes/d0001/classification_2018_Large_Scale_Hierarchical_Text_Classification_with_Recursively_Regularized_Deep_Graph_CNN.md)
+- http://www.cse.ust.hk/~yqsong/papers/2018-WWW-Text-GraphCNN.pdf
 
-2018.06.06论文：12个NLP分类模型 https://blog.csdn.net/u012052268/article/details/80698930
-从DPCNN出发，撩一下深层word-level文本分类模型 https://zhuanlan.zhihu.com/p/35457093
-https://www.kaggle.com/michaelsnell/conv1d-dpcnn-in-keras
-论文复现 | DPCNN文本分类模型实现及AG news数据集实验复 https://www.jianshu.com/p/2edfec68f6f2
