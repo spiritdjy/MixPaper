@@ -2,7 +2,6 @@
 [toc]
 
 - https://arxiv.org/pdf/1810.04805.pdf
-- https://zhuanlan.zhihu.com/p/54853340
 
 ## Abstract
 - Bidirectional Encoder Representations from Transformers

@@ -1,3 +1,9 @@
+# 意图识别与槽抽取
+[toc]
+
+### [201907 A Novel Bi-directional Interrelated Model for Joint Intent Detection and Slot Filling](../resources/notes/d0001/intent_201907_A_Novel_Bi_directional_Interrelated_Model_for_Joint_Intent_Detection_and_Slot_Filling.md)
+- https://arxiv.org/pdf/1907.00390.pdf
+
 Attention-based recurrent neural network models for joint intent detection and slot filling. Bing Liu and Ian Lane. InterSpeech, 2016
 - https://pdfs.semanticscholar.org/84a9/bc5294dded8d597c9d1c958fe21e4614ff8f.pdf
 - https://github.com/HadoopIt/rnn-nlu

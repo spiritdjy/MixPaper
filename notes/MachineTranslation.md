@@ -13,3 +13,6 @@
 ![](../resources/images/d0001/03802390621205543906.png)
 - 多层LSTM
 - 源语句进行倒排列
+
+
+##### [Incorporating word and subword units in unsupervised machine translation using language model rescoring]
