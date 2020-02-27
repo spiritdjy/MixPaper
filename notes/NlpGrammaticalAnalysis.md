@@ -25,6 +25,29 @@
 ---
 ### Named Entity Recognition
 
+##### [202002 Rethinking Generalization of Neural Models: A Named Entity Recognition Case Study](../resources/notes/d0001/ner_202002_Rethinking_Generalization_of_Neural_Models.md)
+- http://pfliu.com/InterpretNER/rethink-ner.pdf
+- http://pfliu.com/InterpretNER/interpretNER.html
+- 项目主页：https://github.com/pfliu-nlp/Named-Entity-Recognition-NER-Papers
+
+entity coverage ratio (ECR)  实体覆盖率
+: ![](../resources/images/d0001/05802400920204174009.png)
+![](../resources/images/d0001/05802170920204211709.png)
+
+Expectation of Entity Coverage Ratio (EECR)
+: ![](../resources/images/d0001/05802580920204365809.png)
+所有测试集中的实体在训练集中出现的期望
+
+Contextual Coverage Ratio (CCR)
+: 训练集和测试集中同类实体的上下文相似度
+![](../resources/images/d0001/05802570920204465709.png)
+
+Consistency Evaluation for NER
+: ![](../resources/images/d0001/05802000921204210009.png)
+通过测试样本的梯度相似性来统计两个类别的相似性
+![](../resources/images/d0001/05802590921204215909.png)
+
+
 ##### [202002 Zero-Resource Cross-Domain Named Entity Recognition](../resources/notes/d0001/ner_202002_Zero_Resource_Cross_Domain_Named_Entity_Recognition.md)
 - https://arxiv.org/abs/2002.05923
 ![](../resources/images/d0001/05102190820204561908.png)
