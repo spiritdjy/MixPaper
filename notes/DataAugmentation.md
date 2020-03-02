@@ -1,6 +1,9 @@
 # Data Augmentation
 [toc]
 
+#### [BPE-Dropout: Simple and Effective Subword Regularization]
+
+
 ## NLP
 #### [EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification ](../resources/notes/d0001/DataAugNLP_201901_EDA__Easy_Data_Augmentation_Techniques_for_Boosting_Performance_onText_Classification_Tasks.md)
 - https://arxiv.org/abs/1901.11196
