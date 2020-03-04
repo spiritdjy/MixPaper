@@ -3,11 +3,13 @@
 
 ## 模型
 #### [202002 A Primer in BERTology: What we know about how BERT works](../resources/notes/d0001/pretrain_202002_A_Primer_in_BERTology.md)
-- 
+- http://www.arxiv-vanity.com/papers/2002.12327/
 
 #### [202001 ProphetNet: Predicting Future N-gram for Sequence-to-Sequence Pre-training](../resources/notes/d0001/pretrain_202001_ProphetNet_Predicting_Future_N_gram_for_Sequence_to_Sequence_Pre_training.md)
 - https://arxiv.org/pdf/2001.04063.pdf
 ![](../resources/images/d0001/05902210921205362109.png)
+
+#### [201909 How Contextual are Contextualized Word Representations? Comparing the Geometry of BERT, ELMo, and GPT-2 Embeddings](../resources/notes/d0001/pretrain_201909_How_Contextual_are_Contextualized_Word_Representations.md)
 
 #### [201511 Semi-supervised Sequence Learning](../resources/notes/d0001/pretrainml_201511_Semi-supervised_Sequence_Learning.md)
 - https://arxiv.org/abs/1511.01432

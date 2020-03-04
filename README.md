@@ -56,6 +56,7 @@
 - [201911 DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation](resources/notes/d0001/chatbot_201911_DialoGPT__Large_Scale_Generative_Pre_training_for_Conversational_Response.md)
 
 #### [意图识别与槽抽取](notes/Intent&Slot.md)
+- [201902 BERT for Joint Intent Classification and Slot Filling](resources/notes/d0001/intent_201902_BERT_for_Joint_Intent_Classification_and_Slot_Filling.md)
 
 #### [假新闻检测](notes/FakeNewsDetection.md)
 
