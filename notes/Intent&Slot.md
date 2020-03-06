@@ -1,11 +1,11 @@
 # 意图识别与槽抽取
 [toc]
 
-##### [201902 BERT for Joint Intent Classification and Slot Filling](../resources/notes/d0001/intent_201902_BERT_for_Joint_Intent_Classification_and_Slot_Filling.md)
+#### [201902 BERT for Joint Intent Classification and Slot Filling](../resources/notes/d0001/intent_201902_BERT_for_Joint_Intent_Classification_and_Slot_Filling.md)
 - https://arxiv.org/abs/1902.10909
 - ![](../resources/images/d0001/06303121016202231210.png)
 
-##### [2016 A Joint Model of Intent Determination and Slot Filling for Spoken Language Understanding]
+#### [2016 A Joint Model of Intent Determination and Slot Filling for Spoken Language Understanding]
 - https://www.ijcai.org/Proceedings/16/Papers/425.pdf
 
 #### [201907 A Novel Bi-directional Interrelated Model for Joint Intent Detection and Slot Filling](../resources/notes/d0001/intent_201907_A_Novel_Bi_directional_Interrelated_Model_for_Joint_Intent_Detection_and_Slot_Filling.md)

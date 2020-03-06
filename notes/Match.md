@@ -48,7 +48,6 @@
 - 余弦相似度计算query与文档的相关性
 
 --- 
-### TODO
 #### [201702 Bilateral Multi-Perspective Matching for Natural Language Sentences](../resources/notes/d0001/match_201702_Bilateral_Multi_Perspective_Matching_for_Natural_Language_Sentences.md)
 - https://arxiv.org/abs/1702.03814
 
