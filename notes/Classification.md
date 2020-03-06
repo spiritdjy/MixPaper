@@ -21,7 +21,7 @@
     - 稀疏问题，n-gram的稀疏问题
     - CNN本来就是对n-gram编码的，何必需要人工进行筛选
 
-##### 
+##### [Deep Learning for Extreme Multi-label Text Classification]
 
 - http://www.aclweb.org/anthology/D14-1181
 - ![](https://pic3.zhimg.com/80/v2-bb10ad5bbdc5294d3041662f887e60a6_hd.png)

@@ -52,6 +52,9 @@ Distributed Bag of Words version of Paragraph Vector (PV-DBOW)
 - 采用词向量的CBOW的方式进行训练，源除了词语外添加n-gram，窗口变为整个句子。预测的时候直接对句子进行词语以及n-gram分解，取词向量求平均
 - 在很多任务上优于其他非监督学习模型，次于skip-thought，而在句子相似性上优于skip-thought。
 
+### [201803 Quick Thought An efficient framework for learning sentence representations](../resources/notes/d0001/d2v_201803_quick_thought.md)
+- https://arxiv.org/abs/1803.02893
+
 
 ### Word2Vector
 - [Distributed Representations of Words and Phrases and their Compositionality]
