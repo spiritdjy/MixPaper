@@ -3,7 +3,7 @@
 
 ### 诗歌
 ##### [Chinese Poetry Generation with Recurrent Neural Networks]
-##### [2019 基于神经网络的集句诗自动生成]()
+##### [2019 基于神经网络的集句诗自动生成](../resources/notes/d0001/NLG_Poetry_2019_Neural_Network_based_Jiju_Poetry_Generation.md)
 
 ### 新闻评论
 ##### [201909 Read, Attend and Comment: A Deep Architecture for Automatic News Comment Generation](../resources/notes/d0001/comment_201910_Read__Attend_and_Comment__A_Deep_Architecture_for_Automatic_News_Comment_Generation.md)

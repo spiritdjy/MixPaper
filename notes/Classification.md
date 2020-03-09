@@ -1,8 +1,7 @@
-# 文本分类
+## 文本分类
 
 [toc]
 
-### 通用
 ##### [2018 A NEW METHOD OF REGION EMBEDDING FOR TEXT CLASSIFICATION](../resources/notes/d0001/classification_2018_REGION_EMBEDDING_FOR_TEXT_CLASSIFICATION.md)
 - http://research.baidu.com/Public/uploads/5acc1e230d179.pdf
 
@@ -21,9 +20,13 @@
     - 稀疏问题，n-gram的稀疏问题
     - CNN本来就是对n-gram编码的，何必需要人工进行筛选
 
+<<<<<<< HEAD
 ##### [Deep Learning for Extreme Multi-label Text Classification]
 
 - http://www.aclweb.org/anthology/D14-1181
+=======
+##### http://www.aclweb.org/anthology/D14-1181
+>>>>>>> 45fff77e0b6f531ebe7379fdfcf5358cffa3c980
 - ![](https://pic3.zhimg.com/80/v2-bb10ad5bbdc5294d3041662f887e60a6_hd.png)
 
 ##### Very Deep Convolutional Networks for Natural Language Processing
