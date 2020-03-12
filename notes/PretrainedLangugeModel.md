@@ -84,6 +84,13 @@ https://arxiv.org/pdf/1801.06146.pdf
 - 利用语言模型,  生成句子中的后一个词语
 
 ## 原理
+
+#### [202003 What the MASK? Making Sense of Language-Specific BERT Models](../resources/notes/d0001/pretrainlm_202003_What_the_MASK_.md)
+- https://arxiv.org/pdf/2003.02912v1.pdf
+- 建立一个网站用以比较单语言BERT类与mBERT之间在NLP任务上的性能差别
+https://bertlang.unibocconi.it
+
+
 #### [202002 A Primer in BERTology: What we know about how BERT works](../resources/notes/d0001/pretrain_202002_A_Primer_in_BERTology.md)
 - http://www.arxiv-vanity.com/papers/2002.12327/
 
