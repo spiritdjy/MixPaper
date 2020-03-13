@@ -183,7 +183,7 @@
 - [201706 attention is all you need](resources/notes/d0001/attention_2017_attention_is_all_you_need.md)
 
 ####  原理
-
+- [202003 What the MASK? Making Sense of Language-Specific BERT Models](resources/notes/d0001/pretrainlm_202003_What_the_MASK_.md)
 - [202002 A Primer in BERTology: What we know about how BERT works](resources/notes/d0001/pretrain_202002_A_Primer_in_BERTology.md)
 - [201909 How Contextual are Contextualized Word Representations? Comparing the Geometry of BERT, ELMo, and GPT-2 Embeddings](resources/notes/d0001/pretrain_201909_How_Contextual_are_Contextualized_Word_Representations.md)
 - [201910 T5 Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](resources/notes/d0001/pretrainlm_201910_T5_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Text_to_Text_Transformer.md)
