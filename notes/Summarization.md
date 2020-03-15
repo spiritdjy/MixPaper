@@ -11,6 +11,14 @@ https://www.aclweb.org/anthology/N19-1173.pdf
 
 
 ## Abstractive
+#### [201907 Simple Unsupervised Summarization by Contextual Matching](../resources/notes/d0001/summarization_201907_Unsupervised_Summarization_by_Contextual_Matching.md)
+https://www.aclweb.org/anthology/P19-1503/
+使用通用模型进行意思逼近，使用目标模型进行句子压缩
+![](../resources/images/d0001/07503491123207344911.png)
+![](../resources/images/d0001/07503261123207412611.png)
+![](../resources/images/d0001/07503011123207420111.png)
+
+
 #### [201704 Get to the point: Summarization with pointergenerator networks. In Proceedings of the ACL Conference.  Abigail See, Peter J. Liu, and Christopher D. Manning](../resources/notes/d0001/summarization_201704_get_the_point.md)
 https://arxiv.org/abs/1704.04368
 

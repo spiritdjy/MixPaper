@@ -92,6 +92,10 @@
 
 ### [文本摘要](notes/Summarization.md)
 
+#### General
+
+- [201907 Simple Unsupervised Summarization by Contextual Matching](resources/notes/d0001/summarization_201907_Unsupervised_Summarization_by_Contextual_Matching.md)
+
 ####  Extractive
 
 - [201903 Fine-tune BERT for Extractive Summarization](resources/notes/d0001/summarization_2019_fine_tune_bert.md)
