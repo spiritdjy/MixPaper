@@ -1,5 +1,7 @@
 # 论文阅读笔记
 
+[toc]
+
 ## 深度学习
 
 ### [深度学习](notes/DeepLearning.md)
@@ -9,11 +11,15 @@
 
 ####  损失函数
 
-- [AMSoftmax: Additive Margin Softmax for Face Verification](resources/notes/d0001/loss_201801_AMSoftmax.md)
+- [201801 AMSoftmax: Additive Margin Softmax for Face Verification](resources/notes/d0001/loss_201801_AMSoftmax.md)
 
 ### [少样本学习](notes/ZeroShotLearning.md)
 
 ## 自然语言处理
+
+### [语言模型](notes/LanguageModel.md)
+
+-  [201911 Generalization through Memorization: Nearest Neighbor Language Models](resources/notes/d0001/lm_201911_knn_lm.md)
 
 ### [文本分类](notes/Classification.md)
 
@@ -73,7 +79,7 @@
 
 ### [数据增强](notes/DataAugmentation.md)
 
-- [EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification ](resources/notes/d0001/DataAugNLP_201901_EDA__Easy_Data_Augmentation_Techniques_for_Boosting_Performance_onText_Classification_Tasks.md)
+- [201901 EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification ](resources/notes/d0001/DataAugNLP_201901_EDA__Easy_Data_Augmentation_Techniques_for_Boosting_Performance_onText_Classification_Tasks.md)
 
 ## 应用
 
