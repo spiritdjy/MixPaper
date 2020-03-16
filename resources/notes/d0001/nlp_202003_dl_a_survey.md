@@ -414,8 +414,8 @@ Character-Level Embedding
 ### V-A BASIC TASKS
 ![](../../images/d0001/372012061216103.png)
 
-词性标记
-: <figure class="ltx_table" id="S5.T2">
+#### 词性标记
+<figure class="ltx_table" id="S5.T2">
 <table class="ltx_tabular ltx_centering ltx_guessed_headers ltx_align_middle">
 <thead class="ltx_thead">
 <tr class="ltx_tr">
@@ -464,8 +464,8 @@ Character-Level Embedding
 </table>
 <figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_table">TABLE II: </span>POS tagging state-of-the-art models evaluated on the WSJ-PTB dataset.</figcaption></figure>
 
-Parsing
-: <figure class="ltx_table" id="S5.T3">
+#### Parsing
+<figure class="ltx_table" id="S5.T3">
 <table class="ltx_tabular ltx_centering ltx_guessed_headers ltx_align_middle">
 <thead class="ltx_thead">
 <tr class="ltx_tr">
@@ -504,8 +504,8 @@ Parsing
 
 - 另一种类型的解析称为Dependency Parsing。依存关系结构显示了目标句子中单词之间的结构关系。在依存关系分析中，短语元素和短语结构规则对过程没有帮助。而是，仅根据句子中的单词和单词之间的关联关系来表达句子的句法结构
 
-语义角色标签（SRL）
-: 是文本参数的标识和分类过程。它旨在表征元素，以确定“谁”对“谁”做了“什么”以及“如何”，“在哪里”和“何时”。它标识句子的谓词-自变量结构。本质上，谓词指的是“什么”，而自变量则由关联的参与者和文本中的属性组成。SRL的目标是提取谓词和相关参数之间的语义关系。
+#### 语义角色标签（SRL）
+是文本参数的标识和分类过程。它旨在表征元素，以确定“谁”对“谁”做了“什么”以及“如何”，“在哪里”和“何时”。它标识句子的谓词-自变量结构。本质上，谓词指的是“什么”，而自变量则由关联的参与者和文本中的属性组成。SRL的目标是提取谓词和相关参数之间的语义关系。
 <figure class="ltx_table" id="S5.T4">
 <table class="ltx_tabular ltx_centering ltx_guessed_headers ltx_align_middle">
 <thead class="ltx_thead">
@@ -540,14 +540,195 @@ Parsing
 <figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_table">TABLE IV: </span>Semantic Role Labeling current state-of-the-art models evaluated on the OntoNotes dataset <cite class="ltx_cite ltx_citemacro_cite">[<span class="ltx_ref ltx_missing_citation ltx_ref_self">pradhan2013towards</span>]</cite>. The accuracy metric is <span class="ltx_Math" id="S5.T4.m1"><span class="mjpage"><span class="mjx-chtml"><span aria-label="F_{1}" class="mjx-math"><span aria-hidden="true" class="mjx-mrow"><span class="mjx-msubsup"><span class="mjx-base" style="margin-right: -0.106em;"><span class="mjx-mi"><span class="mjx-char MJXc-TeX-math-I" style="padding-top: 0.446em; padding-bottom: 0.298em; padding-right: 0.106em;">F</span></span></span><span class="mjx-sub" style="font-size: 70.7%; vertical-align: -0.212em; padding-right: 0.071em;"><span class="mjx-texatom" style=""><span class="mjx-mrow"><span class="mjx-mn"><span class="mjx-char MJXc-TeX-main-R" style="padding-top: 0.372em; padding-bottom: 0.372em;">1</span></span></span></span></span></span></span></span></span></span></span> score.</figcaption></figure>
 
 ### V-B TEXT CLASSIFICATION
+- CNN进行句子分类，即通过微调在预训练的单词向量之上训练模型
+- 动态卷积神经网络（DCNN）架构（本质上是具有动态k-max合并方法的CNN）被用于捕获句子的语义建模
+- LSTM-RNN架构用于在定义的网络搜索任务中特别优越的句子嵌入
+- 分层注意力网络（HAN）已被用于捕获文本的分层结构，具有单词级别和句子级别的注意机制
+- C-LSTM，用于分类中的句子和文档建模
+- RNN和CNN的组合进行文本分类
+
+<figure class="ltx_table" id="S5.T5">
+<table class="ltx_tabular ltx_centering ltx_guessed_headers ltx_align_middle">
+<thead class="ltx_thead">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_th_row ltx_border_tt">Model</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_tt">Accuracy</th>
+</tr>
+</thead>
+<tbody class="ltx_tbody">
+<tr class="ltx_tr" style="background-color:#FFFFFF;">
+<th class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_tt">
+<br class="ltx_break"/><span class="ltx_text" style="background-color:#FFFFFF;"> CNN <cite class="ltx_cite ltx_citemacro_cite">[<span class="ltx_ref ltx_missing_citation ltx_ref_self">conneau2017very</span>]</cite></span>
+</th>
+<td class="ltx_td ltx_align_center ltx_border_tt"><span class="ltx_text" style="background-color:#FFFFFF;">91.33</span></td>
+</tr>
+<tr class="ltx_tr" style="background-color:#F2F2F2;">
+<th class="ltx_td ltx_align_center ltx_th ltx_th_row"><span class="ltx_text" style="background-color:#F2F2F2;">Deep Pyramid CNN <cite class="ltx_cite ltx_citemacro_cite">[<span class="ltx_ref ltx_missing_citation ltx_ref_self">johnson2017deep</span>]</cite></span></th>
+<td class="ltx_td ltx_align_center"><span class="ltx_text" style="background-color:#F2F2F2;">93.13</span></td>
+</tr>
+<tr class="ltx_tr" style="background-color:#E6E6E6;">
+<th class="ltx_td ltx_align_center ltx_th ltx_th_row"><span class="ltx_text" style="background-color:#E6E6E6;">CNN <cite class="ltx_cite ltx_citemacro_cite">[<span class="ltx_ref ltx_missing_citation ltx_ref_self">johnson2016supervised</span>]</cite></span></th>
+<td class="ltx_td ltx_align_center"><span class="ltx_text" style="background-color:#E6E6E6;">93.43</span></td>
+</tr>
+<tr class="ltx_tr" style="background-color:#D9D9D9;">
+<th class="ltx_td ltx_align_center ltx_th ltx_th_row"><span class="ltx_text" style="background-color:#D9D9D9;"><span class="ltx_text ltx_font_bold" style="background-color:#D9D9D9;">Universal Language Model Fine-tuning (ULMFiT)</span> <cite class="ltx_cite ltx_citemacro_cite">[<span class="ltx_ref ltx_missing_citation ltx_ref_self">howard2018universal</span>]</cite></span></th>
+<td class="ltx_td ltx_align_center"><span class="ltx_text ltx_font_bold" style="background-color:#D9D9D9;">94.99</span></td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_tt">
+<br class="ltx_break"/>
+</th>
+<td class="ltx_td ltx_border_tt"></td>
+</tr>
+</tbody>
+</table>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_table">TABLE V: </span>The classification accuracy of state-of-the-art methods, evaluated on the AG News Corpus dataset <cite class="ltx_cite ltx_citemacro_cite">[<span class="ltx_ref ltx_missing_citation ltx_ref_self">zhang2015character</span>]</cite>.</figcaption></figure>
 
 ### V-C INFORMATION EXTRACTION
 
+#### 命名实体识别
+- 采用CNN的研究  [ collobert2011natural ]和RNN架构  [ mesnil2013investigation ]，以及混合双向LSTM和CNN架构  [ chiu2015named ]。NeuroNER  [ 2017neuroner ]是一种命名实体识别工具，它基于人工神经网络运行
+
+<figure class="ltx_table" id="S5.T6">
+<table class="ltx_tabular ltx_centering ltx_guessed_headers ltx_align_middle">
+<thead class="ltx_thead">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_th_row ltx_border_tt">Model</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_tt">Accuracy</th>
+</tr>
+</thead>
+<tbody class="ltx_tbody">
+<tr class="ltx_tr" style="background-color:#F2F2F2;">
+<th class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_tt">
+<br class="ltx_break"/><span class="ltx_text" style="background-color:#F2F2F2;"> Semi-supervised Sequence Modeling <cite class="ltx_cite ltx_citemacro_cite">[<span class="ltx_ref ltx_missing_citation ltx_ref_self">clark2018semi</span>]</cite></span>
+</th>
+<td class="ltx_td ltx_align_center ltx_border_tt"><span class="ltx_text" style="background-color:#F2F2F2;">92.61</span></td>
+</tr>
+<tr class="ltx_tr" style="background-color:#E6E6E6;">
+<th class="ltx_td ltx_align_center ltx_th ltx_th_row"><span class="ltx_text" style="background-color:#E6E6E6;">Google BERT <cite class="ltx_cite ltx_citemacro_cite">[<span class="ltx_ref ltx_missing_citation ltx_ref_self">devlin2018bert</span>]</cite></span></th>
+<td class="ltx_td ltx_align_center"><span class="ltx_text" style="background-color:#E6E6E6;">92.8</span></td>
+</tr>
+<tr class="ltx_tr" style="background-color:#D9D9D9;">
+<th class="ltx_td ltx_align_center ltx_th ltx_th_row"><span class="ltx_text" style="background-color:#D9D9D9;"><span class="ltx_text ltx_font_bold" style="background-color:#D9D9D9;">Contextual String Embeddings</span> <cite class="ltx_cite ltx_citemacro_cite">[<span class="ltx_ref ltx_missing_citation ltx_ref_self">akbik2018contextual</span>]</cite></span></th>
+<td class="ltx_td ltx_align_center"><span class="ltx_text ltx_font_bold" style="background-color:#D9D9D9;">93.09</span></td>
+</tr>
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_tt">
+<br class="ltx_break"/>
+</th>
+<td class="ltx_td ltx_border_tt"></td>
+</tr>
+</tbody>
+</table>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_table">TABLE VI: </span>State of the art models regarding Name Entity Recognition. Evaluation is performed on the CoNLL-2003 Shared Task dataset <cite class="ltx_cite ltx_citemacro_cite">[<span class="ltx_ref ltx_missing_citation ltx_ref_self">tjong2003introduction</span>]</cite>. The evaluation metric is <span class="ltx_Math" id="S5.T6.m1"><span class="mjpage"><span class="mjx-chtml"><span aria-label="F_{1}" class="mjx-math"><span aria-hidden="true" class="mjx-mrow"><span class="mjx-msubsup"><span class="mjx-base" style="margin-right: -0.106em;"><span class="mjx-mi"><span class="mjx-char MJXc-TeX-math-I" style="padding-top: 0.446em; padding-bottom: 0.298em; padding-right: 0.106em;">F</span></span></span><span class="mjx-sub" style="font-size: 70.7%; vertical-align: -0.212em; padding-right: 0.071em;"><span class="mjx-texatom" style=""><span class="mjx-mrow"><span class="mjx-mn"><span class="mjx-char MJXc-TeX-main-R" style="padding-top: 0.372em; padding-bottom: 0.372em;">1</span></span></span></span></span></span></span></span></span></span></span> score.</figcaption></figure>
+
+#### 关系提取
+- 通过学习组成向量表示，提出了一种递归神经网络（RNN）模型用于语义关系分类  [ socher2012semantic ]。对于关系分类，通过提取词汇和句子级别的特征[ zeng2014relation ]，也已采用CNN体系结构
+
+#### 共指解析
+- 在[ clark2016deep ]中，首次将强化学习（RL）应用于共指解析。当前最先进的方法利用注意力机制  [ lee2018higher ]
+
+#### 事件提取
+- 涉及识别与事件有关的触发词，并且将标签分配给代表事件触发的实体提及。卷积神经网络已被用于事件检测。他们使用基于特征的方法处理问题，包括详尽的特征工程和用于特征生成的错误传播现象  [ chen2015event ]。在2018年，Nguyen和Grishman应用了图CNN（GCCN），其中将卷积运算应用于句法相关的单词以及连续的单词  [ nguyen2018graph ]；它们的添加实体信息反映了使用CNN模型的最新技术
+
 ### V-D SENTIMENT ANALYSIS
+情感分析通常分为三个类别/级别：文档级别，句子级别和方面级别
+
+#### 文档级情感分析
+- 门控递归神经网络体系结构已被成功地用于有效编码文档[ tang2015document ]的语义结构中的句子关系  。还研究了领域适应性，以将训练后的模型部署在新资源上  [ glorot2011domain ]
+
+#### 句级情感分析
+- 通过学习短语的向量空间表示，已将递归自动编码器用于句子级别的情感标签预测  [ socher2011semi ]。长短期记忆（LSTM）递归模型也已用于推特情感预测  [ wang2015predicting ]。情感树库和递归神经张量网络[ socher2013recursive ] 用于预测细粒度情感标签
+
+#### 方面层面的情感分析
+- 在假设存在情感及其目标的情况下，方面层面的情感分析直接针对一种观点
+- 文档或句子通常可能没有正面或负面的情绪，但可能有多个子部分，目标不同，每个目标都有正面或负面的情绪。这可能使方面级别的分析比其他类型的情感分类更具挑战性
+- 方面层面的情感分析通常涉及方面情感分类和方面提取。前者确定对不同方面（正面，中性或负面）的意见，而后者则确定要进行上下文评估的目标方面,　如“This car is old. It must be repaired and sold!”. “This car” 是目标必须提取出来
+- 方法
+    - 对于方面级别的情感分类，提出了基于注意力的LSTM，用于将方面和句子内容联系起来进行情感分类  [ wang2016attention ]。对于方面提取，深度学习已成功地提出了意见挖掘  [ poria2016aspect ]。最先进的方法依赖于将基于方面的情感分析转换为句子对分类任务  [ sun2019utilizing ]，基于流行语言模型BERT  [ devlin2018bert ]的后训练方法  [ xu2019bert ]以及使用经过预训练的嵌入  [ xu2018double]
 
 ### V-E MACHINE TRANSLATION
+#### 传统机器翻译
+- 基于统计的机器翻译的成功出现  [ jurafsky2008speech ]。在  [ papineni2002bleu ]中引入了BLEU评分作为一种新的评估指标
+
+#### 神经机器翻译
+- NMT基于端到端神经网络  [ bahdanau2014neural ]。这意味着不需要大量的预处理和单词对齐。相反，重点转移到了网络结构上
+- 一旦到达句子结尾（EOS）令牌，它将开始生成输出序列。以与输入序列相同的循环方式生成输出序列，直到到达句子结束标记
+
+![](../../images/d0001/092012541416103.png)
+![](../../images/d0001/042012551416103.png)
+![](../../images/d0001/402012571416103.png)
+![](../../images/d0001/502012581416103.png)
+
+- [ sutskever2014sequence ]提出了一种端到端的序列学习方法，无需对序列的结构进行严格的假设
+![](../../images/d0001/482012511416103.png)
+![](../../images/d0001/132012011516103.png)
+法的新颖性之一是颠倒了源句的词序。这有助于LSTM学习长期依赖关系。在解码器阶段具有固定长度的向量是编码器-解码器方法的瓶颈之一
+![](../../images/d0001/242012041516103.png)
+![](../../images/d0001/112012051516103.png)
+在[bahdanau2014neural]中，不要将输入的句子表示为固定大小的向量输入的句子被编码为向量序列，并使用如图12所示的注意力机制方法选择它们的子集
+
+ [ wu2016google ]试图处理稀有单词的问题。他们的LSTM网络由使用残留层的编码器和解码器层以及注意机制组成
+
+ <figure class="ltx_table" id="S5.T7">
+<table class="ltx_tabular ltx_centering ltx_guessed_headers ltx_align_middle">
+<thead class="ltx_thead">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_tt">Model</th>
+<th class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_tt">Accuracy</th>
+</tr>
+</thead>
+<tbody class="ltx_tbody">
+<tr class="ltx_tr" style="background-color:#FFFFFF;">
+<td class="ltx_td ltx_align_center ltx_border_tt">
+<br class="ltx_break"/><span class="ltx_text" style="background-color:#FFFFFF;">Convolutional Seq-to-Seq  <cite class="ltx_cite ltx_citemacro_cite">[<span class="ltx_ref ltx_missing_citation ltx_ref_self">gehring2017convolutional</span>]</cite></span>
+</td>
+<td class="ltx_td ltx_align_center ltx_border_tt"><span class="ltx_text" style="background-color:#FFFFFF;">25.2</span></td>
+</tr>
+<tr class="ltx_tr" style="background-color:#F2F2F2;">
+<td class="ltx_td ltx_align_center"><span class="ltx_text" style="background-color:#F2F2F2;">Attention Is All You Need <cite class="ltx_cite ltx_citemacro_cite">[<span class="ltx_ref ltx_missing_citation ltx_ref_self">vaswani2017attention</span>]</cite></span></td>
+<td class="ltx_td ltx_align_center"><span class="ltx_text" style="background-color:#F2F2F2;">28.4</span></td>
+</tr>
+<tr class="ltx_tr" style="background-color:#E6E6E6;">
+<td class="ltx_td ltx_align_center"><span class="ltx_text" style="background-color:#E6E6E6;">Weighted Transformer <cite class="ltx_cite ltx_citemacro_cite">[<span class="ltx_ref ltx_missing_citation ltx_ref_self">ahmed2017weighted</span>]</cite></span></td>
+<td class="ltx_td ltx_align_center"><span class="ltx_text" style="background-color:#E6E6E6;">28.9</span></td>
+</tr>
+<tr class="ltx_tr" style="background-color:#D9D9D9;">
+<td class="ltx_td ltx_align_center"><span class="ltx_text" style="background-color:#D9D9D9;">Self Attention <cite class="ltx_cite ltx_citemacro_cite">[<span class="ltx_ref ltx_missing_citation ltx_ref_self">shaw2018self</span>]</cite></span></td>
+<td class="ltx_td ltx_align_center"><span class="ltx_text" style="background-color:#D9D9D9;">29.2</span></td>
+</tr>
+<tr class="ltx_tr" style="background-color:#CCCCCC;">
+<td class="ltx_td ltx_align_center"><span class="ltx_text" style="background-color:#CCCCCC;">DeepL Translation Machine <span class="ltx_note ltx_role_footnote" id="footnote10"><sup class="ltx_note_mark">10</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">10</sup><span class="ltx_tag ltx_tag_note">10</span><span><a href="https://www.deepl.com/press.html" target="_blank">https://www.deepl.com/press.html</a></span></span></span></span></span></td>
+<td class="ltx_td ltx_align_center"><span class="ltx_text" style="background-color:#CCCCCC;">33.3</span></td>
+</tr>
+<tr class="ltx_tr" style="background-color:#BFBFBF;">
+<td class="ltx_td ltx_align_center"><span class="ltx_text" style="background-color:#BFBFBF;"><span class="ltx_text ltx_font_bold">Back-translation</span> <cite class="ltx_cite ltx_citemacro_cite">[<span class="ltx_ref ltx_missing_citation ltx_ref_self">edunov2018understanding</span>]</cite></span></td>
+<td class="ltx_td ltx_align_center"><span class="ltx_text ltx_font_bold" style="background-color:#BFBFBF;">35.0</span></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_center ltx_border_tt">
+<br class="ltx_break"/>
+</td>
+<td class="ltx_td ltx_border_tt"></td>
+</tr>
+</tbody>
+</table>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_table">TABLE VII: </span>The machine translation state-of-the-art models evaluated on the <span class="ltx_text ltx_font_italic">English-German dataset of ACL 2014 Ninth Workshop on Statistical Machine TRranslation</span>. The evaluation metric is <span class="ltx_Math" id="S5.T7.m1"><span class="mjpage"><span class="mjx-chtml"><span aria-label="BLEU" class="mjx-math"><span aria-hidden="true" class="mjx-mrow"><span class="mjx-mi"><span class="mjx-char MJXc-TeX-math-I" style="padding-top: 0.446em; padding-bottom: 0.298em;">B</span></span><span class="mjx-mi"><span class="mjx-char MJXc-TeX-math-I" style="padding-top: 0.446em; padding-bottom: 0.298em;">L</span></span><span class="mjx-mi"><span class="mjx-char MJXc-TeX-math-I" style="padding-top: 0.446em; padding-bottom: 0.298em; padding-right: 0.026em;">E</span></span><span class="mjx-mi"><span class="mjx-char MJXc-TeX-math-I" style="padding-top: 0.446em; padding-bottom: 0.298em; padding-right: 0.084em;">U</span></span></span></span></span></span></span> score.</figcaption></figure>
 
 ### V-F QUESTION ANSWERING
+#### 基于规则的问答
+IBM的   [ ittycheriah2000ibm ]统计问答系统包括四个主要组件：
+- 问题/答案类型分类
+- 查询扩展/信息检索
+- 名称实体
+- 答案选择
+
+当语义上等效的关系用不同的措词表达时，某些QA系统将失败
+ [cui2005question] 提出基于互信息和期望最大化的模糊关系匹配来解决此问题
+ 
+#### 深度学习时代的问题解答
+
+#### 
 
 ### V-G DOCUMENT SUMMARIZATION
 
