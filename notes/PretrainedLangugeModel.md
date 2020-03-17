@@ -83,6 +83,13 @@ https://arxiv.org/pdf/1801.06146.pdf
 ![](../resources/images/d0001/512003251813101.png)
 - 利用语言模型,  生成句子中的后一个词语
 
+## QA
+#### [202002 REALM: Retrieval-Augmented Language Model Pre-Training](../resources/notes/d0001/pretrainlm_202002_REALM.md)
+- https://arxiv.org/abs/2002.08909
+![](../resources/images/d0001/07703081221202350812.png)
+![](../resources/images/d0001/07703231222202482312.png)
+![](../resources/images/d0001/07703081222202520812.png)
+
 ## 原理
 
 #### [202003 What the MASK? Making Sense of Language-Specific BERT Models](../resources/notes/d0001/pretrainlm_202003_What_the_MASK_.md)

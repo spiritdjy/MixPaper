@@ -37,6 +37,16 @@ http://tcci.ccf.org.cn/conference/2018/papers/EV40.pdf
 
 
 #### TODO
+
+Raphael Schumann. 2018. Unsupervised abstractive sentence summarization using length controlled variational autoencoder. arXiv preprint arXiv:1809.05233.
+
+Yau-Shian Wang and Hung-Yi Lee. 2018. Learning to encode text as human-readable summaries using generative adversarial networks. arXiv preprint arXiv:1810.02851.
+
+Ziqiang Cao, Wenjie Li, Sujian Li, and Furu Wei. 2018. Retrieve, rerank and rewrite: Soft template based neural summarization. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 152–161.
+
+Yang Zhao, Zhiyuan Luo, and Akiko Aizawa. 2018. A language model based evaluator for sentence compression. In Proceedings of the 56th Annual Meeting of the Association for Computational  Linguistics (Volume 2: Short Papers), volume 2, pages 170–175
+
+
 [2019 ACL A Simple Theoretical Model of Importance for Summarization]()
 - https://www.aclweb.org/anthology/P19-1101.pdf
 

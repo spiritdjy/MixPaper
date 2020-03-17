@@ -189,7 +189,12 @@
 - [201801 Universal Language Model Fine-tuning for Text Classification](resources/notes/d0001/pretrainlm_201801_Universal_Language_Model_Fine_tuning_for_Text_Classification.md)
 - [201706 attention is all you need](resources/notes/d0001/attention_2017_attention_is_all_you_need.md)
 
+#### QA
+
+- [202002 REALM: Retrieval-Augmented Language Model Pre-Training](resources/notes/d0001/pretrainlm_202002_REALM.md)
+
 ####  原理
+
 - [202003 What the MASK? Making Sense of Language-Specific BERT Models](resources/notes/d0001/pretrainlm_202003_What_the_MASK_.md)
 - [202002 A Primer in BERTology: What we know about how BERT works](resources/notes/d0001/pretrain_202002_A_Primer_in_BERTology.md)
 - [201909 How Contextual are Contextualized Word Representations? Comparing the Geometry of BERT, ELMo, and GPT-2 Embeddings](resources/notes/d0001/pretrain_201909_How_Contextual_are_Contextualized_Word_Representations.md)
