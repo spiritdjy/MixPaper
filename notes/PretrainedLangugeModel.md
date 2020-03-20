@@ -90,6 +90,7 @@ https://arxiv.org/pdf/1801.06146.pdf
 ![](../resources/images/d0001/07703231222202482312.png)
 ![](../resources/images/d0001/07703081222202520812.png)
 
+
 ## 原理
 
 #### [202003 What the MASK? Making Sense of Language-Specific BERT Models](../resources/notes/d0001/pretrainlm_202003_What_the_MASK_.md)

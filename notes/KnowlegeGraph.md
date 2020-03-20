@@ -46,3 +46,9 @@ Joint Extraction of Events and Entities within a Document Context
 ##### [An event-extraction approach for business analysis from online Chinese news]()
 
 ##### [Information extraction method of financial events based on lexical-semantic pattern]
+
+---
+### TODO
+
+- 面向搜索引擎的实体推荐综述
+  - http://cjc.ict.ac.cn/online/onlinepaper/42-7-2-201974192218.pdf

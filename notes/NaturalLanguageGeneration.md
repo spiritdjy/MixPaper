@@ -62,3 +62,8 @@ https://arxiv.org/abs/1705.00652
 ##### [201909 A Conditional Transformer Language Model for Controllable Generation](../resources/notes/d0001/nlg_201909_A_Conditional_Transformer_Language_Model_for_Controllable_Generation.md)
 - https://arxiv.org/pdf/1909.05858.pdf
 - https://github.com/salesforce/ctrl
+
+### 作文
+##### [202001 基于抽取的高考作文生成](../resources/notes/d0001/nlg_202001_extract_artcle.md)
+- http://cjc.ict.ac.cn/online/onlinepaper/fxc-2020119221517.pdf
+- 
