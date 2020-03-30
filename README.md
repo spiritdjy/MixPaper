@@ -48,6 +48,7 @@
 
 - [202002 Rethinking Generalization of Neural Models: A Named Entity Recognition Case Study](resources/notes/d0001/ner_202002_Rethinking_Generalization_of_Neural_Models.md)
 - [202002 Zero-Resource Cross-Domain Named Entity Recognition](resources/notes/d0001/ner_202002_Zero_Resource_Cross_Domain_Named_Entity_Recognition.md)
+- [201812 A Survey on Deep Learning for Named Entity Recognition](resources/notes/d0001/ner_201812_A_Survey_Named_Entity_Recognition.md)
 
 ####  Coreference Resolution
 

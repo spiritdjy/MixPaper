@@ -58,7 +58,10 @@ CRF1 and CRF2 分别表示 Task1 and Task2 的CRF 层
 expert gate 由线性层+softmax组成，我们使用task2的进行监督训练
 ![](../resources/images/d0001/05102060821204220608.png)
 
-##### [201812 A Survey on Deep Learning for Named Entity Recognition]()
+##### [202001 CLUENER2020: FINE-GRAINED NAMED ENTITY  RECOGNITION DATASET AND BENCHMARK FOR CHINESE](../resources/notes/d0001/ner_202001_clue_ner_2020.md)
+- 
+
+##### [201812 A Survey on Deep Learning for Named Entity Recognition](../resources/notes/d0001/ner_201812_A_Survey_Named_Entity_Recognition.md)
 - https://arxiv.org/abs/1812.09449
 
 
