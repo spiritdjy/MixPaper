@@ -74,6 +74,7 @@
 
 ### [文本匹配](notes/Match.md)
 
+- [2019 Keyword-Attentive Deep Semantic Matching](resources/notes/d0001/pretrain_2019_keyword_attentive_deep_semantic_matching.md)
 - [201908 ACL RE2: Simple and Effective Text Matching with Richer Alignment Features](resources/notes/d0001/match201908_ACL_RE2__Simple_and_Effective_Text_Matching_with_Richer_Alignment_Features.md)
 - [201905 FAQ Retrieval using Query-Question Similarity and BERT-Based Query-Answer Relevance](resources/notes/d0001/match_201905_ACL_FAQ_Retrieval_using_Query_Question_Similarity_and_BERT_Based_Query_Answer_Relevance.md)
 - [201804 SAN - Stochastic Answer Networks for Natural Language Inference](resources/notes/d0001/match_201804_Stochastic_Answer_Networks_for_Natural_Language_Inference.md)
@@ -190,7 +191,12 @@
 - [201801 Universal Language Model Fine-tuning for Text Classification](resources/notes/d0001/pretrainlm_201801_Universal_Language_Model_Fine_tuning_for_Text_Classification.md)
 - [201706 attention is all you need](resources/notes/d0001/attention_2017_attention_is_all_you_need.md)
 
+#### QA
+
+- [202002 REALM: Retrieval-Augmented Language Model Pre-Training](resources/notes/d0001/pretrainlm_202002_REALM.md)
+
 ####  原理
+
 - [202003 What the MASK? Making Sense of Language-Specific BERT Models](resources/notes/d0001/pretrainlm_202003_What_the_MASK_.md)
 - [202002 A Primer in BERTology: What we know about how BERT works](resources/notes/d0001/pretrain_202002_A_Primer_in_BERTology.md)
 - [201909 How Contextual are Contextualized Word Representations? Comparing the Geometry of BERT, ELMo, and GPT-2 Embeddings](resources/notes/d0001/pretrain_201909_How_Contextual_are_Contextualized_Word_Representations.md)

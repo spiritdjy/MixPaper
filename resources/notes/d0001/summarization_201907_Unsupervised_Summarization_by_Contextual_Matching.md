@@ -42,7 +42,7 @@ y考虑为所有可能的ｙ，其toｋｅｎ为x决定的候选LIST
 - 该语言模型中其输出不显式依赖于x，而是隐式依赖于x的词语集合
 - 问题：预训练语言模型的字典V与候选词C之间的不匹配
   - kernel smoothing
-    - 将源中的w`映射到C中w使其距离不大于其他词
+    - 将源中的w`映射到C中w使其距离不大于其他词, 完整的词汇表空间被分为 |C| 个分离的区域，Voronoi cell
     - For each word type w ∈ C, we define N (w) to be the Voronoi cell formed around it
  
 ![](../../images/d0001/07603531200201295312.png)

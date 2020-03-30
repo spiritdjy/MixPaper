@@ -101,6 +101,12 @@ http://link.zhihu.com/?target=https%3A//arxiv.org/abs/1804.06872
 
 ##### Attention-informed mixed-language training for zero-shot cross-lingual task-oriented dialogue systems
 
+### TODO
 
+- 基于深度学习的开放领域对话系统研究综述
+  - http://cjc.ict.ac.cn/online/onlinepaper/42-7-1-201974192124.pdf
+
+- 从文本中构建领域本体技术综述
+  - http://cjc.ict.ac.cn/online/onlinepaper/rfl-2019319125830.pdf
 
 

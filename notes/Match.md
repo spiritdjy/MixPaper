@@ -1,6 +1,22 @@
 ## 文本匹配
 [toc]
 
+#### [2019 Keyword-Attentive Deep Semantic Matching](../resources/notes/d0001/pretrain_2019_keyword_attentive_deep_semantic_matching.md)
+- [pdf](https://raw.githubusercontent.com/DataTerminatorX/Keyword-BERT/master/Keyword-Attentive_Deep_Semantic_Matching.pdf)
+- https://github.com/DataTerminatorX/Keyword-BERT
+
+模型
+  - Keyword-attentive BERT：显式告诉模型哪些Token比较重要
+  - 负采样：通过关键词的overlapping分数进行负样本是筛选，另外使用实体替换来获得更多的负样本变体（“China”->“America”）
+  - 基于领域信息进行关键词抽取
+    - 构建关键词注意力语义匹配模型
+    - 提高QA查询的检索质量
+    - 用于负样本构建
+
+![](../resources/images/d0001/08003421217205284212.png)
+![](../resources/images/d0001/08003081217205340812.png)
+
+---
 #### [201908 ACL RE2: Simple and Effective Text Matching with Richer Alignment Features](../resources/notes/d0001/match201908_ACL_RE2__Simple_and_Effective_Text_Matching_with_Richer_Alignment_Features.md)
 - https://arxiv.org/abs/1908.00300
 ![](../resources/images/d0001/512006091108602.png)
