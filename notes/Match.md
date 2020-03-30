@@ -1,6 +1,17 @@
 ## 文本匹配
 [toc]
 
+#### [201908 Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](../resources/notes/d0001/pretrain_2019_sentence_bert.md)
+- https://arxiv.org/pdf/1908.10084.pdf
+- https：//github.com/UKPLab/sentence-transformers
+
+![](../resources/images/d0001/09003081423201320814.png)
+- 尝试了三种池化策略：使用CLS令牌的输出，计算所有输出向量的均值（MEAN -strategy），以及计算输出向量的最大时间（MAX -strategy）。默认配置为MEAN
+- 三种目标函数
+  - Classification Objective Function
+  - Regression Objective Function
+  - Triplet Objective Function
+
 #### [2019 Keyword-Attentive Deep Semantic Matching](../resources/notes/d0001/pretrain_2019_keyword_attentive_deep_semantic_matching.md)
 - [pdf](https://raw.githubusercontent.com/DataTerminatorX/Keyword-BERT/master/Keyword-Attentive_Deep_Semantic_Matching.pdf)
 - https://github.com/DataTerminatorX/Keyword-BERT

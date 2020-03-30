@@ -74,6 +74,7 @@
 
 ### [文本匹配](notes/Match.md)
 
+- [201908 Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](resources/notes/d0001/pretrain_2019_sentence_bert.md)
 - [2019 Keyword-Attentive Deep Semantic Matching](resources/notes/d0001/pretrain_2019_keyword_attentive_deep_semantic_matching.md)
 - [201908 ACL RE2: Simple and Effective Text Matching with Richer Alignment Features](resources/notes/d0001/match201908_ACL_RE2__Simple_and_Effective_Text_Matching_with_Richer_Alignment_Features.md)
 - [201905 FAQ Retrieval using Query-Question Similarity and BERT-Based Query-Answer Relevance](resources/notes/d0001/match_201905_ACL_FAQ_Retrieval_using_Query_Question_Similarity_and_BERT_Based_Query_Answer_Relevance.md)
