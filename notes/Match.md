@@ -46,6 +46,14 @@
   k1 = 4, k2 = 2,  α = 0.3
 
 ---
+#### [201904 Understanding the Behaviors of BERT in Ranking](../resources/notes/d0001/match_201904_Understanding_the_Behaviors_of_BERT_in_Ranking.md)
+- [1904.07531](https://arxiv.org/pdf/1904.07531.pdf)
+- 使用BERT的[CLS]分量进行预测效果最好
+- 两个数据集
+  - MS MARCO, 环境上下文很重要，BERT表现比较好
+  - TREC，用户的点击行为更重要，Conv-KNRM（bing）更好 
+
+---
 #### [201804 SAN - Stochastic Answer Networks for Natural Language Inference](../resources/notes/d0001/match_201804_Stochastic_Answer_Networks_for_Natural_Language_Inference.md)
 - https://arxiv.org/pdf/1804.07888.pdf
 ![](../resources/images/d0001/482006351408602.png)

@@ -78,6 +78,7 @@
 - [2019 Keyword-Attentive Deep Semantic Matching](resources/notes/d0001/pretrain_2019_keyword_attentive_deep_semantic_matching.md)
 - [201908 ACL RE2: Simple and Effective Text Matching with Richer Alignment Features](resources/notes/d0001/match201908_ACL_RE2__Simple_and_Effective_Text_Matching_with_Richer_Alignment_Features.md)
 - [201905 FAQ Retrieval using Query-Question Similarity and BERT-Based Query-Answer Relevance](resources/notes/d0001/match_201905_ACL_FAQ_Retrieval_using_Query_Question_Similarity_and_BERT_Based_Query_Answer_Relevance.md)
+- [201904 Understanding the Behaviors of BERT in Ranking](resources/notes/d0001/match_201904_Understanding_the_Behaviors_of_BERT_in_Ranking.md)
 - [201804 SAN - Stochastic Answer Networks for Natural Language Inference](resources/notes/d0001/match_201804_Stochastic_Answer_Networks_for_Natural_Language_Inference.md)
 - [201609 ESIM Enhanced LSTM for Natural Language Inference](resources/notes/d0001/match_2016_Enhanced_LSTM_for_Natural_Language_Inference.md)
 - [2013 DSSM Learning Deep Structured Semantic Models for Web Search using Clickthrough Data](resources/notes/d0001/match_2013_Learning_Deep_Structured_Semantic_Models_for_Web_Search_using_Clickthrough_Data.md)
