@@ -133,6 +133,10 @@
 
 ####  Entity Linking
 
+#### Relation Extraction
+
+- [202004 Review and Outlook for Relation Extraction](resources/notes/d0001/kgre_2020_Review_and_Outlook_for_Relation_Extraction.md)
+
 
 ####  Event Extraction
 

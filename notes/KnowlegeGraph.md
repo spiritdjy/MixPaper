@@ -6,6 +6,11 @@
 ##### [2010 TAGME: on-the-fly annotation of short text fragments (by Wikipedia entities)](../resources/notes/d0001/kgel_2010_TAGME__on_the_fly_annotation_of_short_text_fragments_by_Wikipedia_entities.md)
 https://arxiv.org/pdf/1006.3498.pdf
 
+### Relation Extraction
+##### [202004 Review and Outlook for Relation Extraction](../resources/notes/d0001/kgre_2020_Review_and_Outlook_for_Relation_Extraction.md)
+https://arxiv.org/abs/2004.03186
+
+
 ### Event Extraction
 基于特征的方法
   2006_ACL_The Stages of Event Extraction
