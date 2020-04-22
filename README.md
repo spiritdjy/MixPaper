@@ -26,6 +26,7 @@
 
 ### [文本分类](notes/Classification.md)
 
+- [202004 Deep Learning Based Text Classification: A Comprehensive Review](resources/notes/d0001/Classification_202004_Deep_Learning_Based_Text_Classification.md)
 - [2014 Convolutional Neural Networks for Sentence Classification](resources/notes/d0001/Classification_2014_TextCNN__Convolutional_Neural_Networks_for_Sentence_Classification.md)
 - [201412 Effective Use of Word Order for Text Categorization with Convolutional Neural Networks](resources/notes/d0001/classification_201412_Effective_Use_of_Word_Order_for_Text_Categorization_with_Convolutional_Neural_Networks.md)
 - [2016 Hierarchical Attention Networks for Document Classification](resources/notes/d0001/classification_2016_hierarchical_attention_networks_for_document_classification.md)
@@ -119,6 +120,10 @@
 
 ### [聊天机器人](notes/ChatBot.md)
 
+#### Task-oriented
+
+- [202003 Recent Advances and Challenges in Task-oriented Dialog System](resources/notes/d0001/chatbot_202003_Recent_Advances_and_Challenges_in_Task_oriented_Dialog_System.md)
+
 ####  Dialogue
 
 - [201911 DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation](resources/notes/d0001/chatbot_201911_DialoGPT__Large_Scale_Generative_Pre_training_for_Conversational_Response.md)
@@ -184,6 +189,7 @@
 
 ####  模型
 
+- [202003 Pre-trained Models for Natural Language Processing: A Survey](resources/notes/d0001/pretrainlm_202003_Survey.md)
 - [2020 ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](resources/notes/d0001/pretrainlm_2020_ELECTRA__Pre-training_Text_Encoders_as_Discriminators_Rather_Than_Generators.md)
 - [202001 ProphetNet: Predicting Future N-gram for Sequence-to-Sequence Pre-training](resources/notes/d0001/pretrain_202001_ProphetNet_Predicting_Future_N_gram_for_Sequence_to_Sequence_Pre_training.md)
 - [201909 ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](resources/notes/d0001/pretrainlm_201909_ALBERT__A_Lite_BERT_for_Self_supervised_Learning_of_Language_Representations.md)

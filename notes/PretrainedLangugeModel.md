@@ -3,6 +3,10 @@
 
 ## 模型
 
+#### [202003 Pre-trained Models for Natural Language Processing: A Survey](../resources/notes/d0001/pretrainlm_202003_Survey.md)
+- https://arxiv.org/pdf/2003.08271.pdf
+
+
 ####  [2020 ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](../resources/notes/d0001/pretrainlm_2020_ELECTRA__Pre-training_Text_Encoders_as_Discriminators_Rather_Than_Generators.md)
 - https://openreview.net/pdf?id=r1xMH1BtvB
 ![](../resources/images/d0001/xx4.png)
