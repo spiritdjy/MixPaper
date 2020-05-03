@@ -87,6 +87,7 @@
 
 ### [数据增强](notes/DataAugmentation.md)
 
+- [202004 When does data augmentation help generalization in NLP?](resources/notes/d0001/DataAugNLP_202004_When_does_data_augmentation_help_generalization.md)
 - [201901 EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification ](resources/notes/d0001/DataAugNLP_201901_EDA__Easy_Data_Augmentation_Techniques_for_Boosting_Performance_onText_Classification_Tasks.md)
 
 ## 应用
@@ -189,6 +190,8 @@
 
 ####  模型
 
+- [202004 DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference](resources/notes/d0001/pretrainlm_202004_DeeBert.md)
+- [202004 Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks](resources/notes/d0001/pretrainlm_202004_Adapt_Language_Models_to_Domains_and_Tasks.md)
 - [202003 Pre-trained Models for Natural Language Processing: A Survey](resources/notes/d0001/pretrainlm_202003_Survey.md)
 - [2020 ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](resources/notes/d0001/pretrainlm_2020_ELECTRA__Pre-training_Text_Encoders_as_Discriminators_Rather_Than_Generators.md)
 - [202001 ProphetNet: Predicting Future N-gram for Sequence-to-Sequence Pre-training](resources/notes/d0001/pretrain_202001_ProphetNet_Predicting_Future_N_gram_for_Sequence_to_Sequence_Pre_training.md)
@@ -203,8 +206,9 @@
 - [201801 Universal Language Model Fine-tuning for Text Classification](resources/notes/d0001/pretrainlm_201801_Universal_Language_Model_Fine_tuning_for_Text_Classification.md)
 - [201706 attention is all you need](resources/notes/d0001/attention_2017_attention_is_all_you_need.md)
 
-#### QA
+#### 应用
 
+- [202004 Pre-training Is (Almost) All You Need: An Application to Commonsense Reasoning](resources/notes/d0001/pretrainlm_202004_Pre_training_Is_Almost_All_You_Need.md)
 - [202002 REALM: Retrieval-Augmented Language Model Pre-Training](resources/notes/d0001/pretrainlm_202002_REALM.md)
 
 ####  原理
