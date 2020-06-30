@@ -43,6 +43,8 @@
 
 ####  Word Segment
 
+- [201704 Character-based Joint Segmentation and POS Tagging for Chinese
+using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based_Joint_Segmentation_and_POS_Tagging.md)
 - [2019ACL Is Word Segmentation Necessary for Deep Learning of Chinese Representations?](resources/notes/d0001/nlplac_2019_is_word_segmentation_necessary_for_deep_learning_of_chinese_representations.md)
 
 ####  Named Entity Recognition
@@ -89,6 +91,10 @@
 
 - [202004 When does data augmentation help generalization in NLP?](resources/notes/d0001/DataAugNLP_202004_When_does_data_augmentation_help_generalization.md)
 - [201901 EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification ](resources/notes/d0001/DataAugNLP_201901_EDA__Easy_Data_Augmentation_Techniques_for_Boosting_Performance_onText_Classification_Tasks.md)
+
+### [迁移学习](notes/TransferLearning.md)
+
+- [202005 Cross-lingual Transfer of Twitter Sentiment Models Using a Common Vector Space](resources/notes/d0001/transnlp_202005_Cross_lingual_Transfer.md)
 
 ## 应用
 
@@ -153,6 +159,10 @@
 - [201409 Sequence to Sequence Learning with Neural Networks](resources/notes/d0001/seq2seq_201409_Sequence_to_Sequence_Learning_with_Neural_Networks.md)
 
 ### [自然语言生成](notes/NaturalLanguageGeneration.md)
+
+#### Chatbot
+
+- [202004 Few-Shot Natural Language Generation by Rewriting Templates](resources/notes/d0001/NLG_202004_Few_Shot_Natural_Language_Generation_by_Rewriting_Templates.md)
 
 ####  诗歌
 

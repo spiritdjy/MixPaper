@@ -13,6 +13,14 @@
 
 ---
 ### Word Segment
+
+##### [201704 Character-based Joint Segmentation and POS Tagging for Chinese using Bidirectional RNN-CRF](../resources/notes/d0001/nlplac_201704_Character_based_Joint_Segmentation_and_POS_Tagging.md)
+- https://arxiv.org/pdf/1704.01314.pdf
+- 使用双向GRU+CRF
+- 四种词向量
+  - n-gram, 预训练, 偏旁部首， CNN（汉字图像）
+![](../source/images/24203020202430530620.png)
+
 ##### [2019ACL Is Word Segmentation Necessary for Deep Learning of Chinese Representations?](../resources/notes/d0001/nlplac_2019_is_word_segmentation_necessary_for_deep_learning_of_chinese_representations.md)
 - https://www.aclweb.org/anthology/P19-1314.pdf
 ![](../resources/images/d0001/411951541020512.png)
