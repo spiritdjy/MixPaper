@@ -2,8 +2,15 @@
 
 [toc]
 
+##### [202004 Deep Learning Based Text Classification: A Comprehensive Review](../resources/notes/d0001/classification_202004_Text_Classification_A_Comprehensive_Review.md)
+- https://arxiv.org/abs/2004.03705
+
 ##### [2018 A NEW METHOD OF REGION EMBEDDING FOR TEXT CLASSIFICATION](../resources/notes/d0001/classification_2018_REGION_EMBEDDING_FOR_TEXT_CLASSIFICATION.md)
 - http://research.baidu.com/Public/uploads/5acc1e230d179.pdf
+
+
+##### [2015 Deep unordered composition rivals syntactic methods for text classification](../resources/notes/d0001/classification_2015_NBOW_DAN.md)
+- https://www.aclweb.org/anthology/P15-1162.pdf
 
 
 #####  [2014 Convolutional Neural Networks for Sentence Classification](../resources/notes/d0001/Classification_2014_TextCNN__Convolutional_Neural_Networks_for_Sentence_Classification.md)
@@ -20,13 +27,10 @@
     - 稀疏问题，n-gram的稀疏问题
     - CNN本来就是对n-gram编码的，何必需要人工进行筛选
 
-<<<<<<< HEAD
 ##### [Deep Learning for Extreme Multi-label Text Classification]
 
 - http://www.aclweb.org/anthology/D14-1181
-=======
 ##### http://www.aclweb.org/anthology/D14-1181
->>>>>>> 45fff77e0b6f531ebe7379fdfcf5358cffa3c980
 - ![](https://pic3.zhimg.com/80/v2-bb10ad5bbdc5294d3041662f887e60a6_hd.png)
 
 ##### Very Deep Convolutional Networks for Natural Language Processing
