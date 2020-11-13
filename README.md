@@ -28,6 +28,8 @@
 
 ### [文本分类](notes/Classification.md)
 
+
+- [202004 Deep Learning Based Text Classification: A Comprehensive Review](resources/notes/d0001/Classification_202004_Deep_Learning_Based_Text_Classification.md)
 - [2014 Convolutional Neural Networks for Sentence Classification](resources/notes/d0001/Classification_2014_TextCNN__Convolutional_Neural_Networks_for_Sentence_Classification.md)
 - [201412 Effective Use of Word Order for Text Categorization with Convolutional Neural Networks](resources/notes/d0001/classification_201412_Effective_Use_of_Word_Order_for_Text_Categorization_with_Convolutional_Neural_Networks.md)
 - [2016 Hierarchical Attention Networks for Document Classification](resources/notes/d0001/classification_2016_hierarchical_attention_networks_for_document_classification.md)
@@ -44,6 +46,8 @@
 
 ####  Word Segment
 
+- [201704 Character-based Joint Segmentation and POS Tagging for Chinese
+using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based_Joint_Segmentation_and_POS_Tagging.md)
 - [2019ACL Is Word Segmentation Necessary for Deep Learning of Chinese Representations?](resources/notes/d0001/nlplac_2019_is_word_segmentation_necessary_for_deep_learning_of_chinese_representations.md)
 
 ####  Named Entity Recognition
@@ -88,7 +92,12 @@
 
 ### [数据增强](notes/DataAugmentation.md)
 
+- [202004 When does data augmentation help generalization in NLP?](resources/notes/d0001/DataAugNLP_202004_When_does_data_augmentation_help_generalization.md)
 - [201901 EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification ](resources/notes/d0001/DataAugNLP_201901_EDA__Easy_Data_Augmentation_Techniques_for_Boosting_Performance_onText_Classification_Tasks.md)
+
+### [迁移学习](notes/TransferLearning.md)
+
+- [202005 Cross-lingual Transfer of Twitter Sentiment Models Using a Common Vector Space](resources/notes/d0001/transnlp_202005_Cross_lingual_Transfer.md)
 
 ## 应用
 
@@ -121,6 +130,10 @@
 
 ### [聊天机器人](notes/ChatBot.md)
 
+#### Task-oriented
+
+- [202003 Recent Advances and Challenges in Task-oriented Dialog System](resources/notes/d0001/chatbot_202003_Recent_Advances_and_Challenges_in_Task_oriented_Dialog_System.md)
+
 ####  Dialogue
 
 - [201911 DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation](resources/notes/d0001/chatbot_201911_DialoGPT__Large_Scale_Generative_Pre_training_for_Conversational_Response.md)
@@ -135,6 +148,10 @@
 
 ####  Entity Linking
 
+#### Relation Extraction
+
+- [202004 Review and Outlook for Relation Extraction](resources/notes/d0001/kgre_2020_Review_and_Outlook_for_Relation_Extraction.md)
+
 
 ####  Event Extraction
 
@@ -145,6 +162,10 @@
 - [201409 Sequence to Sequence Learning with Neural Networks](resources/notes/d0001/seq2seq_201409_Sequence_to_Sequence_Learning_with_Neural_Networks.md)
 
 ### [自然语言生成](notes/NaturalLanguageGeneration.md)
+
+#### Chatbot
+
+- [202004 Few-Shot Natural Language Generation by Rewriting Templates](resources/notes/d0001/NLG_202004_Few_Shot_Natural_Language_Generation_by_Rewriting_Templates.md)
 
 ####  诗歌
 
@@ -182,6 +203,9 @@
 
 ####  模型
 
+- [202004 DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference](resources/notes/d0001/pretrainlm_202004_DeeBert.md)
+- [202004 Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks](resources/notes/d0001/pretrainlm_202004_Adapt_Language_Models_to_Domains_and_Tasks.md)
+- [202003 Pre-trained Models for Natural Language Processing: A Survey](resources/notes/d0001/pretrainlm_202003_Survey.md)
 - [2020 ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](resources/notes/d0001/pretrainlm_2020_ELECTRA__Pre-training_Text_Encoders_as_Discriminators_Rather_Than_Generators.md)
 - [202001 ProphetNet: Predicting Future N-gram for Sequence-to-Sequence Pre-training](resources/notes/d0001/pretrain_202001_ProphetNet_Predicting_Future_N_gram_for_Sequence_to_Sequence_Pre_training.md)
 - [201909 ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](resources/notes/d0001/pretrainlm_201909_ALBERT__A_Lite_BERT_for_Self_supervised_Learning_of_Language_Representations.md)
@@ -195,9 +219,14 @@
 - [201801 Universal Language Model Fine-tuning for Text Classification](resources/notes/d0001/pretrainlm_201801_Universal_Language_Model_Fine_tuning_for_Text_Classification.md)
 - [201706 attention is all you need](resources/notes/d0001/attention_2017_attention_is_all_you_need.md)
 
-#### QA
+#### 应用
 
+- [202004 Pre-training Is (Almost) All You Need: An Application to Commonsense Reasoning](resources/notes/d0001/pretrainlm_202004_Pre_training_Is_Almost_All_You_Need.md)
 - [202002 REALM: Retrieval-Augmented Language Model Pre-Training](resources/notes/d0001/pretrainlm_202002_REALM.md)
+
+
+##### 情感分类
+- [202005 SKEP: Sentiment Knowledge Enhanced Pre-training for Sentiment Analysis](resources/notes/d0001/pretrainlm_202005_SKEP_Sentiment_Knowledge.md)
 
 ####  原理
 

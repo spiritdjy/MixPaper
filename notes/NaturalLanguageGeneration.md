@@ -1,6 +1,12 @@
 # 自然语言生成
 [toc]
 
+### Chatbot
+
+##### [202004 Few-Shot Natural Language Generation by Rewriting Templates](../resources/notes/d0001/NLG_202004_Few_Shot_Natural_Language_Generation_by_Rewriting_Templates.md)
+- https://arxiv.org/pdf/2004.15006v1.pdf
+
+
 ### 诗歌
 ##### [Chinese Poetry Generation with Recurrent Neural Networks]
 ##### [2019 基于神经网络的集句诗自动生成](../resources/notes/d0001/NLG_Poetry_2019_Neural_Network_based_Jiju_Poetry_Generation.md)

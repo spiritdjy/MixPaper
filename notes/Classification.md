@@ -10,6 +10,10 @@
 
 ##### [201904 Text Classification Algorithms: A Survey]
 
+##### [202004 Deep Learning Based Text Classification: A Comprehensive Review](../resources/notes/d0001/Classification_202004_Deep_Learning_Based_Text_Classification.md)
+- https://arxiv.org/pdf/2004.03705.pdf
+
+
 ##### [2018 A NEW METHOD OF REGION EMBEDDING FOR TEXT CLASSIFICATION](../resources/notes/d0001/classification_2018_REGION_EMBEDDING_FOR_TEXT_CLASSIFICATION.md)
 - http://research.baidu.com/Public/uploads/5acc1e230d179.pdf
 

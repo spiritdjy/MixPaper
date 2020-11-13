@@ -3,6 +3,22 @@
 
 ## 模型
 
+#### [202004 DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference](../resources/notes/d0001/pretrainlm_202004_DeeBert.md)
+- https://arxiv.org/pdf/2004.12993v1.pdf
+
+![](../resources/images/d0001/12205241811205302418.png)
+
+#### [202004 Don't Stop Pretraining: Adapt Language Modecvbls to Domains and Tasks](../resources/notes/d0001/pretrainlm_202004_Adapt_Language_Models_to_Domains_and_Tasks.md)
+- https://arxiv.org/abs/2004.10964
+- 考虑了四个领域: 生物医学和计算机科学出版物，新闻和评论
+- 八个分类任务: 每个领域两个
+- 无论有没有域自适应(domain-adaptive pretraining )的预训练，TAPT(task-adaptive pretraining 规模较小，但直接与任务相关的文集：未标记的任务数据集)都能为RoBERTa带来巨大的性能提升
+- 从任务分发中获得 由任务设计者或注释者手动策划的其他未标记数据时，任务自适应预训练的好处就会增加。受此成功的启发，我们提出了自动选择其他与任务相关的未标记文本的方法，并展示了如何在某些资源匮乏的情况下提高性能
+
+#### [202003 Pre-trained Models for Natural Language Processing: A Survey](../resources/notes/d0001/pretrainlm_202003_Survey.md)
+- https://arxiv.org/pdf/2003.08271.pdf
+
+
 ####  [2020 ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](../resources/notes/d0001/pretrainlm_2020_ELECTRA__Pre-training_Text_Encoders_as_Discriminators_Rather_Than_Generators.md)
 - https://openreview.net/pdf?id=r1xMH1BtvB
 ![](../resources/images/d0001/xx4.png)
@@ -83,7 +99,16 @@ https://arxiv.org/pdf/1801.06146.pdf
 ![](../resources/images/d0001/512003251813101.png)
 - 利用语言模型,  生成句子中的后一个词语
 
-## QA
+## 应用
+
+#### [202004 Pre-training Is (Almost) All You Need: An Application to Commonsense Reasoning](../resources/notes/d0001/pretrainlm_202004_Pre_training_Is_Almost_All_You_Need.md)
+- https://arxiv.org/pdf/2004.14074.pdf
+- 修改[SEP]格式为全文格式，添加So/Because词语进行连接
+- 计算前提中每个词语的ＭＬＭ概率分数
+  ![](../resources/images/d0001/12405111815207021118.png)
+- 使用Margin-Loss以训练最佳假设与其他假设之间的距离
+    ![](../resources/images/d0001/12405501815207485018.png)
+
 #### [202002 REALM: Retrieval-Augmented Language Model Pre-Training](../resources/notes/d0001/pretrainlm_202002_REALM.md)
 - https://arxiv.org/abs/2002.08909
 ![](../resources/images/d0001/07703081221202350812.png)

@@ -1,6 +1,10 @@
 # ChatBot
 [toc]
 
+### Task-Oriented
+#####  [202003 Recent Advances and Challenges in Task-oriented Dialog System](../resources/notes/d0001/chatbot_202003_Recent_Advances_and_Challenges_in_Task_oriented_Dialog_System.md)
+- https://arxiv.org/pdf/2003.07490.pdf
+
 ### Dialogue
 #####  [202001 Towards a Human-like Open-Domain Chatbot]()
 - https://arxiv.org/abs/2001.09977

@@ -1,9 +1,20 @@
 ## Data Augmentation
 [toc]
 
-#### [BPE-Dropout: Simple and Effective Subword Regularization]
 
-#### [EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification ](../resources/notes/d0001/DataAugNLP_201901_EDA__Easy_Data_Augmentation_Techniques_for_Boosting_Performance_onText_Classification_Tasks.md)
+
+#### [202004 When does data augmentation help generalization in NLP?](../resources/notes/d0001/DataAugNLP_202004_When_does_data_augmentation_help_generalization.md)
+- https://arxiv.org/pdf/2004.15012v1.pdf
+
+![](../resources/images/d0001/12405431817207334318.png)
+ ![](../resources/images/d0001/12405301817207553018.png)
+
+ - 添加weak-only的反例可以导致weak-only的错误得到改善，但是对strong-only的错误的影响却很小
+- 添加strong-only反例会同时影响两种错误
+  - 对weak-only错误的影响仅限于强特征易于检测的数据集
+  - 当强特征是不易察觉，加上strong-only的反例也导致模型检测强特征并将其正确与正标签相关联，但不必然导致模型放弃在预测阳性标签时使用弱特征
+
+#### [2019 EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification ](../resources/notes/d0001/DataAugNLP_201901_EDA__Easy_Data_Augmentation_Techniques_for_Boosting_Performance_onText_Classification_Tasks.md)
 - https://arxiv.org/abs/1901.11196
     - 随机删除一个词
     - 随机选择一个词，用它的同义词替换
@@ -19,3 +30,5 @@
 
 #### []
 - IBM 提出基于语言模型的数据增强新方法 https://blog.csdn.net/jdbc/article/details/103105633
+
+#### [BPE-Dropout: Simple and Effective Subword Regularization]
