@@ -13,6 +13,8 @@
 
 - [201801 AMSoftmax: Additive Margin Softmax for Face Verification](resources/notes/d0001/loss_201801_AMSoftmax.md)
 
+- [201708 Focal Loss for Dense Object Detection](resources/notes/d0001/loss_201708_Focal_Loss.md)
+
 ### [少样本学习](notes/ZeroShotLearning.md)
 
 ## 自然语言处理
@@ -220,6 +222,8 @@
 
 
 ####  推荐系统
+
+- [ ] [202011 Graph Neural Networks in Recommender Systems: A Survey](resources/notes/d0001/rec_202011_GNN_Survey.md)
 
 - [201606  Wide & Deep Learning for Recommender Systems](resources/notes/d0001/rec_201606_Wide__Deep_Learning_for_Recommender_Systems.md)
 - [2010 Factorization Machines](resources/notes/d0001/rec_2010_Factorization_Machines.md)
