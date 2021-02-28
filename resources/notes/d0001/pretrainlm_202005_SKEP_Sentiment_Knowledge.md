@@ -124,3 +124,17 @@ Effect of Multi-label Optimization：
 - 工作验证了将情感知识用于预训练模型的必要性，并为广泛的情感分析任务提供了统一的情感表示
 - 希望将SKEP应用于更多的情感分析任务，以进一步了解SKEP的一般化，并且我们也有兴趣开发更多类型的情感知识和更细粒度的情感挖掘方法
 
+
+### 情感种子词
+great, good, like, just, will, well,
+even, love, best, better, back,
+want, recommend, worth, easy,
+sound, right, excellent, nice, real,
+fun, sure, pretty, interesting, stars
+
+too, little, bad, game, down,
+long, hard, waste, disappointed,
+problem, try, poor, less, boring,
+worst, trying, wrong, least,
+although, problems, cheap
+

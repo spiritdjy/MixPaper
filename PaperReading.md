@@ -12,6 +12,8 @@
   - [[Language Model is All You Need: Natural Language Understanding As Question Answering]](#language-model-is-all-you-need-natural-language-understanding-as-question-answering)
   - [[Semi-Supervised Cleansing of Web Argument Corpora]](#semi-supervised-cleansing-of-web-argument-corpora)
   - [[How Far Does BERT Look At: Distance-based Clustering and Analysis of BERT’s Attention]](#how-far-does-bert-look-at-distance-based-clustering-and-analysis-of-berts-attention)
+  - [[Modeling Event Salience in Narratives via Barthes’ Cardinal Functions 基于巴特基本功能的叙事事件显著性建模]](#modeling-event-salience-in-narratives-via-barthes-cardinal-functions-基于巴特基本功能的叙事事件显著性建模)
+  - [[Cross-Media Keyphrase Prediction: A Unified Framework with Multi-Modality Multi-Head Attention and Image Wordings 跨媒体关键词预测: 多模态多头注意和图像语义的统一框架]](#cross-media-keyphrase-prediction-a-unified-framework-with-multi-modality-multi-head-attention-and-image-wordings-跨媒体关键词预测-多模态多头注意和图像语义的统一框架)
 
 <!-- /TOC -->
 
@@ -259,61 +261,75 @@
 
 ## [How Far Does BERT Look At: Distance-based Clustering and Analysis of BERT’s Attention]
 - https://arxiv.org/abs/2011.00943
+- [ ] TODO
 - 通过无监督的聚类将注意力热图聚类到一系列特征之上，这些特征与之前的观察结果相一致。通过分析研究，进一步研究了它们的相应功能。此外，我们提出的特征可以用来解释和校准变压器模型中不同的注意头
 - 除了将 BERT 模型的有效性归因于其长程依赖性和语境嵌入性的一般解释外，对 BERT 中 MHA 机制的更详细的分析仍然是一个活跃的研究课题[12,18,7,15]。通过检查隐藏的状态嵌入，可视化探索语言信息或 BERT 的重要性
 - 研究人员开始探索多头注意成分的工作机制。一个常见的方法是将注意力权重矩阵可视化，它经常发现 BERT 中的注意力头表现出几种特定的模式。例如，一些注意头在对角线方向上显示主导的条纹图案，而另一些则显示主导的垂直条纹图案。还有一些注意力分布相对均匀的注意力头。在这项工作中，我们将这些图案称为密集型、垂直型或对角型
 - 以往的工作依赖于简单的启发式规则或人工注释，这使得它们不可扩展且容易出错。在这项工作中，我们提出了一种可扩展的、高效的非监督式学习/注意力方法，它可以自动将不同的注意力头自动集群，让我们系统地研究它们在 NLP 任务中的不同
 
-- 体检 2640
-2640
+## [Modeling Event Salience in Narratives via Barthes’ Cardinal Functions 基于巴特基本功能的叙事事件显著性建模]
+- https://arxiv.org/abs/2011.01785
 
-- 广发 1350  + 0
-11.3 40 吃饭
-11.1 868 HR眼霜 + 其他合并付款
-10.28 250 交警交罚款
-10.25 100 
+![](source/images/59231320205913491123.png)
+- 叙述中的事件突出程度各不相同: 有些事件对故事的重要性要大于其他事件。事件显著性评估对故事生成等任务有重要意义，也是叙事学和民俗学中进行文本分析的工具。为了在没有任何注释的情况下计算事件显著性，我们采用了巴特的事件显著性定义，并提出了几种只需要预先训练语言模型的无监督方法
+  - 以灰姑娘为例，王子爱上了灰姑娘是一个突出的事件，而灰姑娘从井里打水却不是。评估事件显著性是分析和处理叙事的基本任务，范围从叙事分析到自动生成故事
 
-- 招商 3230 + 510
-10.14 153 牛奶 
-113 奶粉小盒
-10.20 635 羊奶粉
-11.1 804 SK2
-245 
-857 我的鞋
-未出
-11.6 jd 160 我的私处清理液+洗面奶
-jd 103 爱奇艺+京东会员一年
-11.7 jd 227 水解奶粉
-11.11 jd 105 牛奶
-jd 71 牙膏
+> cardinal functions are logically essential to the narrative action and cannot be eliminated without destroying its causal-chronological coherence 基本功能在逻辑上对于叙事行为是必不可少的，如果不破坏其因果时间上的连贯性，就无法消除它
 
-- 建设银行 2348 + 716
-10.11 150 宝宝书3本 + 冰激凌机玩具
-10.14 536 羊奶粉2罐
-11.1 107  3包牛肉干
-11.3 292  回家火车票
-10.21 139 奶粉小盒 + 黏土
-10.22 604 粉底液+洗发水
-11.1 199 牙刷刷头10只
-未出 716
-11.10 256 卸妆油 + 消毒液
-11.10 296 我的面霜3个
-11.11 138 花生油
+- 首先，常用于叙述性分析[ citenameAbbott2008]。其次，CFs 的概念可以直接操作，不需要任何带注释的数据。基于语篇连贯理论的事件突显度计算需要测量叙事文本的连贯性，而语篇连贯模型的最新进展为这一难题提供了解决方案
 
-- 民生银行未出
-11.1 86 米20斤
-11.1 105 米20斤
-11.5 368 3只眼霜我的
+- 相关工作
+  - 先，删除测试[ citenameCarlson 和 Marcu2001]旨在识别修辞结构理论中的显著语段。在删除测试中，注释者通过删除感兴趣的语篇单位来检测语篇连贯减少的程度
+  - 提取式摘要是一项识别文档中突出句子的任务，在形式上与我们的工作非常相似。尽管现有的提取式摘要方法有很多种，但是这些方法能否直接应用于叙事文本还是一个悬而未决的问题。精炼摘要通常侧重于具有严格结构的领域，如新闻文章或科学论文，而叙事文本没有这样严格的结构
+- 在 NLP 的叙事处理过程中，已经提出了几种方法来识别一些突出事件: 娱乐故事中的悬疑事件[ citenameWilmot 和 Keller2020] ，电影剧本中的转折点[ citenemapalampidi 等人2019] ，以及个人叙事中可报告的事件[ citenameOuyang 和 McKeown2015]
 
-- 中国银行 184 吃饭
+- 方法
+  - 我们估计一个句子的突出程度而不是一个事件的突出程度; 我们根据每个句子包含一个突出事件的程度在叙述中打分。这种简化使我们能够避免确定表达事件的短语和句子这一困难的子任务，同时处理确定表达突出事件的句子这一任务
+  - 计算突显分数 σ (sk，s {1: n })作为从原始叙事 s {1: n }中删除 sk 中的事件时连贯性损失的量
 
-- 中信银行 389 + 下期 1599（小步）
+- 删除一个句子中的事件
+  - Sentence Deletion (SD): Removing the entire sentence
+  - Verb Anonymization (VA): 基于每个动词的词性标签，用常用动词(例如，do，does，did)替换句子中的所有动词
+  - Predicate and Arguments Anonymization (PAA): 用一般动词(如 VA)替换所有动词，用不定代词(如“ someone”、“ something”)替换主要论元
+    - 使用 VA 和 PAA 是因为谓词和它们的参数是常用事件表示的主要组成部分
 
-- 花呗 1179
-11.6 90 门票
-11.5 吃饭 150
-保险 200
-吃饭 600 
+- Computing narratives’ coherence 计算机叙事的连贯性
+  - 使用预先训练的语言模型计算叙事的生成概率，并将其作为叙事的连贯性得分
+  - 用所有标记的平均对数似然估计相干性得分（受到叙事中单词数量的影响）
+  - 只考虑目标句 s { k + 1: n }之后的句子
+
+- ProppLearner corpus
+  - 15 Russian folktales
+- GPT-2作为一个预先训练的语言模型来计算相干性分数
+- 三个微调设置
+  - No fine-tuning
+  - Fine-tuning GPT-2 on BookCorpus
+  - Fine-tuning GPT-2 on ProppLearner as transductive domain adaptation
+- 基线: 这个方法指定 TF-IDF 值的和
+- 平均平均精度(MAP)作为评估指标
+
+- 效果
+  - VA 和 PAA 中的操作产生的非自然的句子可能会对语言模型的推理产生负面影响，这表明如何从句子中删除事件还有改进的余地
+  - 我们发现最后一句话的显著性得分往往有很大的差异，因为在接下来的故事中只有一个特殊的标记被用来估计显著性
+  - 将每种方法与 TF-IDF 基线方法相结合，这是最好的基线方法。在每个故事中，我们将每个方法和 TF-IDF 基线方法的显著性评分归一化为[0,1]。我们使用 scikit-learn [ citenameBuitinck 等人2013]实现 MinMaxScaler，然后将它们添加到最终显著性评分中
+
+![](source/images/13231320201313521123.png)
+
+## [Cross-Media Keyphrase Prediction: A Unified Framework with Multi-Modality Multi-Head Attention and Image Wordings 跨媒体关键词预测: 多模态多头注意和图像语义的统一框架]
+- https://arxiv.org/abs/2011.01565
+- https://github.com/yuewang-cuhk/CMKP.
+
+- 为了更好地对齐社交媒体风格的文本和图像，我们提出: (1)一种新的多模态多头注意(M3 H-Att)来捕捉复杂的跨媒体交互; (2)图像字符和图像属性的形式，桥接这两种模式。此外，我们设计了一个新颖的统一框架，利用关键词分类和生成的输出，并结合它们的优点
+- 我们认为井号标签是一个帖子的关键词注释
+- 图像在反映关键信息方面比文本起着更重要的作用。这些观点促进了我们的跨媒体关键词预测研究，该研究探讨了如何通过后文本与其匹配图像的耦合效应来表示显著的内容
+
+
+
+
+
+
+
+
 
 
 
