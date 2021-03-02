@@ -7,11 +7,27 @@ https://arxiv.org/abs/1905.08487
 
 
 ### 推荐系统
+
+##### [KDD2017 Embedding-based News Recommendation for Millions of Users](../resources/notes/d0001/rec_kdd2017_news.md)
+- https://www.kdd.org/kdd2017/papers/view/embedding-based-news-recommendation-for-millions-of-users
+
+##### [1703.04247 DeepFM: A Factorization-Machine based Neural Network for CTR Prediction](../resources/notes/d0001/rec_deepFM.md)
+![](../source/images/505750202102501703.png)
+- https://arxiv.org/abs/1703.04247
+- FM替换了Wide&Deep的Wide部分使得特征交叉更加泛化
+- FM和Deep层共享输入和嵌入
+
 ##### [201606  Wide & Deep Learning for Recommender Systems](../resources/notes/d0001/rec_201606_Wide__Deep_Learning_for_Recommender_Systems.md)
 - https://arxiv.org/abs/1606.07792
 ![](../resources/images/d0001/03202340518206523405.png)
 ![](../resources/images/d0001/03202150519206161505.png)
 ![](../resources/images/d0001/03202030519206210305.png)
+
+##### [1601.02376 Deep Learning over Multi-field Categorical Data: A Case Study on User Response Prediction](../resources/notes/d0001/rec_1601_FNN.md)
+![](../source/images/383838202102381903.png)
+- 使用FM参数进行神经网络的初始化
+- https://arxiv.org/abs/1601.02376
+
 
 ##### [2010 Factorization Machines](../resources/notes/d0001/rec_2010_Factorization_Machines.md)
 - https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf

@@ -254,7 +254,11 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 
 - [ ] [202011 Graph Neural Networks in Recommender Systems: A Survey](resources/notes/d0001/rec_202011_GNN_Survey.md)
 
+- [1703.04247 DeepFM: A Factorization-Machine based Neural Network for CTR Prediction](resources/notes/d0001/rec_deepFM.md)
+
 - [201606  Wide & Deep Learning for Recommender Systems](resources/notes/d0001/rec_201606_Wide__Deep_Learning_for_Recommender_Systems.md)
+- [1601.02376 Deep Learning over Multi-field Categorical Data: A Case Study on User Response Prediction](resources/notes/d0001/rec_1601_FNN.md)
+
 - [2010 Factorization Machines](resources/notes/d0001/rec_2010_Factorization_Machines.md)
 
 ####  新闻推荐
