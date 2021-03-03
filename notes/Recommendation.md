@@ -10,6 +10,13 @@ https://arxiv.org/abs/1905.08487
 
 ##### [KDD2017 Embedding-based News Recommendation for Millions of Users](../resources/notes/d0001/rec_kdd2017_news.md)
 - https://www.kdd.org/kdd2017/papers/view/embedding-based-news-recommendation-for-millions-of-users
+- 基于自编码进行文章向量计算
+![](../source/images/162416202102162103.png)
+![](../source/images/562456202102562103.png)
+
+- 模型
+  - 用用户状态与文章向量内积来预测对文章的阅读进行模型训练，GRU更好
+![](../source/images/16230220211602250323.png)
 
 ##### [1703.04247 DeepFM: A Factorization-Machine based Neural Network for CTR Prediction](../resources/notes/d0001/rec_deepFM.md)
 ![](../source/images/505750202102501703.png)

@@ -263,5 +263,6 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 
 ####  新闻推荐
 
+- [KDD2017 Embedding-based News Recommendation for Millions of Users](resources/notes/d0001/rec_kdd2017_news.md)
 
 ####  旅游产品
