@@ -40,32 +40,42 @@ https://arxiv.org/abs/1905.08487
 - https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf
 ![](../resources/images/d0001/03202570520206385705.png)
 
-### 新闻推荐
+# 新闻推荐
 
-##### [201812 Fine-Grained Deep Knowledge-Aware Network for News Recommendation with Self-Attention]
+## [201812 Fine-Grained Deep Knowledge-Aware Network for News Recommendation with Self-Attention]
 
-##### [201810 Large-Scale Real-Time News Recommendation Based on Semantic Data Analysis and Users’ Implicit and Explicit Behaviors]
+## [201810 Large-Scale Real-Time News Recommendation Based on Semantic Data Analysis and Users’ Implicit and Explicit Behaviors]
 
-##### [201805 Faithfully Explaining Rankings in a News Recommender System]
+## [201805 Faithfully Explaining Rankings in a News Recommender System]
 - http://xueshu.baidu.com/usercenter/paper/show?paperid=9af2b2923d56562aa2e9f8d51a15b8fe&site=xueshu_se
 
-##### [201801 DKN: Deep Knowledge-Aware Network for News Recommendation]
+## [201801 DKN: Deep Knowledge-Aware Network for News Recommendation]
 
-##### [201710 Location-Aware News Recommendation Using Deep Localized Semantic Analysis]
+## [201710 Location-Aware News Recommendation Using Deep Localized Semantic Analysis]
 
-##### [201710 Location-Aware Personalized News Recommendation With Deep Semantic Analysis]
+## [201710 Location-Aware Personalized News Recommendation With Deep Semantic Analysis]
 
-##### [201910 SMP Challenge: An Overview of Social Media Prediction Challenge 2019]
+## [201910 SMP Challenge: An Overview of Social Media Prediction Challenge 2019]
 
-##### [201910 Location prediction in large-scale social networks: an in-depth benchmarking study]
+## [201910 Location prediction in large-scale social networks: an in-depth benchmarking study]
 
-##### [201010 Implicit news recommendation based on user interest models and multimodal content analysis]
+## [201010 Implicit news recommendation based on user interest models and multimodal content analysis]
 
-##### [201010 Personalized news recommendation based on click behavior]
+## [201010 Personalized news recommendation based on click behavior]
 
-##### [201010 Implicit news recommendation based on user interest models and multimodal content analysis]
+## [201010 Implicit news recommendation based on user interest models and multimodal content analysis]
 
-### 旅游产品
-##### [A two-stage multiple-factor aware method for travel product recommendation]
+## [1801.08284 DKN: Deep Knowledge-Aware Network for News Recommendation](../resources/notes/d0001/rec_DKN_news.md)
+![](../source/images/22211520212215160321.png)
+- 三个通道
+  - 单词词向量嵌入
+  - 单词中的实体词语Trans-D等向量
+  - 单词中的实体词语的一跳实体词的Trans-D向量和归一化
+- KCNN 形成新闻向量
+- https://arxiv.org/abs/1801.08284
+- https://github.com/hwwang55/DKN
+
+# 产品
+## [A two-stage multiple-factor aware method for travel product recommendation]
 
 

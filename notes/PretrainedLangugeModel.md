@@ -3,6 +3,10 @@
 
 ## 模型
 
+#### [2103.04350 Syntax-BERT: Improving Pre-trained Transformers with Syntax Trees](./resources/../FastReading.md#2103.04350Syntax-BERT:ImprovingPre-trainedTransformerswithSyntaxTrees)
+![](../source/images/38221520213815220322.png)
+- 相当于将父亲、孩子、兄弟等节点重新MASK计算一下attnetion，而实际节点出来的值对上述3个部分的值进行了加强
+
 #### [202004 DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference](../resources/notes/d0001/pretrainlm_202004_DeeBert.md)
 - https://arxiv.org/pdf/2004.12993v1.pdf
 
@@ -99,6 +103,28 @@ https://arxiv.org/pdf/1801.06146.pdf
 ![](../resources/images/d0001/512003251813101.png)
 - 利用语言模型,  生成句子中的后一个词语
 
+## 蒸馏
+
+#### [1909.10351 TinyBERT: Distilling BERT for Natural Language Understanding](../resources/notes/d0001/pretrainlm_1909_tinyBERT.md)
+- https://arxiv.org/abs/1909.10351
+![](../source/images/45161420214514160316.png)
+![](../source/images/44161420214414170316.png)
+![](../source/images/41161420214114280316.png)
+![](../source/images/53161420215314340316.png)
+
+#### [1910.01108 DistilBERT,adistilledversionofBERT:smaller, faster,cheaperandlighter](../resources/notes/d0001/pretrainlm_1910_DistilBERT.md)
+- https://arxiv.org/abs/1910.01108
+![](../source/images/16141420211614140314.png)
+- 1）文章指出，对计算性能影响较大的不是隐含层节点的个数而是隐含层的层数，所以在大模型每两层去掉一层，之后再指导小模型；2）也要去掉token type embedding；3）小模型的初始化用的是大模型预训练好的参数
+- 损失的计算：
+  - KLDivLoss: teacher model 和student model的soft label损失两者的KL散度，之所以称之为soft label是在softmax中引入了温度参数T
+  ![](../source/images/11141420211114160314.png)
+  - Cos: teacher hidden state 和 student hidden state 的余弦相似度，也好理解，约束两个模型的相似性
+  - Cross-entropy: hard label 损失函数，传统BERT 的 MLM 损失
+- 以上求权重和计算整个网络的损失：Loss = 5.0*KLDivLoss + 2.0*Cross-entropy + 1.0*Cos
+
+#### [1908.08962 Well-Read Students Learn Better: On the Importance of Pre-training Compact Models](../resources/notes/d0001/pretrainlm_1908_pdbert.md)
+
 ## 应用
 
 #### [202004 Pre-training Is (Almost) All You Need: An Application to Commonsense Reasoning](../resources/notes/d0001/pretrainlm_202004_Pre_training_Is_Almost_All_You_Need.md)
@@ -170,5 +196,6 @@ https://arxiv.org/abs/1910.10683
 #### [202001 AdaBERT: Task-Adaptive BERT Compression with Differentiable Neural Architecture Search]
 - https://arxiv.org/abs/2001.04246
 - [推理速度提升29倍，参数少1/10，阿里提出AdaBERT压缩方法](https://zhuanlan.zhihu.com/p/103865578)
+
 
 

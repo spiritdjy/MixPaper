@@ -17,6 +17,9 @@
 
 ### [少样本学习](notes/ZeroShotLearning.md)
 
+### [模型蒸馏](notes/Automl.md)
+- [2002.12620 TextBrewer: An Open-Source Knowledge Distillation Toolkit for Natural Language Processing](resources/notes/d0001/auto_202002_tb.md)
+
 ## 自然语言处理
 
 - [202003 Natural Language Processing Advancements By Deep Learning: A Survey](resources/notes/d0001/nlp_202003_dl_a_survey.md)
@@ -219,13 +222,18 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 - [201801 Universal Language Model Fine-tuning for Text Classification](resources/notes/d0001/pretrainlm_201801_Universal_Language_Model_Fine_tuning_for_Text_Classification.md)
 - [201706 attention is all you need](resources/notes/d0001/attention_2017_attention_is_all_you_need.md)
 
+#### 蒸馏
+- [1909.10351 TinyBERT: Distilling BERT for Natural Language Understanding](resources/notes/d0001/pretrainlm_1909_tinyBERT.md)
+- [1910.01108 DistilBERT,adistilledversionofBERT:smaller, faster,cheaperandlighter](resources/notes/d0001/pretrainlm_1910_DistilBERT.md)
+- [1908.08962 Well-Read Students Learn Better: On the Importance of Pre-training Compact Models](resources/notes/d0001/pretrainlm_1908_pdbert.md)
+
 #### 应用
 
 - [202004 Pre-training Is (Almost) All You Need: An Application to Commonsense Reasoning](resources/notes/d0001/pretrainlm_202004_Pre_training_Is_Almost_All_You_Need.md)
 - [202002 REALM: Retrieval-Augmented Language Model Pre-Training](resources/notes/d0001/pretrainlm_202002_REALM.md)
 
 
-##### 情感分类
+#### 情感分类
 - [202005 SKEP: Sentiment Knowledge Enhanced Pre-training for Sentiment Analysis](resources/notes/d0001/pretrainlm_202005_SKEP_Sentiment_Knowledge.md)
 
 ####  原理
@@ -263,6 +271,8 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 
 ####  新闻推荐
 
+- [1801.08284 DKN: Deep Knowledge-Aware Network for News Recommendation](resources/notes/d0001/rec_DKN_news.md)
+
 - [KDD2017 Embedding-based News Recommendation for Millions of Users](resources/notes/d0001/rec_kdd2017_news.md)
 
-####  旅游产品
+
