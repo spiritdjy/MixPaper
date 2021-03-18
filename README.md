@@ -17,6 +17,9 @@
 
 ### [少样本学习](notes/ZeroShotLearning.md)
 
+### [模型蒸馏](notes/Automl.md)
+- [2002.12620 TextBrewer: An Open-Source Knowledge Distillation Toolkit for Natural Language Processing](resources/notes/d0001/auto_202002_tb.md)
+
 ## 自然语言处理
 
 - [202003 Natural Language Processing Advancements By Deep Learning: A Survey](resources/notes/d0001/nlp_202003_dl_a_survey.md)
@@ -213,11 +216,17 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 - [201907 ERNIE 2.0: A Continual Pre-Training Framework for Language Understanding](resources/notes/d0001/pretrainml_201907_ERNIE_2.0__A_Continual_Pre_Training_Framework_for_Language_Understanding.md)
 - [201906 RoBERTa: A Robustly Optimized BERT Pretraining Approach](resources/notes/d0001/pretrainlm_201907_RoBERTa__A_Robustly_Optimized_BERT_Pretraining_Approach.md)
 - [201906 ERNIE: Enhanced Language Representation with Informative Entities（THU/ACL2019）](resources/notes/d0001/pretrainml_201907_ERNIE__Enhanced_Language_Representation_with_Informative_Entities.md)
+- [1905.03197 Unified Language Model Pre-training for Natural Language Understanding and Generation](resources/notes/d0001/pretrainml_201905_unlm.md)
 - [201904 ERNIE: Enhanced Representation through Knowledge Integration](resources/notes/d0001/pretrainml_201904_ERNIE__Enhanced_Representation_through_Knowledge_Integration.md)
 - [2018 ACL Deep contextualized word representations: ELMO](resources/notes/d0001/pretrainlm_2018_deep_contextualized_word_representations.md)
 - [2018 GPT Improving Language Understanding by Generative Pre-Training](resources/notes/d0001/pretrainlm_2018_gpt_Improving_Language_Understanding_by_Generative_Pre_Training.md)
 - [201801 Universal Language Model Fine-tuning for Text Classification](resources/notes/d0001/pretrainlm_201801_Universal_Language_Model_Fine_tuning_for_Text_Classification.md)
 - [201706 attention is all you need](resources/notes/d0001/attention_2017_attention_is_all_you_need.md)
+
+#### 蒸馏
+- [1909.10351 TinyBERT: Distilling BERT for Natural Language Understanding](resources/notes/d0001/pretrainlm_1909_tinyBERT.md)
+- [1910.01108 DistilBERT,adistilledversionofBERT:smaller, faster,cheaperandlighter](resources/notes/d0001/pretrainlm_1910_DistilBERT.md)
+- [1908.08962 Well-Read Students Learn Better: On the Importance of Pre-training Compact Models](resources/notes/d0001/pretrainlm_1908_pdbert.md)
 
 #### 应用
 
@@ -225,7 +234,7 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 - [202002 REALM: Retrieval-Augmented Language Model Pre-Training](resources/notes/d0001/pretrainlm_202002_REALM.md)
 
 
-##### 情感分类
+#### 情感分类
 - [202005 SKEP: Sentiment Knowledge Enhanced Pre-training for Sentiment Analysis](resources/notes/d0001/pretrainlm_202005_SKEP_Sentiment_Knowledge.md)
 
 ####  原理
@@ -263,6 +272,8 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 
 ####  新闻推荐
 
+- [1801.08284 DKN: Deep Knowledge-Aware Network for News Recommendation](resources/notes/d0001/rec_DKN_news.md)
+
 - [KDD2017 Embedding-based News Recommendation for Millions of Users](resources/notes/d0001/rec_kdd2017_news.md)
 
-####  旅游产品
+
