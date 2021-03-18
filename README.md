@@ -206,6 +206,9 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 
 ####  模型
 
+- [2103.06874 CANINE: Pre-training an Efficient Tokenization-Free Encoder
+for Language Representation](resources/notes/d0001/pretrainlm_2103.06874.md)
+
 - [202004 DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference](resources/notes/d0001/pretrainlm_202004_DeeBert.md)
 - [202004 Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks](resources/notes/d0001/pretrainlm_202004_Adapt_Language_Models_to_Domains_and_Tasks.md)
 - [202003 Pre-trained Models for Natural Language Processing: A Survey](resources/notes/d0001/pretrainlm_202003_Survey.md)
@@ -234,6 +237,9 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 
 
 #### 情感分类
+
+- [2103.07098 A Weakly Supervised Approach for Classifying Stance in Twitter Replies](resources/notes/d0001/pretrainlm_2103.07098.md)
+
 - [202005 SKEP: Sentiment Knowledge Enhanced Pre-training for Sentiment Analysis](resources/notes/d0001/pretrainlm_202005_SKEP_Sentiment_Knowledge.md)
 
 ####  原理
