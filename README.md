@@ -273,6 +273,7 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 - [201907 ERNIE 2.0: A Continual Pre-Training Framework for Language Understanding](resources/notes/d0001/pretrainml_201907_ERNIE_2.0__A_Continual_Pre_Training_Framework_for_Language_Understanding.md)
 - [201906 RoBERTa: A Robustly Optimized BERT Pretraining Approach](resources/notes/d0001/pretrainlm_201907_RoBERTa__A_Robustly_Optimized_BERT_Pretraining_Approach.md)
 - [201906 ERNIE: Enhanced Language Representation with Informative Entities（THU/ACL2019）](resources/notes/d0001/pretrainml_201907_ERNIE__Enhanced_Language_Representation_with_Informative_Entities.md)
+- [1905.03197 Unified Language Model Pre-training for Natural Language Understanding and Generation](resources/notes/d0001/pretrainml_201905_unlm.md)
 - [201904 ERNIE: Enhanced Representation through Knowledge Integration](resources/notes/d0001/pretrainml_201904_ERNIE__Enhanced_Representation_through_Knowledge_Integration.md)
 - [2018 ACL Deep contextualized word representations: ELMO](resources/notes/d0001/pretrainlm_2018_deep_contextualized_word_representations.md)
 - [2018 GPT Improving Language Understanding by Generative Pre-Training](resources/notes/d0001/pretrainlm_2018_gpt_Improving_Language_Understanding_by_Generative_Pre_Training.md)

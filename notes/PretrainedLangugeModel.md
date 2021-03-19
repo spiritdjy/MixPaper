@@ -71,6 +71,14 @@ https://www.aclweb.org/anthology/P19-1139.pdf
 - 对任务添加一项dEA, 主要是对实体进行预测
 - 在实体分类以及实体关系的预测上效果不错
 
+#### [1905.03197 Unified Language Model Pre-training for Natural Language Understanding and Generation](../resources/notes/d0001/pretrainml_201905_unlm.md)
+- https://arxiv.org/abs/1905.03197
+![](../source/images/182918202116181803.png)
+- 采用MSAK来控制多种预测方法
+- 单向语言模型，左到右，右到左
+- 双向语言模型
+- Seq2Seq，[SOS] x1 [EOS] x2 [EOS]
+
 #### [201904 ERNIE: Enhanced Representation through Knowledge Integration](../resources/notes/d0001/pretrainml_201904_ERNIE__Enhanced_Representation_through_Knowledge_Integration.md)
 - https://arxiv.org/pdf/1904.09223v1.pdf
 - 命名实体、词组mask，以及DLM数据扩充

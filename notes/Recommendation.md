@@ -42,6 +42,11 @@ https://arxiv.org/abs/1905.08487
 
 # 新闻推荐
 
+##### [ACL2020 MIND: A Large-scale Dataset for News Recommendation](../resources/notes/d0001/rec_2010_MIND.md)
+- https://msnews.github.io/assets/doc/ACL2020_MIND.pdf
+
+
+##### [201812 Fine-Grained Deep Knowledge-Aware Network for News Recommendation with Self-Attention]
 ## [201812 Fine-Grained Deep Knowledge-Aware Network for News Recommendation with Self-Attention]
 
 ## [201810 Large-Scale Real-Time News Recommendation Based on Semantic Data Analysis and Users’ Implicit and Explicit Behaviors]
