@@ -1,36 +1,64 @@
-# 论文阅读笔记
 
-[toc]
+<!-- TOC -->
 
-## 深度学习
+- [深度学习](#深度学习)
+    - [[理论、正则化](notes/DeepLearning.md)](#理论正则化notesdeeplearningmd)
+    - [[少样本学习](notes/ZeroShotLearning.md)](#少样本学习noteszeroshotlearningmd)
+    - [[压缩、剪枝、蒸馏、AUTOML](notes/Automl.md)](#压缩剪枝蒸馏automlnotesautomlmd)
+- [自然语言处理](#自然语言处理)
+    - [[语言模型](notes/LanguageModel.md)](#语言模型noteslanguagemodelmd)
+    - [[文本分类](notes/Classification.md)](#文本分类notesclassificationmd)
+    - [[语法分析:分词、实体识别、依存分析、指代消解等](notes/NlpGrammaticalAnalysis.md)](#语法分析分词实体识别依存分析指代消解等notesnlpgrammaticalanalysismd)
+    - [[表示学习：词向量、句向量](notes/Representation.md)](#表示学习词向量句向量notesrepresentationmd)
+    - [[文本匹配](notes/Match.md)](#文本匹配notesmatchmd)
+    - [[数据增强](notes/DataAugmentation.md)](#数据增强notesdataaugmentationmd)
+    - [[迁移学习](notes/TransferLearning.md)](#迁移学习notestransferlearningmd)
+    - [[关键词抽取](notes/KeyPhrase.md)](#关键词抽取noteskeyphrasemd)
+    - [[文本摘要](notes/Summarization.md)](#文本摘要notessummarizationmd)
+    - [[聊天机器人](notes/ChatBot.md)](#聊天机器人noteschatbotmd)
+    - [[假新闻检测](notes/FakeNewsDetection.md)](#假新闻检测notesfakenewsdetectionmd)
+    - [[知识图谱](notes/KnowlegeGraph.md)](#知识图谱notesknowlegegraphmd)
+    - [[机器翻译](notes/MachineTranslation.md)](#机器翻译notesmachinetranslationmd)
+    - [[自然语言生成](notes/NaturalLanguageGeneration.md)](#自然语言生成notesnaturallanguagegenerationmd)
+    - [[自然语言推理](notes/NaturalLanguageInference.md)](#自然语言推理notesnaturallanguageinferencemd)
+    - [[预训练语言模型](notes/PretrainedLangugeModel.md)](#预训练语言模型notespretrainedlangugemodelmd)
+    - [[阅读理解](notes/ReadingComprehension.md)](#阅读理解notesreadingcomprehensionmd)
+- [[推荐](notes/Recommendation.md)](#推荐notesrecommendationmd)
 
-### [深度学习](notes/DeepLearning.md)
+<!-- /TOC -->
+# 深度学习
+## [理论、正则化](notes/DeepLearning.md)
+- [列表汇总](notes/DeepLearning.md)
 
-####  正则化
+---
+**<font color=#e84118>正则化</font>**
 
-
-####  损失函数
+---
+**<font color=#e84118>损失函数</font>**
 
 - [201801 AMSoftmax: Additive Margin Softmax for Face Verification](resources/notes/d0001/loss_201801_AMSoftmax.md)
 
 - [201708 Focal Loss for Dense Object Detection](resources/notes/d0001/loss_201708_Focal_Loss.md)
 
-### [少样本学习](notes/ZeroShotLearning.md)
+## [少样本学习](notes/ZeroShotLearning.md)
+- [列表汇总](notes/ZeroShotLearning.md)
 
-### [模型蒸馏](notes/Automl.md)
+## [压缩、剪枝、蒸馏、AUTOML](notes/Automl.md)
+- [列表汇总](notes/Automl.md)
+
 - [2002.12620 TextBrewer: An Open-Source Knowledge Distillation Toolkit for Natural Language Processing](resources/notes/d0001/auto_202002_tb.md)
 
-## 自然语言处理
-
+# 自然语言处理
 - [202003 Natural Language Processing Advancements By Deep Learning: A Survey](resources/notes/d0001/nlp_202003_dl_a_survey.md)
     - https://arxiv.org/abs/2003.01200
 
-### [语言模型](notes/LanguageModel.md)
+## [语言模型](notes/LanguageModel.md)
+- [列表汇总](notes/LanguageModel.md)
 
 -  [201911 Generalization through Memorization: Nearest Neighbor Language Models](resources/notes/d0001/lm_201911_knn_lm.md)
 
-### [文本分类](notes/Classification.md)
-
+## [文本分类](notes/Classification.md)
+- [列表汇总](notes/Classification.md)
 
 - [202004 Deep Learning Based Text Classification: A Comprehensive Review](resources/notes/d0001/Classification_202004_Deep_Learning_Based_Text_Classification.md)
 - [2014 Convolutional Neural Networks for Sentence Classification](resources/notes/d0001/Classification_2014_TextCNN__Convolutional_Neural_Networks_for_Sentence_Classification.md)
@@ -41,47 +69,57 @@
 - [2017ACL Deep Pyramid Convolutional Neural Networks for Text Categorization](resources/notes/d0001/classification_2017_Deep_Pyramid_Convolutional_Neural_Networks_for_Text_Categorization.md)
 - [2018 Large-Scale Hierarchical Text Classification with Recursively Regularized Deep Graph-CNN](resources/notes/d0001/classification_2018_Large_Scale_Hierarchical_Text_Classification_with_Recursively_Regularized_Deep_Graph_CNN.md)
 
-### [语法分析](notes/NlpGrammaticalAnalysis.md)
+## [语法分析:分词、实体识别、依存分析、指代消解等](notes/NlpGrammaticalAnalysis.md)
+- [列表汇总](notes/NlpGrammaticalAnalysis.md)
 
-####  Struct Label
+---
+**<font color=#e84118>序列标注</font>**
 
 - [201908 - LAN - Hierarchically-Refined Label Attention Network for Sequence Labeling](resources/notes/d0001/structlabel_201908_Hierarchically_Refined_Label_Attention_Network_for_Sequence_Labeling.md)
 
-####  Word Segment
+---
+**<font color=#e84118>分词</font>**
 
 - [201704 Character-based Joint Segmentation and POS Tagging for Chinese
 using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based_Joint_Segmentation_and_POS_Tagging.md)
 - [2019ACL Is Word Segmentation Necessary for Deep Learning of Chinese Representations?](resources/notes/d0001/nlplac_2019_is_word_segmentation_necessary_for_deep_learning_of_chinese_representations.md)
 
-####  Named Entity Recognition
+----
+**<font color=#e84118>命名实体识别</font>**
 
 - [202002 Rethinking Generalization of Neural Models: A Named Entity Recognition Case Study](resources/notes/d0001/ner_202002_Rethinking_Generalization_of_Neural_Models.md)
 - [202002 Zero-Resource Cross-Domain Named Entity Recognition](resources/notes/d0001/ner_202002_Zero_Resource_Cross_Domain_Named_Entity_Recognition.md)
 - [201812 A Survey on Deep Learning for Named Entity Recognition](resources/notes/d0001/ner_201812_A_Survey_Named_Entity_Recognition.md)
 
-####  Coreference Resolution
+---
+**<font color=#e84118>指代消解</font>**
 
 
-####  Semantic Role Labeling
+---
+**<font color=#e84118>语义角色</font>**
 
 
-####  Dependency Parser
+---
+**<font color=#e84118>依存分析</font>**
 
 
-### [表示学习](notes/Representation.md)
+## [表示学习：词向量、句向量](notes/Representation.md)
+- [列表汇总](notes/Representation.md)
 
-####  词向量
+---
+**<font color=#e84118>词向量</font>**
 
 - [2014 Glove: Global Vectors for Word Representation](resources/notes/d0001/w2v_2014_Glove__Global_Vectors_for_Word_Representation.md)
 - [2013 Efficient Estimation of Word Representations in Vector Space](resources/notes/d0001/w2v_2013_efficient_estimation_of_word_representations_in_vector_space.md)
 - [2013 Distributed Representations of Words and Phrases and their Compositionality](resources/notes/d0001/w2v_2013_distributed_representations_of_words_and_phrases_and_their_compositionality.md)
 
-####  句向量
-
+---
+**<font color=#e84118>句向量</font>**
 - [2015 From Word Embeddings To Document Distances](resources/notes/d0001/d2v_2015_From_Word_Embeddings_To_Document_Distances.md)
 - [2014 Doc2Vec Distributed Representations of Sentences and Documents](resources/notes/d0001/d2v_2014_distributed_representations_of_sentences_and_documents.md)
 
-### [文本匹配](notes/Match.md)
+## [文本匹配](notes/Match.md)
+- [列表汇总](notes/Match.md)
 
 - [201908 Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](resources/notes/d0001/pretrain_2019_sentence_bert.md)
 - [2019 Keyword-Attentive Deep Semantic Matching](resources/notes/d0001/pretrain_2019_keyword_attentive_deep_semantic_matching.md)
@@ -93,121 +131,137 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 - [2013 DSSM Learning Deep Structured Semantic Models for Web Search using Clickthrough Data](resources/notes/d0001/match_2013_Learning_Deep_Structured_Semantic_Models_for_Web_Search_using_Clickthrough_Data.md)
 - [201606 A Decomposable Attention Model for Natural Language Inference](resources/notes/d0001/match_201606_A_Decomposable_Attention_Model_for_Natural_Language_Inference.md)
 
-### [数据增强](notes/DataAugmentation.md)
+## [数据增强](notes/DataAugmentation.md)
+- [列表汇总](notes/DataAugmentation.md)
 
 - [202004 When does data augmentation help generalization in NLP?](resources/notes/d0001/DataAugNLP_202004_When_does_data_augmentation_help_generalization.md)
 - [201901 EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification ](resources/notes/d0001/DataAugNLP_201901_EDA__Easy_Data_Augmentation_Techniques_for_Boosting_Performance_onText_Classification_Tasks.md)
 
-### [迁移学习](notes/TransferLearning.md)
+## [迁移学习](notes/TransferLearning.md)
+- [列表汇总](notes/TransferLearning.md)
 
 - [202005 Cross-lingual Transfer of Twitter Sentiment Models Using a Common Vector Space](resources/notes/d0001/transnlp_202005_Cross_lingual_Transfer.md)
 
-## 应用
+## [关键词抽取](notes/KeyPhrase.md)
+- [列表汇总](notes/KeyPhrase.md)
 
-### [关键词抽取](notes/KeyPhrase.md)
-
-####  Review
+---
+**<font color=#e84118>Review</font>**
+- [2009.10229 An Empirical Study on Neural Keyphrase Generation 神经关键词生成的实证研究](resources/notes/d0001/keyphrase_2009.10229.md)
 
 - [201905 A review of keyphrase extraction](resources/notes/d0001/keyphrase_2019_A_Review_of_Keyphrase_Extraction.md)
 
-####  Unsupervised
+---
+**<font color=#e84118>Unsupervised</font>**
+- [2004.13639 Joint Keyphrase Chunking and Salience Ranking with BERT 基于BERT联合关键词分组和显著性排序](resources/notes/d0001/keyphrase_2020_2004.13639.md)
+- [202002 SIFRank: A New Baseline for Unsupervised Keyphrase Extraction Based on Pre-Trained Language Model 基于预训练语言模型的无监督关键词提取基线 SIFRank](resources/notes/d0001/keyphrase_2020_SIFrank.md)
 
 - [2018 ACL EmbedRank++ Simple Unsupervised Keyphrase Extraction using Sentence Embeddings](resources/notes/d0001/keyphrase_2018_simple_unsupervisd_keyphrase_embedding.md)
 
-####  Supervised
+---
+**<font color=#e84118>Supervised</font>**
 
 
-### [文本摘要](notes/Summarization.md)
+## [文本摘要](notes/Summarization.md)
+- [列表汇总](notes/Summarization.md)
 
-#### General
+---
+**<font color=#e84118>General</font>**
 
 - [201907 Simple Unsupervised Summarization by Contextual Matching](resources/notes/d0001/summarization_201907_Unsupervised_Summarization_by_Contextual_Matching.md)
 
-####  Extractive
+---
+**<font color=#e84118>Extractive</font>**
 
 - [201903 Fine-tune BERT for Extractive Summarization](resources/notes/d0001/summarization_2019_fine_tune_bert.md)
 - [2019ACL Single Document Summarization as Tree Induction](resources/notes/d0001/summarization_2019ACL_Single_Document_Summarization_as_Tree_Induction.md)
 
-####  Abstractive
+---
+**<font color=#e84118>Abstractive</font>**
 
 
-### [聊天机器人](notes/ChatBot.md)
+## [聊天机器人](notes/ChatBot.md)
+- [列表汇总](notes/ChatBot.md)
 
-#### Task-oriented
+--- 
+**<font color=#e84118>Task-oriented</font>**
 
 - [202003 Recent Advances and Challenges in Task-oriented Dialog System](resources/notes/d0001/chatbot_202003_Recent_Advances_and_Challenges_in_Task_oriented_Dialog_System.md)
 
-####  Dialogue
+--- 
+**<font color=#e84118>Dialogue</font>**
 
 - [201911 DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation](resources/notes/d0001/chatbot_201911_DialoGPT__Large_Scale_Generative_Pre_training_for_Conversational_Response.md)
 
-### [意图识别与槽抽取](notes/Intent&Slot.md)
+---
+**<font color=#e84118>意图识别与槽抽取</font>**
+- [列表](notes/Intent&Slot.md)
 
 - [201902 BERT for Joint Intent Classification and Slot Filling](resources/notes/d0001/intent_201902_BERT_for_Joint_Intent_Classification_and_Slot_Filling.md)
 
-### [假新闻检测](notes/FakeNewsDetection.md)
+## [假新闻检测](notes/FakeNewsDetection.md)
+- [列表汇总](notes/FakeNewsDetection.md)
 
-### [知识图谱](notes/KnowlegeGraph.md)
+## [知识图谱](notes/KnowlegeGraph.md)
+- [列表汇总](notes/KnowlegeGraph.md)
 
-####  Entity Linking
+---
+**<font color=#e84118>Entity Linking</font>**
 
-#### Relation Extraction
+---
+**<font color=#e84118>Relation Extraction</font>**
 
 - [202004 Review and Outlook for Relation Extraction](resources/notes/d0001/kgre_2020_Review_and_Outlook_for_Relation_Extraction.md)
 
+---
+**<font color=#e84118>Event Extraction</font>**
 
-####  Event Extraction
 
-
-### [机器翻译](notes/MachineTranslation.md)
+## [机器翻译](notes/MachineTranslation.md)
+- [列表汇总](notes/MachineTranslation.md)
 
 - [201409 Neural Machine Translation by Jointly Learning to Align and Translate](resources/notes/d0001/mt_201409_Neural_Machine_Translation_by_Jointly_Learning_to_Align_and_Translate.md)
 - [201409 Sequence to Sequence Learning with Neural Networks](resources/notes/d0001/seq2seq_201409_Sequence_to_Sequence_Learning_with_Neural_Networks.md)
 
-### [自然语言生成](notes/NaturalLanguageGeneration.md)
+## [自然语言生成](notes/NaturalLanguageGeneration.md)
+- [列表汇总](notes/MachineTranslation.md)
 
-#### Chatbot
+---
+**<font color=#e84118>Chatbot</font>**
 
 - [202004 Few-Shot Natural Language Generation by Rewriting Templates](resources/notes/d0001/NLG_202004_Few_Shot_Natural_Language_Generation_by_Rewriting_Templates.md)
 
-####  诗歌
+---
+**<font color=#e84118>诗歌</font>**
 
 - [2019 基于神经网络的集句诗自动生成](resources/notes/d0001/NLG_Poetry_2019_Neural_Network_based_Jiju_Poetry_Generation.md)
 
-####  新闻评论
+---
+**<font color=#e84118>新闻评论</font>**
 
 - [201909 Read, Attend and Comment: A Deep Architecture for Automatic News Comment Generation](resources/notes/d0001/comment_201910_Read__Attend_and_Comment__A_Deep_Architecture_for_Automatic_News_Comment_Generation.md)
 - [201906 Coherent Comment Generation for Chinese Articles with a Graph-to-Sequence Model](resources/notes/d0001/comment_201906_Coherent_Comment_Generation_for_Chinese_Articles_with_a_Graph_to_Sequence_Model.md)
 - [201809 Unsupervised Machine Commenting with Neural Variational Topic Model](resources/notes/d0001/comment_201809_Unsupervised_Machine_Commenting_with_Neural_Variational_Topic_Model.md)
 - [201805 Automatic Article Commenting: the Task and Dataset](resources/notes/d0001/comment_201805_Automatic_Article_Commenting__the_Task_and_Dataset.md)
 
-####  评论评价
+---
+**<font color=#e84118>评论评价</font>**
 
-
-####  自然语言回复
-
-
-####  VAE
-
-
-####  RL
-
-
-####  Pretrain ML
+---
+**<font color=#e84118>Pretrain ML</font>**
 
 - [201909 A Conditional Transformer Language Model for Controllable Generation](resources/notes/d0001/nlg_201909_A_Conditional_Transformer_Language_Model_for_Controllable_Generation.md)
 
-### [自然语言推理](notes/NaturalLanguageInference.md)
+## [自然语言推理](notes/NaturalLanguageInference.md)
+- [列表汇总](notes/NaturalLanguageInference.md)
 
-####  Textual Entailment
+## [预训练语言模型](notes/PretrainedLangugeModel.md)
+- [列表汇总](notes/PretrainedLangugeModel.md)
 
+---
+**<font color=#e84118>模型</font>**
 
-### [预训练语言模型](notes/PretrainedLangugeModel.md)
-
-####  模型
-
-- [2103.06874 CANINE: Pre-training an Efficient Tokenization-Free Encoder
-for Language Representation](resources/notes/d0001/pretrainlm_2103.06874.md)
+- [2103.06874 CANINE: Pre-training an Efficient Tokenization-Free Encoder for Language Representation](resources/notes/d0001/pretrainlm_2103.06874.md)
 
 - [202004 DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference](resources/notes/d0001/pretrainlm_202004_DeeBert.md)
 - [202004 Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks](resources/notes/d0001/pretrainlm_202004_Adapt_Language_Models_to_Domains_and_Tasks.md)
@@ -225,46 +279,51 @@ for Language Representation](resources/notes/d0001/pretrainlm_2103.06874.md)
 - [201801 Universal Language Model Fine-tuning for Text Classification](resources/notes/d0001/pretrainlm_201801_Universal_Language_Model_Fine_tuning_for_Text_Classification.md)
 - [201706 attention is all you need](resources/notes/d0001/attention_2017_attention_is_all_you_need.md)
 
-#### 蒸馏
+---
+**<font color=#e84118>蒸馏</font>**
+
 - [1909.10351 TinyBERT: Distilling BERT for Natural Language Understanding](resources/notes/d0001/pretrainlm_1909_tinyBERT.md)
 - [1910.01108 DistilBERT,adistilledversionofBERT:smaller, faster,cheaperandlighter](resources/notes/d0001/pretrainlm_1910_DistilBERT.md)
 - [1908.08962 Well-Read Students Learn Better: On the Importance of Pre-training Compact Models](resources/notes/d0001/pretrainlm_1908_pdbert.md)
 
-#### 应用
+---
+**<font color=#e84118>应用</font>**
 
 - [202004 Pre-training Is (Almost) All You Need: An Application to Commonsense Reasoning](resources/notes/d0001/pretrainlm_202004_Pre_training_Is_Almost_All_You_Need.md)
 - [202002 REALM: Retrieval-Augmented Language Model Pre-Training](resources/notes/d0001/pretrainlm_202002_REALM.md)
 
-
-#### 情感分类
+---
+**<font color=#e84118>情感分类</font>**
 
 - [2103.07098 A Weakly Supervised Approach for Classifying Stance in Twitter Replies](resources/notes/d0001/pretrainlm_2103.07098.md)
 
 - [202005 SKEP: Sentiment Knowledge Enhanced Pre-training for Sentiment Analysis](resources/notes/d0001/pretrainlm_202005_SKEP_Sentiment_Knowledge.md)
 
-####  原理
+---
+**<font color=#e84118>原理</font>**
 
 - [202003 What the MASK? Making Sense of Language-Specific BERT Models](resources/notes/d0001/pretrainlm_202003_What_the_MASK_.md)
 - [202002 A Primer in BERTology: What we know about how BERT works](resources/notes/d0001/pretrain_202002_A_Primer_in_BERTology.md)
 - [201909 How Contextual are Contextualized Word Representations? Comparing the Geometry of BERT, ELMo, and GPT-2 Embeddings](resources/notes/d0001/pretrain_201909_How_Contextual_are_Contextualized_Word_Representations.md)
 - [201910 T5 Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](resources/notes/d0001/pretrainlm_201910_T5_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Text_to_Text_Transformer.md)
 
-### [阅读理解](notes/ReadingComprehension.md)
+## [阅读理解](notes/ReadingComprehension.md)
+- [列表汇总](notes/ReadingComprehension.md)
 
-####  综述
+---
+**<font color=#e84118>综述</font>**
 
+---
+**<font color=#e84118>开放领域</font>**
 
-####  开放领域
+# [推荐](notes/Recommendation.md)
+- [列表汇总](notes/Recommendation.md)
 
+---
+**<font color=#e84118>概念挖掘</font>**
 
-## 推荐
-
-### [推荐](notes/Recommendation.md)
-
-####  概念挖掘
-
-
-####  推荐系统
+---
+**<font color=#e84118>模型</font>**
 
 - [ ] [202011 Graph Neural Networks in Recommender Systems: A Survey](resources/notes/d0001/rec_202011_GNN_Survey.md)
 
@@ -275,7 +334,8 @@ for Language Representation](resources/notes/d0001/pretrainlm_2103.06874.md)
 
 - [2010 Factorization Machines](resources/notes/d0001/rec_2010_Factorization_Machines.md)
 
-####  新闻推荐
+---
+**<font color=#e84118>新闻推荐</font>**
 
 - [1801.08284 DKN: Deep Knowledge-Aware Network for News Recommendation](resources/notes/d0001/rec_DKN_news.md)
 

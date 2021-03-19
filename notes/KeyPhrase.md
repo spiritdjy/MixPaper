@@ -3,12 +3,23 @@
 [toc]
 
 ## Review
+#### [2009.10229 An Empirical Study on Neural Keyphrase Generation 神经关键词生成的实证研究](../resources/notes/d0001/keyphrase_2009.10229.md)
+- https://arxiv.org/abs/2009.10229v2
+![](../source/images/55221820215518220322.png)
+- 使用 One2One， One2Seq 方式进行关键词解码
+- 对比 贪婪解码，束搜索，one2seq的各种关键词排序影响
+
 #### [201905 A review of keyphrase extraction](../resources/notes/d0001/keyphrase_2019_A_Review_of_Keyphrase_Extraction.md)
 
 #### [2019 Keyphrase Generation: A Multi-Aspect Survey]
 - https://arxiv.org/abs/1910.05059
 
 ## Unsupervised
+
+#### [202002 SIFRank: A New Baseline for Unsupervised Keyphrase Extraction Based on Pre-Trained Language Model 基于预训练语言模型的无监督关键词提取基线 SIFRank](../resources/notes/d0001/keyphrase_2020_SIFrank.md)
+- https://ieeexplore.ieee.org/document/8954611
+![](../source/images/00001920210019590300.png)
+
 #### [2018 ACL EmbedRank++ Simple Unsupervised Keyphrase Extraction using Sentence Embeddings](../resources/notes/d0001/keyphrase_2018_simple_unsupervisd_keyphrase_embedding.md)    
 ![](../resources/images/d0001/071945141708511.png)
 使用sent2vec将正文以及被选短语进行编码，然后采用MMR依次对被选短语进行筛选
@@ -26,6 +37,11 @@ URL: https://arxiv.org/abs/1808.06773v2
 ![](../resources/images/d0001/231950441113512.png)
 
 ## Supervised
+
+#### [ ] [2004.13639 Joint Keyphrase Chunking and Salience Ranking with BERT 基于BERT联合关键词分组和显著性排序](../resources/notes/d0001/keyphrase_2020_2004.13639.md)
+- https://arxiv.org/abs/2004.13639
+
+
 #### [2019 Alzaidy, R., Caragea, C. and Giles, C. L Bi-lstm-crf sequence labeling for keyphrase extraction from scholarly documents]()
 - In The World Wide Web Conference, WWW 2019, San Francisco, CA, USA, May 13-17, 2019, 2551–2557. 
 - URL: https://doi.org/10.1145/3308558.3313642.
