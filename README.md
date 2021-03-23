@@ -86,7 +86,7 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 
 ----
 **<font color=#e84118>命名实体识别</font>**
-
+- [ ] [2101.11420 Recent Trends in Named Entity Recognition (NER) 命名实体识别(NER)的最新发展趋势](resources/notes/d0001/ner_2101.11420.md)
 - [202002 Rethinking Generalization of Neural Models: A Named Entity Recognition Case Study](resources/notes/d0001/ner_202002_Rethinking_Generalization_of_Neural_Models.md)
 - [202002 Zero-Resource Cross-Domain Named Entity Recognition](resources/notes/d0001/ner_202002_Zero_Resource_Cross_Domain_Named_Entity_Recognition.md)
 - [201812 A Survey on Deep Learning for Named Entity Recognition](resources/notes/d0001/ner_201812_A_Survey_Named_Entity_Recognition.md)
@@ -290,6 +290,8 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 ---
 **<font color=#e84118>应用</font>**
 
+- [2103.10673 Cost-effective Deployment of BERT Models in Serverless Environment 无服务环境下 BERT 模型的性价比部署](resources/notes/d0001/pretrainlm_2103.10673.md)
+- [2004.02288 Continual Domain-Tuning for Pretrained Language Models  预训练语言模型的持续域微调](resources/notes/d0001/pretrainlm_2004.02288.md)
 - [202004 Pre-training Is (Almost) All You Need: An Application to Commonsense Reasoning](resources/notes/d0001/pretrainlm_202004_Pre_training_Is_Almost_All_You_Need.md)
 - [202002 REALM: Retrieval-Augmented Language Model Pre-Training](resources/notes/d0001/pretrainlm_202002_REALM.md)
 

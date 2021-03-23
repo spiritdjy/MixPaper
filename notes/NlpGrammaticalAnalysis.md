@@ -33,6 +33,8 @@
 ---
 ### Named Entity Recognition
 
+##### - [2101.11420 Recent Trends in Named Entity Recognition (NER) 命名实体识别(NER)的最新发展趋势](../resources/notes/d0001/ner_2101.11420.md)
+
 ##### [202002 Rethinking Generalization of Neural Models: A Named Entity Recognition Case Study](../resources/notes/d0001/ner_202002_Rethinking_Generalization_of_Neural_Models.md)
 - http://pfliu.com/InterpretNER/rethink-ner.pdf
 - http://pfliu.com/InterpretNER/interpretNER.html

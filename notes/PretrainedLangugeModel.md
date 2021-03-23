@@ -135,6 +135,17 @@ https://arxiv.org/pdf/1801.06146.pdf
 
 ## 应用
 
+### [2103.10673 Cost-effective Deployment of BERT Models in Serverless Environment 无服务环境下 BERT 模型的性价比部署](../resources/notes/d0001/pretrainlm_2103.10673.md)
+
+### [2004.02288 Continual Domain-Tuning for Pretrained Language Models  预训练语言模型的持续域微调](../resources/notes/d0001/pretrainlm_2004.02288.md)
+- 通过在target再训练过程中加入对源语料或源模型的参数正则化等尽量避免对源语言信息的减少
+- 对源语言模型损失函数加权
+![](../source/images/20232220212022220323.png)
+- 对参数的变化做L2正则
+![](../source/images/13232220211322230323.png)
+- ELASTIC WEIGHT CONSOLIDATION (EWC)
+![](../source/images/41232220214122230323.png)
+
 #### [202004 Pre-training Is (Almost) All You Need: An Application to Commonsense Reasoning](../resources/notes/d0001/pretrainlm_202004_Pre_training_Is_Almost_All_You_Need.md)
 - https://arxiv.org/pdf/2004.14074.pdf
 - 修改[SEP]格式为全文格式，添加So/Because词语进行连接
@@ -151,6 +162,8 @@ https://arxiv.org/pdf/1801.06146.pdf
 
 
 ## 原理
+
+#### [2004.02288 Continual Domain-Tuning for Pretrained Language Models  预训练语言模型的持续域微调](../resources/notes/d0001/pretrainlm_2004.02288.md)
 
 #### [202003 What the MASK? Making Sense of Language-Specific BERT Models](../resources/notes/d0001/pretrainlm_202003_What_the_MASK_.md)
 - https://arxiv.org/pdf/2003.02912v1.pdf
