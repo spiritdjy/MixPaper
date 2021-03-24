@@ -2,6 +2,18 @@
 [toc]
 
 ## 模型
+#### [2103.10360 All NLP Tasks Are Generation Tasks: A General Pretraining Framework 所有 NLP 任务都是生成任务: 一个通用的预训练框架](../resources/notes/d0001/pretrainlm_2103.10360.md)
+![](../source/images/21222320212123000322.png)
+- 对 BERT 架构进行了两次修改。(1)重新排列了层归一化和 ResNet 连接的顺序，这对于大规模 bert 模型来说是至关重要的。(2)将令牌预测的前馈网络改为线性层，从而将输出位置 i 定义为
+![](../source/images/25232320212523090323.png)
+- 2D Positional Encoding
+  - 每个令牌都用两个位置 id 进行编码。第一个位置 id 表示已损坏的文本 x 已损坏的位置。对于 b 中的标记，它是相应的[ MASK ]标记的位置。第二个位置 id 表示跨距内的位置。对于 a 中的标记，第二个位置 id 为0。对于 b 中的标记，它的范围是从1到跨度的长度。两个位置 id 通过两个独立的嵌入表投影到两个位置矢量中，并添加到输入嵌入中
+- PRE-TRAINING OBJECTIVES
+  - GLM 的预训练目标被定义为自回归生成的掩蔽跨度。在 BERT 之后，掩码跨度占原始令牌的15% 。根据经验，我们发现这个比率对于下游自然语言理解任务的良好表现是至关重要的。跨度长度取自 λ = 3的泊松分佈，根据 BART (Lewis et al. ，2019)。我们反复对新的跨区域进行Sample ，直到超过15% 的原始标记被屏蔽
+- GLM Mask 短时间跨度，适合 NLU 任务。然而，我们感兴趣的是预先培训一个单一的模型，可以处理自然语言理解和文本生成。我们进一步研究了一个多任务的训练前设置，其中第二个目标是生成更长的文本与 GLM 联合优化。具体地说，我们对一个 Span 进行了 Sample，该跨度涵盖了原始令牌的50%-100% 。跨距长度取自均匀分布。新目标的定义与原始目标的定义相同。唯一的区别是只有一个，但跨度要长得多
+- FINETUNING GLM
+![](../source/images/32232320213223180323.png)
+
 
 #### [2103.04350 Syntax-BERT: Improving Pre-trained Transformers with Syntax Trees](./resources/../FastReading.md#2103.04350Syntax-BERT:ImprovingPre-trainedTransformerswithSyntaxTrees)
 ![](../source/images/38221520213815220322.png)
@@ -135,9 +147,14 @@ https://arxiv.org/pdf/1801.06146.pdf
 
 ## 应用
 
-### [2103.10673 Cost-effective Deployment of BERT Models in Serverless Environment 无服务环境下 BERT 模型的性价比部署](../resources/notes/d0001/pretrainlm_2103.10673.md)
+#### [2103.10385 GPT Understands, Too GPT 也能理解](../resources/notes/d0001/pretrainlm_2103.10385.md)
+- https://arxiv.org/pdf/2103.10385v1.pdf
+- [ ]
 
-### [2004.02288 Continual Domain-Tuning for Pretrained Language Models  预训练语言模型的持续域微调](../resources/notes/d0001/pretrainlm_2004.02288.md)
+
+#### [2103.10673 Cost-effective Deployment of BERT Models in Serverless Environment 无服务环境下 BERT 模型的性价比部署](../resources/notes/d0001/pretrainlm_2103.10673.md)
+
+#### [2004.02288 Continual Domain-Tuning for Pretrained Language Models  预训练语言模型的持续域微调](../resources/notes/d0001/pretrainlm_2004.02288.md)
 - 通过在target再训练过程中加入对源语料或源模型的参数正则化等尽量避免对源语言信息的减少
 - 对源语言模型损失函数加权
 ![](../source/images/20232220212022220323.png)
