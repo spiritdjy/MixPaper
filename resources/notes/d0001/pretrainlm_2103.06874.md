@@ -72,3 +72,7 @@
   - 遮罩在每个序列中的几个字符跨度
   - 个跨度对应于一个子词。掩码区域中的所有字符都被输入中的特殊“掩码”代码点替换
 - Span prediction
+- Limited upsampli
+- Modula
+
+![](../../../source/images/194319202118191703.png)
