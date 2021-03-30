@@ -2,6 +2,19 @@
 [toc]
 
 # 模型
+## 模型
+#### [2103.10360 All NLP Tasks Are Generation Tasks: A General Pretraining Framework 所有 NLP 任务都是生成任务: 一个通用的预训练框架](../resources/notes/d0001/pretrainlm_2103.10360.md)
+![](../source/images/21222320212123000322.png)
+- 对 BERT 架构进行了两次修改。(1)重新排列了层归一化和 ResNet 连接的顺序，这对于大规模 bert 模型来说是至关重要的。(2)将令牌预测的前馈网络改为线性层，从而将输出位置 i 定义为
+![](../source/images/25232320212523090323.png)
+- 2D Positional Encoding
+  - 每个令牌都用两个位置 id 进行编码。第一个位置 id 表示已损坏的文本 x 已损坏的位置。对于 b 中的标记，它是相应的[ MASK ]标记的位置。第二个位置 id 表示跨距内的位置。对于 a 中的标记，第二个位置 id 为0。对于 b 中的标记，它的范围是从1到跨度的长度。两个位置 id 通过两个独立的嵌入表投影到两个位置矢量中，并添加到输入嵌入中
+- PRE-TRAINING OBJECTIVES
+  - GLM 的预训练目标被定义为自回归生成的掩蔽跨度。在 BERT 之后，掩码跨度占原始令牌的15% 。根据经验，我们发现这个比率对于下游自然语言理解任务的良好表现是至关重要的。跨度长度取自 λ = 3的泊松分佈，根据 BART (Lewis et al. ，2019)。我们反复对新的跨区域进行Sample ，直到超过15% 的原始标记被屏蔽
+- GLM Mask 短时间跨度，适合 NLU 任务。然而，我们感兴趣的是预先培训一个单一的模型，可以处理自然语言理解和文本生成。我们进一步研究了一个多任务的训练前设置，其中第二个目标是生成更长的文本与 GLM 联合优化。具体地说，我们对一个 Span 进行了 Sample，该跨度涵盖了原始令牌的50%-100% 。跨距长度取自均匀分布。新目标的定义与原始目标的定义相同。唯一的区别是只有一个，但跨度要长得多
+- FINETUNING GLM
+![](../source/images/32232320213223180323.png)
+
 
 ## [2103.06874 CANINE: Pre-training an Efficient Tokenization-Free Encoder
 for Language Representation](../resources/notes/d0001/pretrainlm_2103.06874.md)
@@ -141,7 +154,32 @@ https://arxiv.org/pdf/1801.06146.pdf
 
 ## 应用
 
+#### [2010.05522 Pre-trained Language Model Based Active Learning for Sentence Matching 基于预训练语言模型的主动学习句子匹配](../resources/notes/d0001/pretrainlm_2010.05522.md)
+- https://arxiv.org/pdf/2010.05522v1.pdf
+- 基于如下序列进行主动学习
+  - rank-uncer，熵 8n
+  - rank-diver，基于编辑距离，找出删除以及插入队列，队列基于其重建损失占比为权重加和形成一个新的向量，然后基于新的向量使用k-means进行聚类
+  - rank-cover，基于重建损失的值进行筛选实例，小于某个门限的重建损失不再进行考虑，最终选择重建损失比较大的
+  - rank-noise，选择噪声数据少的，也即是重建损失少的，即是针对每个词在预训练模型上的损失值与长度归一化后选择最小的
+
 ## [202004 Pre-training Is (Almost) All You Need: An Application to Commonsense Reasoning](../resources/notes/d0001/pretrainlm_202004_Pre_training_Is_Almost_All_You_Need.md)
+#### [2103.10385 GPT Understands, Too GPT 也能理解](../resources/notes/d0001/pretrainlm_2103.10385.md)
+- https://arxiv.org/pdf/2103.10385v1.pdf
+- [ ]
+
+
+#### [2103.10673 Cost-effective Deployment of BERT Models in Serverless Environment 无服务环境下 BERT 模型的性价比部署](../resources/notes/d0001/pretrainlm_2103.10673.md)
+
+#### [2004.02288 Continual Domain-Tuning for Pretrained Language Models  预训练语言模型的持续域微调](../resources/notes/d0001/pretrainlm_2004.02288.md)
+- 通过在target再训练过程中加入对源语料或源模型的参数正则化等尽量避免对源语言信息的减少
+- 对源语言模型损失函数加权
+![](../source/images/20232220212022220323.png)
+- 对参数的变化做L2正则
+![](../source/images/13232220211322230323.png)
+- ELASTIC WEIGHT CONSOLIDATION (EWC)
+![](../source/images/41232220214122230323.png)
+
+#### [202004 Pre-training Is (Almost) All You Need: An Application to Commonsense Reasoning](../resources/notes/d0001/pretrainlm_202004_Pre_training_Is_Almost_All_You_Need.md)
 - https://arxiv.org/pdf/2004.14074.pdf
 - 修改[SEP]格式为全文格式，添加So/Because词语进行连接
 - 计算前提中每个词语的ＭＬＭ概率分数
@@ -158,7 +196,13 @@ https://arxiv.org/pdf/1801.06146.pdf
 
 # 原理
 
+<<<<<<< HEAD
 ## [202003 What the MASK? Making Sense of Language-Specific BERT Models](../resources/notes/d0001/pretrainlm_202003_What_the_MASK_.md)
+=======
+#### [2004.02288 Continual Domain-Tuning for Pretrained Language Models  预训练语言模型的持续域微调](../resources/notes/d0001/pretrainlm_2004.02288.md)
+
+#### [202003 What the MASK? Making Sense of Language-Specific BERT Models](../resources/notes/d0001/pretrainlm_202003_What_the_MASK_.md)
+>>>>>>> 858f9910b848056b19d415c6e2169037723a2c61
 - https://arxiv.org/pdf/2003.02912v1.pdf
 - 建立一个网站用以比较单语言BERT类与mBERT之间在NLP任务上的性能差别
 https://bertlang.unibocconi.it
