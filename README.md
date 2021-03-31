@@ -36,6 +36,7 @@
 ---
 **<font color=#e84118>损失函数</font>**
 
+- [ ] [1911.02855 Dice Loss for Data-imbalanced NLP Tasks]
 - [201801 AMSoftmax: Additive Margin Softmax for Face Verification](resources/notes/d0001/loss_201801_AMSoftmax.md)
 
 - [201708 Focal Loss for Dense Object Detection](resources/notes/d0001/loss_201708_Focal_Loss.md)
@@ -210,7 +211,7 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 
 ---
 **<font color=#e84118>Relation Extraction</font>**
-
+- [2010.12812 A Frustratingly Easy Approach for Entity and Relation Extraction 一种简单得令人沮丧的实体和关系抽取方法](resources/notes/d0001/kgre_2020_2010.12812.md)
 - [202004 Review and Outlook for Relation Extraction](resources/notes/d0001/kgre_2020_Review_and_Outlook_for_Relation_Extraction.md)
 
 ---
