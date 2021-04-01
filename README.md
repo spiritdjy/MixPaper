@@ -36,6 +36,7 @@
 ---
 **<font color=#e84118>损失函数</font>**
 
+- [ ] [1911.02855 Dice Loss for Data-imbalanced NLP Tasks]
 - [201801 AMSoftmax: Additive Margin Softmax for Face Verification](resources/notes/d0001/loss_201801_AMSoftmax.md)
 
 - [201708 Focal Loss for Dense Object Detection](resources/notes/d0001/loss_201708_Focal_Loss.md)
@@ -135,6 +136,7 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 - [列表汇总](notes/DataAugmentation.md)
 
 - [202004 When does data augmentation help generalization in NLP?](resources/notes/d0001/DataAugNLP_202004_When_does_data_augmentation_help_generalization.md)
+- [1904.12848 Unsupervised Data Augmentation 无监督数据增强](resources/notes/d0001/DataAugNLP_202004_1904.12848.md)
 - [201901 EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification ](resources/notes/d0001/DataAugNLP_201901_EDA__Easy_Data_Augmentation_Techniques_for_Boosting_Performance_onText_Classification_Tasks.md)
 
 ## [迁移学习](notes/TransferLearning.md)
@@ -214,6 +216,7 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 - [2102.01373 An Improved Baseline for Sentence-level Relation Extraction 一种改进的句级关系抽取基线](resources/notes/d0001/kgre_2102.01373.md)
 - [ ] [2102.01156 Improving Distantly-Supervised Relation Extraction through BERT-based Label & Instance Embeddings 基于 bert 标记和实例嵌入的远监督关系抽取](resources/notes/d0001/kgre_2102.01156.md)
 
+- [2010.12812 A Frustratingly Easy Approach for Entity and Relation Extraction 一种简单得令人沮丧的实体和关系抽取方法](resources/notes/d0001/kgre_2020_2010.12812.md)
 - [202004 Review and Outlook for Relation Extraction](resources/notes/d0001/kgre_2020_Review_and_Outlook_for_Relation_Extraction.md)
 
 ---

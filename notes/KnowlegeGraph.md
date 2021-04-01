@@ -16,6 +16,9 @@ https://arxiv.org/pdf/1006.3498.pdf
   ![](../source/images/504250202101501604.png)
 
 ##### [2102.01156 Improving Distantly-Supervised Relation Extraction through BERT-based Label & Instance Embeddings 基于 bert 标记和实例嵌入的远监督关系抽取](../resources/notes/d0001/kgre_2102.01156.md)
+##### [2010.12812 A Frustratingly Easy Approach for Entity and Relation Extraction 一种简单得令人沮丧的实体和关系抽取方法](../resources/notes/d0001/kgre_2020_2010.12812.md)
+- https://arxiv.org/abs/2010.12812v2
+- ![](../source/images/47192520214725250319.png)
 
 ##### [202004 Review and Outlook for Relation Extraction](../resources/notes/d0001/kgre_2020_Review_and_Outlook_for_Relation_Extraction.md)
 https://arxiv.org/abs/2004.03186
