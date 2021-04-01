@@ -136,6 +136,7 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 - [列表汇总](notes/DataAugmentation.md)
 
 - [202004 When does data augmentation help generalization in NLP?](resources/notes/d0001/DataAugNLP_202004_When_does_data_augmentation_help_generalization.md)
+- [1904.12848 Unsupervised Data Augmentation 无监督数据增强](resources/notes/d0001/DataAugNLP_202004_1904.12848.md)
 - [201901 EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification ](resources/notes/d0001/DataAugNLP_201901_EDA__Easy_Data_Augmentation_Techniques_for_Boosting_Performance_onText_Classification_Tasks.md)
 
 ## [迁移学习](notes/TransferLearning.md)
