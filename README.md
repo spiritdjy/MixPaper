@@ -260,6 +260,9 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 ## [预训练语言模型](notes/PretrainedLangugeModel.md)
 - [列表汇总](notes/PretrainedLangugeModel.md)
 
+- [2103.06874 CANINE: Pre-training an Efficient Tokenization-Free Encoder
+for Language Representation](resources/notes/d0001/pretrainlm_2103.06874.md)
+- [2103.04350 Syntax-BERT: Improving Pre-trained Transformers with Syntax Trees](resources/FastReading.md#2103.04350Syntax-BERT:ImprovingPre-trainedTransformerswithSyntaxTrees)
 ---
 **<font color=#e84118>模型</font>**
 - [2103.10360 All NLP Tasks Are Generation Tasks: A General Pretraining Framework 所有 NLP 任务都是生成任务: 一个通用的预训练框架](resources/notes/d0001/pretrainlm_2103.10360.md)
@@ -292,6 +295,8 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 
 ---
 **<font color=#e84118>应用</font>**
+
+- [2010.05522 Pre-trained Language Model Based Active Learning for Sentence Matching 基于预训练语言模型的主动学习句子匹配](resources/notes/d0001/pretrainlm_2010.05522.md)
 - [2103.10385 GPT Understands, Too GPT 也能理解](resources/notes/d0001/pretrainlm_2103.10385.md)
 - [2103.10673 Cost-effective Deployment of BERT Models in Serverless Environment 无服务环境下 BERT 模型的性价比部署](resources/notes/d0001/pretrainlm_2103.10673.md)
 - [2004.02288 Continual Domain-Tuning for Pretrained Language Models  预训练语言模型的持续域微调](resources/notes/d0001/pretrainlm_2004.02288.md)
