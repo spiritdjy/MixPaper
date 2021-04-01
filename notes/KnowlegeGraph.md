@@ -7,6 +7,16 @@
 https://arxiv.org/pdf/1006.3498.pdf
 
 ### Relation Extraction
+
+##### [2102.01373 An Improved Baseline for Sentence-level Relation Extraction 一种改进的句级关系抽取基线](../resources/notes/d0001/kgre_2102.01373.md)
+- https://arxiv.org/abs/2102.01373
+- 基线模型：chendanqi的pipeLine
+  - 使用类型标记化 “@* subj-ner * subj@... # ∧ obj-ner ∧ obj #”
+  - 基于可信度的分类
+  ![](../source/images/504250202101501604.png)
+
+##### [2102.01156 Improving Distantly-Supervised Relation Extraction through BERT-based Label & Instance Embeddings 基于 bert 标记和实例嵌入的远监督关系抽取](../resources/notes/d0001/kgre_2102.01156.md)
+
 ##### [202004 Review and Outlook for Relation Extraction](../resources/notes/d0001/kgre_2020_Review_and_Outlook_for_Relation_Extraction.md)
 https://arxiv.org/abs/2004.03186
 

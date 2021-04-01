@@ -154,6 +154,17 @@ https://arxiv.org/pdf/1801.06146.pdf
 
 ## 应用
 
+#### [2101.10642 Evaluation of BERT and ALBERT Sentence Embedding Performance on Downstream NLP Tasks BERT 和 ALBERT 句子嵌入对下游自然语言处理任务的影响](../resources/notes/d0001/pretrainlm_2101.10642.md)
+- 在如下模型上进行微调
+- A. The [CLS] token embedding
+- B. Pooled token embeddings
+- C. Sentence-BERT (SBERT)
+- D. Sentence-ALBERT (SALBERT)
+![](../source/images/021202202130021703.png)
+- E. CNN-SBERT
+- F. CNN-SALBERT
+![](../source/images/331333202130331703.png)
+
 #### [2010.05522 Pre-trained Language Model Based Active Learning for Sentence Matching 基于预训练语言模型的主动学习句子匹配](../resources/notes/d0001/pretrainlm_2010.05522.md)
 - https://arxiv.org/pdf/2010.05522v1.pdf
 - 基于如下序列进行主动学习

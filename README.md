@@ -197,6 +197,7 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 **<font color=#e84118>意图识别与槽抽取</font>**
 - [列表](notes/Intent&Slot.md)
 
+- [2103.15871 Industry Scale Semi-Supervised Learning for Natural Language Understanding 自然语言理解的工业规模半监督学习](resources/notes/d0001/intent_2103.15871.md)
 - [201902 BERT for Joint Intent Classification and Slot Filling](resources/notes/d0001/intent_201902_BERT_for_Joint_Intent_Classification_and_Slot_Filling.md)
 
 ## [假新闻检测](notes/FakeNewsDetection.md)
@@ -210,6 +211,8 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 
 ---
 **<font color=#e84118>Relation Extraction</font>**
+- [2102.01373 An Improved Baseline for Sentence-level Relation Extraction 一种改进的句级关系抽取基线](resources/notes/d0001/kgre_2102.01373.md)
+- [ ] [2102.01156 Improving Distantly-Supervised Relation Extraction through BERT-based Label & Instance Embeddings 基于 bert 标记和实例嵌入的远监督关系抽取](resources/notes/d0001/kgre_2102.01156.md)
 
 - [202004 Review and Outlook for Relation Extraction](resources/notes/d0001/kgre_2020_Review_and_Outlook_for_Relation_Extraction.md)
 
@@ -293,7 +296,7 @@ for Language Representation](resources/notes/d0001/pretrainlm_2103.06874.md)
 
 ---
 **<font color=#e84118>应用</font>**
-
+- [2101.10642 Evaluation of BERT and ALBERT Sentence Embedding Performance on Downstream NLP Tasks BERT 和 ALBERT 句子嵌入对下游自然语言处理任务的影响](resources/notes/d0001/pretrainlm_2101.10642.md)
 - [2010.05522 Pre-trained Language Model Based Active Learning for Sentence Matching 基于预训练语言模型的主动学习句子匹配](resources/notes/d0001/pretrainlm_2010.05522.md)
 - [2103.10385 GPT Understands, Too GPT 也能理解](resources/notes/d0001/pretrainlm_2103.10385.md)
 - [2103.10673 Cost-effective Deployment of BERT Models in Serverless Environment 无服务环境下 BERT 模型的性价比部署](resources/notes/d0001/pretrainlm_2103.10673.md)
