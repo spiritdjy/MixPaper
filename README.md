@@ -61,6 +61,10 @@
 ## [文本分类](notes/Classification.md)
 - [列表汇总](notes/Classification.md)
 
+----
+- [2103.12407 Detecting Hate Speech with GPT-3 用 GPT-3检测仇恨言论](resources/notes/d0001/Classification_2103.12407.md)
+
+----
 - [202004 Deep Learning Based Text Classification: A Comprehensive Review](resources/notes/d0001/Classification_202004_Deep_Learning_Based_Text_Classification.md)
 - [2014 Convolutional Neural Networks for Sentence Classification](resources/notes/d0001/Classification_2014_TextCNN__Convolutional_Neural_Networks_for_Sentence_Classification.md)
 - [201412 Effective Use of Word Order for Text Categorization with Convolutional Neural Networks](resources/notes/d0001/classification_201412_Effective_Use_of_Word_Order_for_Text_Categorization_with_Convolutional_Neural_Networks.md)
@@ -87,6 +91,8 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 
 ----
 **<font color=#e84118>命名实体识别</font>**
+
+- [2101.00396 Lex-BERT: Enhancing BERT based NER with lexicons Lex-BERT: 用词典增强基于 BERT 的 NER](resources/notes/d0001/ner_2101.00396.md)
 - [ ] [2101.11420 Recent Trends in Named Entity Recognition (NER) 命名实体识别(NER)的最新发展趋势](resources/notes/d0001/ner_2101.11420.md)
 - [202002 Rethinking Generalization of Neural Models: A Named Entity Recognition Case Study](resources/notes/d0001/ner_202002_Rethinking_Generalization_of_Neural_Models.md)
 - [202002 Zero-Resource Cross-Domain Named Entity Recognition](resources/notes/d0001/ner_202002_Zero_Resource_Cross_Domain_Named_Entity_Recognition.md)
@@ -102,6 +108,11 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 
 ---
 **<font color=#e84118>依存分析</font>**
+
+
+---
+**<font color=#e84118>NLU</font>**
+- [2012.15639 TexSmart: A Text Understanding System for Fine-Grained NER and Enhanced Semantic Analysis 一个用于细粒度 NER 和增强语义分析的文本理解系统](resources/notes/d0001/ner_201812_2012.15639.md)
 
 
 ## [表示学习：词向量、句向量](notes/Representation.md)

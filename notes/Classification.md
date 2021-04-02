@@ -2,6 +2,22 @@
 
 [toc]
 
+##### [2103.12407 Detecting Hate Speech with GPT-3 用 GPT-3检测仇恨言论](../resources/notes/d0001/Classification_2103.12407.md)
+- https://arxiv.org/pdf/2103.12407.pdf
+- 使用one-shot、zero-shot、few-shot、few-shot 带指令
+```bash
+Prompt:
+Classify the following texts into ‘racist’, ‘sexist’ or ‘neither’.
+‘That girl still need a good ass whooping, stupid ass bitch!!’: sexist.
+‘U SUCK SHIT YOU BLACK FUCK’: racist.
+‘You deserve way more subscribers. The shit you say is fucking gold.’: neither.
+‘Every girl on this planet curses her mother for their birth. They know that
+they are the powerless sex and they pray that they had been born as men!
+With dicks and stuff.’:
+GPT-3 response:
+sexist.
+```
+
 ##### [202008 A Survey on Text Classification: From Shallow to Deep Learning](../resources/notes/d0001/classification_202008_Text_Classification_Survey.md)
  
 
