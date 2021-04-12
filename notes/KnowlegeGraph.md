@@ -15,6 +15,10 @@ https://arxiv.org/pdf/1006.3498.pdf
 ##### [202004 Review and Outlook for Relation Extraction](../resources/notes/d0001/kgre_2020_Review_and_Outlook_for_Relation_Extraction.md)
 https://arxiv.org/abs/2004.03186
 
+##### [1711.07010 A Discourse-Level Named Entity Recognition and Relation Extraction Dataset for Chinese Literature Text 中文文学作品命名实体识别与关系抽取数据集](../resources/notes/d0001/kgre_1711.07010.md)
+- https://arxiv.org/abs/1711.07010
+- 注释了726篇文章，29,096个句子和超过100,000个字符
+![](../resources/notes/d0001/2021-04-11-22-04-03.png)
 
 ### Event Extraction
 基于特征的方法

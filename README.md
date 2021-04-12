@@ -1,34 +1,12 @@
 
-<!-- TOC -->
-
-- [深度学习](#深度学习)
-    - [[理论、正则化](notes/DeepLearning.md)](#理论正则化notesdeeplearningmd)
-    - [[少样本学习](notes/ZeroShotLearning.md)](#少样本学习noteszeroshotlearningmd)
-    - [[压缩、剪枝、蒸馏、AUTOML](notes/Automl.md)](#压缩剪枝蒸馏automlnotesautomlmd)
-- [自然语言处理](#自然语言处理)
-    - [[语言模型](notes/LanguageModel.md)](#语言模型noteslanguagemodelmd)
-    - [[文本分类](notes/Classification.md)](#文本分类notesclassificationmd)
-    - [[语法分析:分词、实体识别、依存分析、指代消解等](notes/NlpGrammaticalAnalysis.md)](#语法分析分词实体识别依存分析指代消解等notesnlpgrammaticalanalysismd)
-    - [[表示学习：词向量、句向量](notes/Representation.md)](#表示学习词向量句向量notesrepresentationmd)
-    - [[文本匹配](notes/Match.md)](#文本匹配notesmatchmd)
-    - [[数据增强](notes/DataAugmentation.md)](#数据增强notesdataaugmentationmd)
-    - [[迁移学习](notes/TransferLearning.md)](#迁移学习notestransferlearningmd)
-    - [[关键词抽取](notes/KeyPhrase.md)](#关键词抽取noteskeyphrasemd)
-    - [[文本摘要](notes/Summarization.md)](#文本摘要notessummarizationmd)
-    - [[聊天机器人](notes/ChatBot.md)](#聊天机器人noteschatbotmd)
-    - [[假新闻检测](notes/FakeNewsDetection.md)](#假新闻检测notesfakenewsdetectionmd)
-    - [[知识图谱](notes/KnowlegeGraph.md)](#知识图谱notesknowlegegraphmd)
-    - [[机器翻译](notes/MachineTranslation.md)](#机器翻译notesmachinetranslationmd)
-    - [[自然语言生成](notes/NaturalLanguageGeneration.md)](#自然语言生成notesnaturallanguagegenerationmd)
-    - [[自然语言推理](notes/NaturalLanguageInference.md)](#自然语言推理notesnaturallanguageinferencemd)
-    - [[预训练语言模型](notes/PretrainedLangugeModel.md)](#预训练语言模型notespretrainedlangugemodelmd)
-    - [[阅读理解](notes/ReadingComprehension.md)](#阅读理解notesreadingcomprehensionmd)
-- [[推荐](notes/Recommendation.md)](#推荐notesrecommendationmd)
-
-<!-- /TOC -->
+<!-- TOC -->autoauto- [深度学习](#深度学习)auto    - [[理论、正则化](notes/DeepLearning.md)](#理论正则化notesdeeplearningmd)auto    - [[少样本学习](notes/ZeroShotLearning.md)](#少样本学习noteszeroshotlearningmd)auto    - [[压缩、剪枝、蒸馏、AUTOML](notes/Automl.md)](#压缩剪枝蒸馏automlnotesautomlmd)auto- [自然语言处理](#自然语言处理)auto    - [[语言模型](notes/LanguageModel.md)](#语言模型noteslanguagemodelmd)auto    - [[文本分类](notes/Classification.md)](#文本分类notesclassificationmd)auto    - [[语法分析:分词、实体识别、依存分析、指代消解等](notes/NlpGrammaticalAnalysis.md)](#语法分析分词实体识别依存分析指代消解等notesnlpgrammaticalanalysismd)auto    - [[表示学习：词向量、句向量](notes/Representation.md)](#表示学习词向量句向量notesrepresentationmd)auto    - [[文本匹配](notes/Match.md)](#文本匹配notesmatchmd)auto    - [[数据增强](notes/DataAugmentation.md)](#数据增强notesdataaugmentationmd)auto    - [[迁移学习](notes/TransferLearning.md)](#迁移学习notestransferlearningmd)auto    - [[关键词抽取](notes/KeyPhrase.md)](#关键词抽取noteskeyphrasemd)auto    - [[文本摘要](notes/Summarization.md)](#文本摘要notessummarizationmd)auto    - [[聊天机器人](notes/ChatBot.md)](#聊天机器人noteschatbotmd)auto    - [[假新闻检测](notes/FakeNewsDetection.md)](#假新闻检测notesfakenewsdetectionmd)auto    - [[知识图谱](notes/KnowlegeGraph.md)](#知识图谱notesknowlegegraphmd)auto    - [[机器翻译](notes/MachineTranslation.md)](#机器翻译notesmachinetranslationmd)auto    - [[自然语言生成](notes/NaturalLanguageGeneration.md)](#自然语言生成notesnaturallanguagegenerationmd)auto    - [[自然语言推理](notes/NaturalLanguageInference.md)](#自然语言推理notesnaturallanguageinferencemd)auto    - [[预训练语言模型](notes/PretrainedLangugeModel.md)](#预训练语言模型notespretrainedlangugemodelmd)auto    - [[阅读理解](notes/ReadingComprehension.md)](#阅读理解notesreadingcomprehensionmd)auto- [[推荐](notes/Recommendation.md)](#推荐notesrecommendationmd)auto- [工程](#工程)autoauto<!-- /TOC -->
 # 深度学习
 ## [理论、正则化](notes/DeepLearning.md)
 - [列表汇总](notes/DeepLearning.md)
+
+---
+**<font color=#e84118>激活函数</font>**
+- [1606.08415 Gaussian Error Linear Units (GELUs) 高斯误差线性单位(GELUs)](resources/notes/d0001/dl_gelu.md)
 
 ---
 **<font color=#e84118>正则化</font>**
@@ -214,6 +192,7 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 **<font color=#e84118>Relation Extraction</font>**
 - [2010.12812 A Frustratingly Easy Approach for Entity and Relation Extraction 一种简单得令人沮丧的实体和关系抽取方法](resources/notes/d0001/kgre_2020_2010.12812.md)
 - [202004 Review and Outlook for Relation Extraction](resources/notes/d0001/kgre_2020_Review_and_Outlook_for_Relation_Extraction.md)
+- [1711.07010 A Discourse-Level Named Entity Recognition and Relation Extraction Dataset for Chinese Literature Text 中文文学作品命名实体识别与关系抽取数据集](resources/notes/d0001/kgre_1711.07010.md)
 
 ---
 **<font color=#e84118>Event Extraction</font>**
@@ -327,6 +306,11 @@ for Language Representation](resources/notes/d0001/pretrainlm_2103.06874.md)
 ---
 **<font color=#e84118>开放领域</font>**
 
+---
+**<font color=#e84118>KBQA</font>**
+- [2104.00218 Integrating Subgraph-aware Relation and Direction Reasoning for Question Answering 基于子图感知关系和方向推理的问答系统](resources/notes/d0001/qa_2104.00218.md)
+
+
 # [推荐](notes/Recommendation.md)
 - [列表汇总](notes/Recommendation.md)
 
@@ -351,5 +335,8 @@ for Language Representation](resources/notes/d0001/pretrainlm_2103.06874.md)
 - [1801.08284 DKN: Deep Knowledge-Aware Network for News Recommendation](resources/notes/d0001/rec_DKN_news.md)
 
 - [KDD2017 Embedding-based News Recommendation for Millions of Users](resources/notes/d0001/rec_kdd2017_news.md)
+
+
+# 工程
 
 

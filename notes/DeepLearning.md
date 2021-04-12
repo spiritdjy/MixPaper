@@ -1,6 +1,11 @@
 # DeepLearning
 [toc]
 
+### 激活函数
+##### [1606.08415 Gaussian Error Linear Units (GELUs) 高斯误差线性单位(GELUs)](../resources/notes/d0001/dl_gelu.md)
+![](../source/images/19230720211907050423.png)
+![](../source/images/31230720213107080423.png)
+
 ### 正则化
 ##### [2016 Layer normalization]()
 - Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. 2016. . arXiv preprint

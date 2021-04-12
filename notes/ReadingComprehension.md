@@ -53,6 +53,10 @@ https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P19-1417
 
 
 
+## KBQA
+#### [2104.00218 Integrating Subgraph-aware Relation and Direction Reasoning for Question Answering 基于子图感知关系和方向推理的问答系统](resources/notes/d0001/qa_2104.00218.md)
+- https://arxiv.org/abs/2104.00218
+
 
 
 
