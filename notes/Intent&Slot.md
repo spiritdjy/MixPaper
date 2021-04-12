@@ -1,6 +1,8 @@
 # 意图识别与槽抽取
 [toc]
 
+#### - [2103.15871 Industry Scale Semi-Supervised Learning for Natural Language Understanding 自然语言理解的工业规模半监督学习](../resources/notes/d0001/intent_2103.15871.md)
+
 #### [201902 BERT for Joint Intent Classification and Slot Filling](../resources/notes/d0001/intent_201902_BERT_for_Joint_Intent_Classification_and_Slot_Filling.md)
 - https://arxiv.org/abs/1902.10909
 - ![](../resources/images/d0001/06303121016202231210.png)

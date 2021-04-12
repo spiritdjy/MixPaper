@@ -33,7 +33,16 @@
 ---
 ### Named Entity Recognition
 
-##### - [2101.11420 Recent Trends in Named Entity Recognition (NER) 命名实体识别(NER)的最新发展趋势](../resources/notes/d0001/ner_2101.11420.md)
+##### [2101.00396 Lex-BERT: Enhancing BERT based NER with lexicons Lex-BERT: 用词典增强基于 BERT 的 NER](../resources/notes/d0001/ner_2101.00396.md)
+- https://arxiv.org/abs/2101.00396
+![](../source/images/413741202101411704.png)
+- 将词典信息通过 [x] [/x] 引入到输入中能够对性能进行提升
+
+##### [2101.11420 Recent Trends in Named Entity Recognition (NER) 命名实体识别(NER)的最新发展趋势](../resources/notes/d0001/ner_2101.11420.md)
+
+
+##### [ ] [2020ACL FLAT: Chinese NER Using Flat-Lattice Transformer]
+- https://www.aclweb.org/anthology/2020.acl-main.611/
 
 ##### [202002 Rethinking Generalization of Neural Models: A Named Entity Recognition Case Study](../resources/notes/d0001/ner_202002_Rethinking_Generalization_of_Neural_Models.md)
 - http://pfliu.com/InterpretNER/rethink-ner.pdf
@@ -122,3 +131,9 @@ cf. Marcus et al. 1993, The Penn Treebank, Computational Linguistics]
 
 A Neural graph-based dependency parser
 [Dozat and Manning 2017; Dozat, Qi, and Manning 2017]
+
+
+## NLU
+##### [2012.15639 TexSmart: A Text Understanding System for Fine-Grained NER and Enhanced Semantic Analysis 一个用于细粒度 NER 和增强语义分析的文本理解系统](../resources/notes/d0001/ner_201812_2012.15639.md)
+- https://arxiv.org/abs/2012.15639
+

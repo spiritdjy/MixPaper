@@ -39,6 +39,10 @@
 ## [文本分类](notes/Classification.md)
 - [列表汇总](notes/Classification.md)
 
+----
+- [2103.12407 Detecting Hate Speech with GPT-3 用 GPT-3检测仇恨言论](resources/notes/d0001/Classification_2103.12407.md)
+
+----
 - [202004 Deep Learning Based Text Classification: A Comprehensive Review](resources/notes/d0001/Classification_202004_Deep_Learning_Based_Text_Classification.md)
 - [2014 Convolutional Neural Networks for Sentence Classification](resources/notes/d0001/Classification_2014_TextCNN__Convolutional_Neural_Networks_for_Sentence_Classification.md)
 - [201412 Effective Use of Word Order for Text Categorization with Convolutional Neural Networks](resources/notes/d0001/classification_201412_Effective_Use_of_Word_Order_for_Text_Categorization_with_Convolutional_Neural_Networks.md)
@@ -65,6 +69,8 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 
 ----
 **<font color=#e84118>命名实体识别</font>**
+
+- [2101.00396 Lex-BERT: Enhancing BERT based NER with lexicons Lex-BERT: 用词典增强基于 BERT 的 NER](resources/notes/d0001/ner_2101.00396.md)
 - [ ] [2101.11420 Recent Trends in Named Entity Recognition (NER) 命名实体识别(NER)的最新发展趋势](resources/notes/d0001/ner_2101.11420.md)
 - [202002 Rethinking Generalization of Neural Models: A Named Entity Recognition Case Study](resources/notes/d0001/ner_202002_Rethinking_Generalization_of_Neural_Models.md)
 - [202002 Zero-Resource Cross-Domain Named Entity Recognition](resources/notes/d0001/ner_202002_Zero_Resource_Cross_Domain_Named_Entity_Recognition.md)
@@ -80,6 +86,11 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 
 ---
 **<font color=#e84118>依存分析</font>**
+
+
+---
+**<font color=#e84118>NLU</font>**
+- [2012.15639 TexSmart: A Text Understanding System for Fine-Grained NER and Enhanced Semantic Analysis 一个用于细粒度 NER 和增强语义分析的文本理解系统](resources/notes/d0001/ner_201812_2012.15639.md)
 
 
 ## [表示学习：词向量、句向量](notes/Representation.md)
@@ -177,6 +188,7 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 **<font color=#e84118>意图识别与槽抽取</font>**
 - [列表](notes/Intent&Slot.md)
 
+- [2103.15871 Industry Scale Semi-Supervised Learning for Natural Language Understanding 自然语言理解的工业规模半监督学习](resources/notes/d0001/intent_2103.15871.md)
 - [201902 BERT for Joint Intent Classification and Slot Filling](resources/notes/d0001/intent_201902_BERT_for_Joint_Intent_Classification_and_Slot_Filling.md)
 
 ## [假新闻检测](notes/FakeNewsDetection.md)
@@ -190,6 +202,9 @@ using Bidirectional RNN-CRF](resources/notes/d0001/nlplac_201704_Character_based
 
 ---
 **<font color=#e84118>Relation Extraction</font>**
+- [2102.01373 An Improved Baseline for Sentence-level Relation Extraction 一种改进的句级关系抽取基线](resources/notes/d0001/kgre_2102.01373.md)
+- [ ] [2102.01156 Improving Distantly-Supervised Relation Extraction through BERT-based Label & Instance Embeddings 基于 bert 标记和实例嵌入的远监督关系抽取](resources/notes/d0001/kgre_2102.01156.md)
+
 - [2010.12812 A Frustratingly Easy Approach for Entity and Relation Extraction 一种简单得令人沮丧的实体和关系抽取方法](resources/notes/d0001/kgre_2020_2010.12812.md)
 - [202004 Review and Outlook for Relation Extraction](resources/notes/d0001/kgre_2020_Review_and_Outlook_for_Relation_Extraction.md)
 - [1711.07010 A Discourse-Level Named Entity Recognition and Relation Extraction Dataset for Chinese Literature Text 中文文学作品命名实体识别与关系抽取数据集](resources/notes/d0001/kgre_1711.07010.md)
@@ -274,7 +289,7 @@ for Language Representation](resources/notes/d0001/pretrainlm_2103.06874.md)
 
 ---
 **<font color=#e84118>应用</font>**
-
+- [2101.10642 Evaluation of BERT and ALBERT Sentence Embedding Performance on Downstream NLP Tasks BERT 和 ALBERT 句子嵌入对下游自然语言处理任务的影响](resources/notes/d0001/pretrainlm_2101.10642.md)
 - [2010.05522 Pre-trained Language Model Based Active Learning for Sentence Matching 基于预训练语言模型的主动学习句子匹配](resources/notes/d0001/pretrainlm_2010.05522.md)
 - [2103.10385 GPT Understands, Too GPT 也能理解](resources/notes/d0001/pretrainlm_2103.10385.md)
 - [2103.10673 Cost-effective Deployment of BERT Models in Serverless Environment 无服务环境下 BERT 模型的性价比部署](resources/notes/d0001/pretrainlm_2103.10673.md)
