@@ -85,3 +85,5 @@ URL: https://ai.tencent.com/ailab/media/publications/ACL3-Brady.pdf
 ##### [2018 Large-Scale Hierarchical Text Classification with Recursively Regularized Deep Graph-CNN](../resources/notes/d0001/classification_2018_Large_Scale_Hierarchical_Text_Classification_with_Recursively_Regularized_Deep_Graph_CNN.md)
 - http://www.cse.ust.hk/~yqsong/papers/2018-WWW-Text-GraphCNN.pdf
 
+
+##### [2012 Baselines and Bigrams: Simple, Good Sentiment and Topic Classification](../resources/notes/d0001/classification_Baselines.md)

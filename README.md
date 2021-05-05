@@ -52,6 +52,8 @@
 - [2017ACL Deep Pyramid Convolutional Neural Networks for Text Categorization](resources/notes/d0001/classification_2017_Deep_Pyramid_Convolutional_Neural_Networks_for_Text_Categorization.md)
 - [2018 Large-Scale Hierarchical Text Classification with Recursively Regularized Deep Graph-CNN](resources/notes/d0001/classification_2018_Large_Scale_Hierarchical_Text_Classification_with_Recursively_Regularized_Deep_Graph_CNN.md)
 
+- [Baselines and Bigrams: Simple, Good Sentiment and Topic Classification](resources/notes/d0001/classification_Baselines.md)
+
 ## [语法分析:分词、实体识别、依存分析、指代消解等](notes/NlpGrammaticalAnalysis.md)
 - [列表汇总](notes/NlpGrammaticalAnalysis.md)
 
